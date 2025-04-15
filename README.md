@@ -21,6 +21,9 @@ Key features:
 ## Dataset
 The dataset is available on [HuggingFace 🤗](https://huggingface.co/datasets/neulab/VisualPuzzles).
 
+## Model Outputs
+Outputs of all models we evaluated are available on [Zeno](https://hub.zenoml.com/project/2e727b03-a677-451a-b714-f2c07ad2b49f/VisualPuzzles).
+
 ## Citation
 ```bibtex
 @misc{song2025visualpuzzlesdecouplingmultimodalreasoning,
