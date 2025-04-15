@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function loadCognitiveTable() {
-  fetch('cognitive_data.json')
+  fetch('data.json')
     .then(res => res.json())
     .then(data => {
       const tbody = document.querySelector('#cog-table tbody');
