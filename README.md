@@ -26,8 +26,29 @@ Outputs of all models we evaluated are available on [Zeno](https://hub.zenoml.co
 
 ## Experiments
 
+We gratefully use the [lmms-eval package](https://github.com/EvolvingLMMs-Lab/lmms-eval) to evaluate VisualPuzzles.
+
+To reproduce experimental results on VisualPuzzles, run the following commands:
+
+Installation:
 ```bash
 git clone https://github.com/neulab/VisualPuzzles.git
+cd lmms-eval
+pip install -e .
+```
+
+Experiments:
+```bash
+python3 -m accelerate.commands.launch \
+    --num_processes=8 \
+    -m lmms_eval \
+    --model model_type \ # for example, llava
+    --model_args pretrained=model_name \ # for example, "liuhaotian/llava-v1.5-7b"
+    --tasks VisualPuzzles_cot \ # use VisualPuzzles_cot if you are evaluating CoT performance, or use VisualPuzzles_direct if not.
+    --batch_size 1 \
+    --log_samples \
+    --log_samples_suffix VisualPuzzles \
+    --output_path ./logs/
 ```
 
 ## Knowledge Intensity Evaluation of MMMU v.s. VisualPuzzles
