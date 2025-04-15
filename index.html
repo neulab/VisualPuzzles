@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge</title>
+        <link rel="icon" type="image/x-icon" href="./static/img/puzzle.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Open Graph -->
+        <meta property="og:url" content="https://neulab.github.io/VisualPuzzles/" />
+        <meta property="og:image" content="https://neulab.github.io/VisualPuzzles/static/img/puzzle.png" />
+        <meta property="og:title" content="VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge" />
+        <meta property="og:description" content="VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge" />
+        
+        <!-- Twitter -->
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://neulab.github.io/VisualPuzzles/static/img/puzzle.png" />
+        <meta name="twitter:title" content="VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge" />
+        <meta name="twitter:description" content="We propose a new benchmark VisualPuzzles to decouple multimodal reasoning evaluation from domain-specific knowledge." />
+       
+        <script src="./static/js/distill_template.v2.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+        <script src="https://rawgit.com/nstrayer/slid3r/master/dist/slid3r.js"></script>
+        <script src="./static/js/index.js"></script>
+
+        <script defer="" src="./static/js/hider.js"></script>
+        <script src="./static/js/image_interact.js"></script>
+        <script src="./static/js/switch_videos.js"></script>
+
+        <link rel="stylesheet" href="./static/css/style.css">
+        <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script>
+        <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+
+        <!-- medium zoom https://github.com/francoischalifour/medium-zoom -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>  <!-- jquery -->
+        <script defer src="./static/js/medium-zoom.min.js"></script>
+        <script defer src="./static/js/zoom.js"></script>
+    </head>
+    <body>
+        <div class="header-wrapper">
+            <div class="header-container" id="header-container">
+                <div class="header-content">
+                    <div style="display: flex; align-items: center; gap: 0.75em; flex-wrap: nowrap;">
+                        <!-- <img src="./static/img/puzzle.png" alt="icon" style="height: 3.9em; width: auto"> -->
+                        <div style="white-space: nowrap;">
+                            <h1 style="display: inline; font-size: 3em; font-style: italic; margin: 0;">
+                                VisualPuzzles
+                              </h1>
+                              <span style="font-size: 2em; font-style: italic; font-weight: normal;">
+                                Decoupling Multimodal Reasoning Evaluation from Domain Knowledge
+                              </span>
+                        </div>
+                      </div><br>
+                        <div class="icon-container">
+                            <div class="icon-item">
+                                <img src="./static/img/benchmark.png" style="height: 3.5em; width: auto" alt="benchmark Icon">
+                                <div><strong>VisualPuzzles</strong>: a benchmark that targets visual reasoning while deliberately minimizing reliance on specialized knowledge. 
+                                    One major source of our questions is manually translated logical reasoning questions from the Chinese Civil Service Examination.<d-footnote><a href="https://en.wikipedia.org/wiki/Civil_service_of_the_People%27s_Republic_of_China#Examinations" target="_blank">Chinese Civil Service Examination</a> (Logic Test), 中国国家公务员考试行测（逻辑推理）</d-footnote> 
+                                    VisualPuzzles consists of 1168 diverse questions spanning five categories: algorithmic, analogical, deductive, inductive, and spatial reasoning. 
+                                    Each puzzle is labeled as easy, medium, or hard.
+                                </div>
+                            </div>
+                            <div class="icon-item">
+                                <img src="./static/img/thinking.png" style="height: 3.5em; width: auto" alt="reasoning Icon">
+                                <div><strong>Complex Reasoning</strong>: 
+                                    Humans outperform models on easy and medium tasks, while both degrade on harder ones. 
+                                    No current models surpasses even the 5th-percentile human performance.
+                                </div>
+                            </div>
+                            <div class="icon-item">
+                                <img src="./static/img/knowledge.png" style="height: 3.5em; width: auto" alt="knowledge Icon">
+                                <div><strong>Knowledge Light</strong>: Experiments show that VisualPuzzles is less knowledge-intensive than existing reasoning benchmarks, and models already possess the knowledge required to solve VisualPuzzles. 
+                                    Models possessing more knowledge does not strongly correlate better performance on VisualPuzzles.</div>
+                            </div>
+                            
+                        </div>
+
+                    <div class="button-container">
+                        <!-- replace arxiv -->
+                        <a href="https://arxiv.org/abs/2504.10342" class="button paper-link" target="_blank">
+                            <span class="icon is-small">
+                                <i class="ai ai-arxiv"></i>
+                            </span>
+                            arXiv
+                        </a>
+                        <!-- replace pdf -->
+                        <a href="https://arxiv.org/pdf/2504.10342" class="button paper-link" target="_blank">
+                            <span class="icon is-small">
+                                <i class="fas fa-file-pdf"></i>
+                            </span>
+                            <span>pdf</span>
+                        </a>
+                        <!-- replace image -->
+                        <a href="https://huggingface.co/datasets/neulab/VisualPuzzles" class="button" target="_blank">
+                            <span class="icon is-small">
+                                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+                                     style="height: 1.2em; width: auto;">
+                            </span>
+                            <span>VisualPuzzles</span>
+                        </a>
+                        <a href="https://hub.zenoml.com/project/2e727b03-a677-451a-b714-f2c07ad2b49f/VisualPuzzles" class="button" target="_blank">
+                            <span class="icon is-small">
+                                <img src="./static/img/icons/zeno.png"
+                                     style="height: 1.2em; width: auto;">
+                            </span>
+                            <span>Model Outputs</span>
+                        </a>
+                        <a href="https://github.com/neulab/VisualPuzzles" class="button" target="_blank">
+                            <span class="icon is-small">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                        <!-- <br> -->                      
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img draggable="false" src="static/img/examples.png" alt="Teaser Image" class="teaser-image" style="width: 600px; max-width: 1000px; height: auto">
+                </div> 
+            </div>
+        </div>
+    <d-article>
+        <div class="byline">
+            <div class="byline-container">
+                <p style="display: flex; flex-wrap: wrap; gap: 0.8em; align-items: center; justify-content: center;">
+                    <a href="https://yueqis.github.io/" class="author-link" target="_blank">Yueqi Song*</a> &emsp;
+                    <a href="https://oootttyyy.github.io/" class="author-link" target="_blank">Tianyue Ou*</a> &emsp;
+                    <a href="https://www.linkedin.com/in/yibo-kong-48b420235/" class="author-link" target="_blank">Yibo Kong†</a> &emsp;
+                    <a href="https://www.linkedin.com/in/zecheng-li-664536213/" class="author-link" target="_blank">Zecheng Li†</a> &emsp;
+                    <a href="https://www.phontron.com/" class="author-link" target="_blank">Graham Neubig</a> &emsp;
+                    <a href="https://xiangyue9607.github.io/" class="author-link" target="_blank">Xiang Yue</a> &emsp;
+                    <p></p>
+                    <a href="https://www.cs.cmu.edu/" class="affiliation-link" id="affiliation" target="_blank">Carnegie Mellon University</a>
+                </p>
+            </div>
+        </div>
+        <p style="text-align: center;">
+            <span class="author-note">Corresponding to: {yueqis,gneubig,xyue2}@cs.cmu.edu</span>
+        </p>
+        <div id='Overview' class="overview-block">
+            <h1 class="text">Overview</h1>
+        <d-figure id="fig:human_performance" style="display: flex; justify-content: center; margin-top: -5%;">
+            <figure>
+                <img data-zoomable="" draggable="false" src="static/img/human_performance.png" alt="human_performance" style="width: 134%" class="center">
+                <figcaption style="width: 120%" >
+                    <strong>Figure 1:</strong> Model accuracy on VisualPuzzles compared to human performance percentiles. 
+                    All evaluated models fall below the human 5th percentile (57.5%), highlighting the difficulty of VisualPuzzles. 
+                    Interestingly, models with explicit "thinking" modes do not consistently outperform their base versions, suggesting that current reasoning strategies do not yet generalize well to VisualPuzzles's scenarios, even though these strategies have proven effective in existing reasoning tasks that often rely heavily on domain-specific knowledge.
+                </figcaption>
+            </figure>
+        </d-figure>
+        <p class="text abstract">
+           Current multimodal benchmarks often conflate reasoning with domain-specific knowledge, making it difficult to isolate and evaluate general reasoning abilities in non-expert settings. 
+           To address this, we introduce VisualPuzzles, a benchmark that targets visual reasoning while deliberately minimizing reliance on specialized knowledge. 
+           VisualPuzzles consists of diverse questions spanning five categories: algorithmic, analogical, deductive, inductive, and spatial reasoning. 
+           Experiments show that VisualPuzzles requires significantly less intensive domain-specific knowledge and more complex reasoning compared to benchmarks like MMMU<d-cite key="yue2023mmmu"></d-cite>, enabling us to better evaluate genuine multimodal reasoning.
+           Evaluations show that state-of-the-art multimodal large language models consistently lag behind human performance on VisualPuzzles, and that strong performance on knowledge-intensive benchmarks does not necessarily translate to success on reasoning-focused, knowledge-light tasks.  
+           Additionally, reasoning enhancements such as scaling up inference compute (with "thinking" modes) yield inconsistent gains across models and task types, and we observe no clear correlation between model size and performance. 
+           We also found that models exhibit different reasoning and answering patterns on VisualPuzzles compared to benchmarks with heavier emphasis on knowledge. VisualPuzzles offers a clearer lens through which to evaluate reasoning capabilities beyond factual recall and domain knowledge. 
+        </p> 
+        
+        <table id="tab:stats" style="width: 100%; border-collapse: collapse; text-align: left;">
+            <thead>
+              <tr>
+                <th style="border-bottom: 2px solid #ccc; padding: 8px;">Category</th>
+                <th style="border-bottom: 2px solid #ccc; padding: 8px;">Statistics</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding: 8px;">Total Questions</td><td style="padding: 8px;">1168</td></tr>
+              <tr><td style="padding: 8px;">– Algorithmic Reasoning</td><td style="padding: 8px;">262</td></tr>
+              <tr><td style="padding: 8px;">– Analogical Reasoning</td><td style="padding: 8px;">211</td></tr>
+              <tr><td style="padding: 8px;">– Deductive Reasoning</td><td style="padding: 8px;">200</td></tr>
+              <tr><td style="padding: 8px;">– Inductive Reasoning</td><td style="padding: 8px;">209</td></tr>
+              <tr><td style="padding: 8px;">– Spatial Reasoning</td><td style="padding: 8px;">286</td></tr>
+              <tr><td colspan="2" style="border-top: 2px solid #ccc;"></td></tr>
+              <tr><td style="padding: 8px;">Easy / Medium / Hard</td><td style="padding: 8px;">46% / 39% / 15%</td></tr>
+              <tr><td style="padding: 8px;">Option Type (Image / Text)</td><td style="padding: 8px;">57% / 43%</td></tr>
+              <tr><td style="padding: 8px;">AVG. Question Length</td><td style="padding: 8px;">154.9</td></tr>
+              <tr><td style="padding: 8px;">% Easy Words</td><td style="padding: 8px;">54%</td></tr>
+            </tbody>
+        </table> 
+        <figcaption style="text-align: center; width: 100%;">
+            Table 1: Statistics of VisualPuzzles
+        </figcaption>
+        <p class="text">
+            <strong>VisualPuzzles</strong> includes five core reasoning categories: 
+            <em>Algorithmic Reasoning</em>, which involves reasoning over algorithmic rules; 
+            <em>Analogical Reasoning</em>, which requires analyzing the relationships between a pair of entities; 
+            <em>Deductive Reasoning</em>, which involves logically drawing conclusions from known premises; 
+            <em>Inductive Reasoning</em>, which focuses on generalizing rules from observed patterns; and 
+            <em>Spatial Reasoning</em>, which requires interpreting and manipulating spatial relationships. 
+            Each question is also labeled as <em>easy</em>, <em>medium</em>, or <em>hard</em>, based on annotators' estimated cognitive load and time-to-solve metrics.
+        </p>
+        </div>
+        <div id='Experiments' class="experiment-block">
+            <h1 class="text">Experimental Results</h1>
+        <table id="cog-table" class="table is-striped is-hoverable" style="width: 150%; margin-left: -20%; margin-right: -20%; background-color: #F0F8FF;">
+            <thead>
+                <tr>
+                <th>Model</th>
+                <th>Size</th>
+                <th>Algorithmic</th>
+                <th>Analogical</th>
+                <th>Deductive</th>
+                <th>Inductive</th>
+                <th>Spatial</th>
+                <th>Overall</th>
+                </tr>
+            </thead>
+        <tbody></tbody>
+        </table>
+        <figcaption style="text-align: center; width: 100%; margin-bottom: 10%;">
+            Table 2: Performance of Different Models on VisualPuzzles.
+        </figcaption>
+
+        </div>
+
+        <div id='Knowledge' class="knowledge-block">
+            
+            <img src="./static/img/knowledge.png" style="margin-top: -4%; height: 2.5em; width: auto; margin-left: -21%;" alt="knowledge Icon">
+            <h1 style="display: inline; margin-bottom: 50%; margin-left: 0%; margin-right: -100%;" class="text"> Disentangling Reasoning from Domain Knowledge</h1>
+            <h2 class="text">Is VisualPuzzles less knowledge-intensive than existing reasoning benchmarks?</h2>
+            <p class="text">This question is central to our goal of disentangling reasoning ability from domain-specific knowledge. 
+                Many current benchmarks blur this line, making it difficult to assess general reasoning in non-expert settings. 
+                VisualPuzzles was designed to target visual reasoning skills while deliberately minimizing reliance on specialized knowledge.
+                To test whether VisualPuzzles achieves this goal, we prompted GPT-4o to generate "knowledge concept checklists" for 50 randomly selected questions from a widely-used knowledge-intensive reasoning dataset MMMU and 50 from VISUALPUZZLES. 
+                Each checklist comprises knowledge-specific questions intended to assess whether a model possesses the background information required to solve the original problem. For example, if a question depends on understanding two distinct physics laws, its checklist would include a question to explain each. 
+                The number of checklist items per instance serves as a proxy for knowledge intensivity.
+                As shown in <a href="#tab:knowledge">Table 3</a>, we found that MMMU problems resulted in significantly more checklist items on average (3.9) compared to VISUALPUZZLES (1.1). 
+                This supports the hypothesis that VisualPuzzles is substantially less reliant on domain-knowledge. As a result, performance on VisualPuzzles more directly reflects a model's ability to reason over visual and textual content, offering a clearer signal of progress in multimodal reasoning. 
+            </p>
+            <table id="tab:knowledge" style="border-collapse: collapse; width: 50%; text-align: center; margin: auto;">
+                <thead>
+                  <tr>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">Benchmark</th>
+                    <th style="border-bottom: 2px solid black; padding: 6px;"># Knowledge Qs.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="padding: 6px;">MMMU</td>
+                    <td style="padding: 6px;">3.9</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 6px;">VisualPuzzles</td>
+                    <td style="padding: 6px;">1.1</td>
+                  </tr>
+                </tbody>
+            </table>
+            <figcaption style="text-align: center; margin-top: -0%; margin-left: -10%; width: 130%">
+                <strong>Table 3:</strong> Average number of knowledge concept questions generated per instance on <em>MMMU</em> vs. <em>VisualPuzzles</em>.
+            </figcaption>
+            <h2 class="text">Do models already possess the knowledge required to solve VisualPuzzles?</h2>
+            <p class="text">To explore this, we measured models' knowledge accuracy-their ability to answer the knowledge checklist questions correctly-on both benchmarks. 
+                This metric reflects how much of the required knowledge is already known by the model, independent of reasoning. 
+                We found a stark contrast: while many models exceed 90% knowledge accuracy on VisualPuzzles, most score below 60% on MMMU, with smaller models frequently dropping under 50%. 
+                Only the largest models approach 80% accuracy on MMMU, underscoring its heavier reliance on domain-specific knowledge.
+            </p>
+            <h2 class="text">Does scaling up model size improve performance?</h2>
+            <d-figure id="fig:size" style="display: flex; justify-content: center; margin-left: 10%;">
+                <figure>
+                    <img data-zoomable="" draggable="false" src="static/img/benchmarks.png" alt="size" style="width: 100%" class="size">
+                    <figcaption style="width: 100%" >
+                        <strong>Figure 2:</strong> Scatter plots with trend lines of the relationship between accuracy and model size (top) and the relationship between reasoning and knowledge accuracy (bottom) on MMMU and VISUALPUZZLES. 
+                        The dots' sizes represent relative model sizes. The correlation between reasoning accuracy and knowledge accuracy is higher on MMMU (0.8) than on VISUALPUZZLES (0.4).
+                    </figcaption>
+                </figure>
+            </d-figure>
+            <p class="text">We also plot reasoning accuracy (i.e., overall performance on the benchmark) in <a href="#fig:size">Figure 2</a>, revealing some interesting trends:<br>
+                • MMMU. Larger models tend to have higher knowledge accuracy, and this often translates into higher overall benchmark performance. 
+                This aligns with MMMU's reliance on domain-specific understanding; models with more parameters and training data are
+                better at recalling relevant factual knowledge, thus improving their overall performance.<br>
+                • VisualPuzzles. Although many models achieve near-100% knowledge accuracy on VisualPuzzles, we observe no clear increase in both knowledge and reasoning accuracy as model size grows.
+                In contrast to MMMU, simply scaling number of parameters does not guarantee better performance on VisualPuzzles, implying that further gains on VisualPuzzles must stem from improvements in models' reasoning abilities rather than reliance on extensive knowledge.
+            </p>
+            <h2 class="text">What is the relationship between knowledge and reasoning?</h2>
+            <p class="text"> <a href="#fig:size">Figure 2</a> also shows two scatter
+                plots with trend lines that measure how knowledge accuracy correlates with reasoning
+                accuracy across different open models, where the relative sizes of the dots represent the
+                sizes of the models. On MMMU (left), there is a strong positive correlation (0.8), suggesting
+                that a model possessing more knowledge strongly correlates better reasoning performance.
+                In contrast, VISUALPUZZLES (right) exhibits a more modest correlation (0.4). Although
+                there is still an upward trend, gains in knowledge accuracy lead to smaller improvements
+                in reasoning accuracy. This discrepancy implies that while overcoming knowledge gaps
+                is central to reasoning success on MMMU, VISUALPUZZLES tasks demand more nuanced
+                inference steps that depends less on domain knowledge.
+            </p>
+            <h2 class="text">Do questions in VISUALPUZZLES require more complex reasoning than those in existing benchmarks like MMMU?</h2>
+            <table id="tab:steps" style="border-collapse: collapse; width: 60%; text-align: center; margin: auto;">
+                <thead>
+                  <tr>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">Model</th>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">MMMU</th>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">VisualPuzzles</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="padding: 6px;">GPT-4o</td>
+                    <td style="padding: 6px;">75.1%</td>
+                    <td style="padding: 6px;">87.0%</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 6px;">Gemini-2.0-Flash</td>
+                    <td style="padding: 6px;">67.9%</td>
+                    <td style="padding: 6px;">77.3%</td>
+                  </tr>
+                </tbody>
+            </table>
+            <figcaption style="text-align: center; margin-top: 8px;">
+                <strong>Table 4:</strong> Percentage of logical reasoning steps in solving benchmark questions.
+            </figcaption>
+            <p class="text"> Besides observing that models generally achieve
+                lower accuracy on VisualPuzzles compared to
+                MMMU, we further investigated whether this gap
+                stems from increased reasoning complexity. To
+                do so, we measured the proportion of reasoning
+                steps required to solve each question. We began
+                by gathering detailed, step-by-step solutions from the models for each question, which are
+                manually verified for completeness. Then we classified if each step is a logical reasoning
+                step with the help of LLM. We show the result in <a href="#tab:steps">Table 4</a> . On average, logical reasoning steps
+                take up 14.8% more total steps in solving VisualPuzzles questions compared to those of
+                MMMU (82.1% v.s. 71.5%). This analysis is based on GPT-4o and Gemini-2.0-Flash across 200
+                randomly sampled questions per benchmark. These results suggest that VisualPuzzles
+                demand more extensive reasoning, aligning with its goal of evaluating deeper multimodal
+                reasoning beyond factual recall. 
+            </p>
+            <h2 class="text">Do Reasoning Models Perform Better than Their Baselines?</h2>
+            <d-figure id="fig:reasoning" style="display: flex; justify-content: center; margin-left: 0%;">
+                <figure>
+                    <img data-zoomable="" draggable="false" src="static/img/reasoning.png" alt="size" style="width: 130%" class="size">
+                    <figcaption style="width: 130%" >
+                        <strong>Figure 3:</strong> Comparison of accuracy and average number of total completion tokens of
+                        reasoning models and their general counterparts on VisualPuzzles. We didn't include
+                        Gemini-2.0-Flash models here because Gemini-2.0-Flash-Thinking does not reveal the number of reasoning tokens of responses. 
+                        The accuracies of Gemini-2.0-Flash and Gemini-2.0-Flash-Thinking is 45.0% and 42.2% respectively. Despite much higher number of completion
+                        tokens, reasoning models do not often achieve better performance on VisualPuzzles.
+                    </figcaption>
+                </figure>
+            </d-figure>
+            <p class="text"> Recent reasoning models often scale up inference compute by generating longer chains of
+                thought (CoTs) to enhance reasoning ability. To assess the effectiveness of this strategy on
+                VisualPuzzles, we compare several reasoning models with their non-reasoning counterparts in <a href="#fig:reasoning">Figure 3</a>. The reasoning model o1 outperforms GPT-4o overall. However, structured
+                "thinking" modes, despite much higher number of completion tokens, show no consistent
+                benefit. 
+            </p>
+            <h2 class="text">Are Branching and Revalidation Reasoning Patterns Effective on VisualPuzzles?</h2>
+            <d-figure id="fig:pattern" style="display: flex; justify-content: center; margin-left: 0%;">
+                <figure>
+                    <img data-zoomable="" draggable="false" src="static/img/pattern.png" alt="size" style="width: 130%" class="size">
+                    <figcaption style="width: 130%" >
+                        <strong>Figure 4:</strong> Comparison of Reasoning Pattern of Claude-3.7-Sonnet-Thinking on MMMU and
+                        VisualPuzzles. Left figure compares the accuracy of Claude-3.7-Sonnet and Claude-3.7-Sonnet-Thinking on MMMU and VisualPuzzles. Middle figure shows frequency of each
+                        pattern. Right figure shows correlation of the patterns with accuracy on the benchmarks.
+                    </figcaption>
+                </figure>
+            </d-figure>
+            <p class="text"> To better understand this discrepancy, we examine Claude-3.7-Sonnet-Thinking's reasoning behaviors present in long CoTs, specifcally, branching and re-validation, which are known to play important roles in enhancing reasoning performance.
+                As shown in <a href="#fig:pattern">Figure 4</a>, our analysis reveals a striking contrast between benchmarks. On
+                MMMU, both branching and re-validation correlate positively with model accuracy. These
+                strategies help models explore alternative reasoning paths and revisit earlier steps, aiding
+                in the retrieval of relevant factual knowledge,an essential component for solving MMMU's
+                knowledge-intensive questions.
+                Surprisingly, on VisualPuzzles, these reasoning behaviors are more frequent, yet
+                less predictive of success. Despite their increased presence in long-form responses,
+                we observe no significant correlation between these strategies and task accuracy.
+                This suggests that models may be using
+                branching and re-validation in ways that
+                do not meaningfully contribute to solving
+                the problem.
+                <a href="#fig:branching">Figure 5</a> highlights this with an example
+                from Claude-3.7-Sonnet-Thinking, where
+                the model applies branching on a VisualPuzzles puzzle. However, the additional reasoning paths remain shallow
+                and fail to engage with the core challenge—understanding the spatial arrangement of chairs in the image.
+            </p>
+            <d-figure id="fig:branching" style="display: flex; justify-content: center; margin-left: 30%;">
+                <figure>
+                    <img data-zoomable="" draggable="false" src="static/img/branching.png" alt="size" style="width: 80%" class="size">
+                    <figcaption style="width: 150%; margin-left: -35%">  
+                        <strong>Figure 5:</strong> An example of Claude-3.7-Sonnet-Thinking utilizing branching to solve a VisualPuzzles puzzle.
+                    </figcaption>
+                </figure>
+            </d-figure>
+            
+        </div>
+
+        <div id='Analysis' class="analysis-block">
+            
+            <img src="./static/img/analytics.png" style="margin-top: -1%; height: 2.5em; width: auto; margin-left: -21%;" alt="analytics Icon">
+            <h1 style="display: inline; margin-bottom: 50%; margin-left: 1%; margin-right: -100%;" class="text"> Analysis</h1>
+            <h2 class="text">Do Models Approach VisualPuzzles Questions Differently?</h2>
+            <table id="tab:option" style="border-collapse: collapse; width: 70%; text-align: center; margin: auto;">
+                <thead>
+                  <tr>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">Benchmark</th>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">Answer-First</th>
+                    <th style="border-bottom: 2px solid black; padding: 6px;">Option-First</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="padding: 6px;">MMMU</td>
+                    <td style="padding: 6px;">29.3%</td>
+                    <td style="padding: 6px;">70.7%</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 6px;">VisualPuzzles (Image Options)</td>
+                    <td style="padding: 6px;">72.5%</td>
+                    <td style="padding: 6px;">27.5%</td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 6px;">VisualPuzzles (Text Options)</td>
+                    <td style="padding: 6px;">98.3%</td>
+                    <td style="padding: 6px;">1.7%</td>
+                  </tr>
+                </tbody>
+            </table>
+            <figcaption style="text-align: center; margin-top: 8px;">
+                <strong>Table 5:</strong> Answering Strategy
+            </figcaption>              
+            <p class="text"> <a href="#tab:option">Table 5</a> shows the statistics of
+                Claude-3.7-Sonnet-Thinking's
+                answering strategy. We observe
+                a clear divergence in answering
+                strategies between MMMU and
+                VisualPuzzles. On MMMU, the
+                model tend to follow an option-driven approach—using the provided choices early to
+                eliminate unlikely answers and select the most relevant one, often without explicitly
+                solving the problem. In contrast, models more frequently adopt an answer-first strategy
+                on VisualPuzzles, attempting to solve the question independently before comparing
+                the result to the answer choices. This pattern holds across both textual and image-based
+                options, though the option-first approach appears slightly more often (around 30%) for
+                image-based tasks-likely due to the added complexity of visual comparison.
+            </p>
+            <h2 class="text"> Does model performance transfer between reasoning categories?</h2>
+            <d-figure id="fig:correlation" style="display: flex; justify-content: center; margin-left: 0%;">
+                <figure>
+                    <img data-zoomable="" draggable="false" src="static/img/correlation.png" alt="size" style="width: 60%; margin-left: 30%;" class="size">
+                    <figcaption style="width: 130%; margin-left: -5%;">
+                        <strong>Figure 6:</strong> Correlation Heatmap among reasoning categories for models (averaged across all models we evaluated).
+                    </figcaption>
+                </figure>
+            </d-figure>
+            <p class="text"> <a href="#fig:correlation">Figure 6</a> presents a correlation heatmap illustrating the relationships among the five reasoning categories in VISUALPUZZLES. We report
+                model correlations averaged across all models
+                in Table 2. For humans, each reasoning category likely engages different cognitive or mental processes <d-cite key="goel2004differential"></d-cite> <d-cite key="green2010connecting"></d-cite> <d-cite key="bright2014causal"></d-cite> <d-cite key="babcock2015interaction"></d-cite>, so performance in one category might not
+                transfer to performance in another. However,
+                the correlation heatmap of the models tells a
+                different story. We observe notably strong correlations across reasoning categories, with values
+                ranging from 0.11 to as high as 0.94. In particular, algorithmic and deductive reasoning show
+                high correlation (0.94), and other pairs such as
+                algorithmic-analogical and deductive-analogical
+                also exhibit strong associations. This suggests
+                that model performance tends to generalize across categories. However, this generalization
+                may not reflect true reasoning abilities. Instead, the high correlations could indicate that
+                models are leveraging shared surface-level patterns or shortcut strategies that happen to
+                work across multiple structurally different categories, unlike humans, who may rely on
+                distinct cognitive processes.
+                
+            </p>
+            <h2 class="text"> Error Analysis</h2>
+            <d-figure id="fig:error_analysis" style="display: flex; justify-content: center; margin-left: 0%;">
+                <figure>
+                    <img data-zoomable="" draggable="false" src="static/img/error_analysis.png" alt="size" style="width: 60%; margin-left: 30%;" class="size">
+                    <figcaption style="width: 100%; margin-left: 8%;">
+                        <strong>Figure 7:</strong> Error Distribution of Claude-3.7-Sonnet-Thinking.
+                    </figcaption>
+                </figure>
+            </d-figure>
+            <p class="text"> <a href="#fig:error_analysis">Figure 7</a> shows a pie chart illustrating the distribution
+                of error categories of 100 instances generated by Claude3.7-Sonnet-Thinking on VisualPuzzles, revealing that
+                reasoning errors dominate at 56%, reinforcing the fact that
+                reasoning is greatest challenge to models in VisualPuzzles. Perceptual errors (21%) and spatial / orientation
+                errors (17%) also constitute substantial portions of failures, reflecting difficulties in interpreting visual elements
+                and understanding spatial relationships. These three categories together account for 94% of mistakes, emphasizing
+                a need for multimodal models with stronger reasoning
+                capabilities with more robust perception and spatial understanding. Textual and visual understanding errors
+                (4%) and reject-to-answer cases (2%) are relatively rare.
+                
+            </p>
+        </div>
+        
+        <div id="conclusion" style="position: relative; margin-top: 40px; margin-bottom: 0px;">
+            <h1 class="text" style="margin-top:0px; margin-bottom:10px">Conclusion</h1>
+            <p class="text">
+                We presented VisualPuzzles, a novel multimodal benchmark carefully designed to minimize the impact of domain-specific knowledge and isolate models’ core reasoning capabilities. Our results show that while proprietary and large-scale open models achieve relatively
+                higher performance, they still fall short of human-level reasoning—especially on more
+                complex tasks such as analogical and inductive reasoning. Moreover, we observe that
+                strong performance on knowledge-intensive benchmarks like MathVista and MMMU does
+                not necessarily translate into high accuracy on VisualPuzzles, underscoring the distinct
+                challenge of knowledge-light reasoning tasks.<br>
+                These findings suggest that purely scaling model size and knowledge resources may not
+                suffice for robust multimodal reasoning skills; rather, methods that promote structured
+                reasoning, such as explicit thinking modes or recursive reasoning steps, can offer substantial
+                improvements, particularly for hard questions. Future research can explore new training
+                strategies, specialized architectures, or model interpretations tailored to reduce reliance
+                on memorized facts and enhance logical inference. Extending VisualPuzzles to include
+                additional types of multi-image reasoning or temporally dynamic visual information may
+                further stress-test models' core inference abilities. By disentangling domain knowledge
+                from multimodal reasoning, we hope VisualPuzzles will serve as a valuable tool for developing and evaluating next-generation MLLMs that excel at genuinely understanding and
+                reasoning about the world without depending heavily on specialized factual knowledge.
+            </p>
+        </div>
+
+        <div id="acknowledgement" style="position: relative; margin-top: 40px; margin-bottom: 0px;">
+            <h2 class="text" style="margin-top:0px; margin-bottom:10px">Acknowledgement</h2>
+            <p class="text">
+                This project was supported in part by a grant from DSTA Singapore and the Carnegie Bosch
+                Institute. The authors would like to thank CMU NeuLab colleagues for their constructive
+                comments. The authors would also like to thank all volunteers who participated in the
+                human evaluation.
+                The authors would like to thank Cambrian team for their <a href="https://cambrian-mllm.github.io/" target="_blank">project webpage template</a>. 
+            </p>
+        </div>
+
+    </d-article>
+    <d-appendix>
+        <h3>BibTeX</h3>
+            <p class="bibtex" style="width: 130%">
+                @misc{song2025visualpuzzlesdecouplingmultimodalreasoning,<br>
+                    &nbsp;&nbsp;title={VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge}, <br>
+                    &nbsp;&nbsp;author={Yueqi Song and Tianyue Ou and Yibo Kong and Zecheng Li and Graham Neubig and Xiang Yue},<br>
+                    &nbsp;&nbsp;year={2025},<br>
+                    &nbsp;&nbsp;eprint={2504.10342},<br>
+                    &nbsp;&nbsp;archivePrefix={arXiv},<br>
+                    &nbsp;&nbsp;primaryClass={cs.CL},<br>
+                    &nbsp;&nbsp;url={https://arxiv.org/abs/2504.10342}, <br>
+              }
+            </p>
+
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list> 
+    </d-appendix>   
+        <!-- bibliography will be inlined during Distill pipeline's pre-rendering -->
+    <d-bibliography src="bibliography.bib"></d-bibliography>
+    <script src="./static/js/nav-bar.js"></script>
+    </body>
+</html>

@@ -1,0 +1,342 @@
+[
+  {
+    "model": "Human (95th Percentile) ",
+    "size": "-",
+    "algorithmic": 100.0,
+    "analogical": 100.0,
+    "deductive": 100.0,
+    "inductive": 81.6,
+    "spatial": 100.0,
+    "overall": 89.3
+  },
+  {
+    "model": "Human (50th Percentile) ",
+    "size": "-",
+    "algorithmic": 88.0,
+    "analogical": 66.0,
+    "deductive": 80.0,
+    "inductive": 50.0,
+    "spatial": 90.0,
+    "overall": 75.0
+  },
+  {
+    "model": "Human (5th Percentile) ",
+    "size": "-",
+    "algorithmic": 68.1,
+    "analogical": 25.0,
+    "deductive": 37.0,
+    "inductive": 0.0,
+    "spatial": 59.1,
+    "overall": 57.5
+  },
+  {
+    "model": "o1 ",
+    "size": "-",
+    "algorithmic": 63.7,
+    "analogical": 68.3,
+    "deductive": 67.5,
+    "inductive": 29.2,
+    "spatial": 34.3,
+    "overall": 51.8
+  },
+  {
+    "model": "GPT-4o ",
+    "size": "-",
+    "algorithmic": 49.2,
+    "analogical": 58.3,
+    "deductive": 49.0,
+    "inductive": 27.3,
+    "spatial": 26.2,
+    "overall": 41.3
+  },
+  {
+    "model": "Gemini-2.5-pro ",
+    "size": "-",
+    "algorithmic": 60.0,
+    "analogical": 64.0,
+    "deductive": 60.0,
+    "inductive": 29.7,
+    "spatial": 36.4,
+    "overall": 49.5
+  },
+  {
+    "model": "Gemini-2.0-flash ",
+    "size": "-",
+    "algorithmic": 55.3,
+    "analogical": 58.8,
+    "deductive": 57.0,
+    "inductive": 24.4,
+    "spatial": 31.8,
+    "overall": 45.0
+  },
+  {
+    "model": "Gemini-2.0-flash-thinking ",
+    "size": "-",
+    "algorithmic": 46.6,
+    "analogical": 70.1,
+    "deductive": 49.0,
+    "inductive": 24.9,
+    "spatial": 25.5,
+    "overall": 42.2
+  },
+  {
+    "model": "Gemini-1.5-Pro ",
+    "size": "-",
+    "algorithmic": 53.4,
+    "analogical": 57.4,
+    "deductive": 58.5,
+    "inductive": 26.3,
+    "spatial": 32.5,
+    "overall": 45.0
+  },
+  {
+    "model": "Claude-3.7-Sonnet ",
+    "size": "-",
+    "algorithmic": 64.5,
+    "analogical": 48.3,
+    "deductive": 65.0,
+    "inductive": 26.8,
+    "spatial": 37.4,
+    "overall": 48.3
+  },
+  {
+    "model": "Claude-3.7-Sonnet-thinking ",
+    "size": "-",
+    "algorithmic": 67.2,
+    "analogical": 44.1,
+    "deductive": 61.5,
+    "inductive": 31.1,
+    "spatial": 37.1,
+    "overall": 48.2
+  },
+  {
+    "model": "Claude-3.5-Sonnet ",
+    "size": "-",
+    "algorithmic": 53.4,
+    "analogical": 47.9,
+    "deductive": 51.5,
+    "inductive": 25.4,
+    "spatial": 34.3,
+    "overall": 42.4
+  },
+  {
+    "model": "LLaVA-1.5-7B ",
+    "size": "7B",
+    "algorithmic": 24.4,
+    "analogical": 24.7,
+    "deductive": 34.5,
+    "inductive": 26.8,
+    "spatial": 25.5,
+    "overall": 26.9
+  },
+  {
+    "model": "LLaVA-1.5-13B ",
+    "size": "13B",
+    "algorithmic": 24.4,
+    "analogical": 26.1,
+    "deductive": 33.5,
+    "inductive": 26.3,
+    "spatial": 28.3,
+    "overall": 27.6
+  },
+  {
+    "model": "LLaVA-1.6-7B ",
+    "size": "7B",
+    "algorithmic": 27.5,
+    "analogical": 25.1,
+    "deductive": 32.5,
+    "inductive": 24.9,
+    "spatial": 27.3,
+    "overall": 27.4
+  },
+  {
+    "model": "LLaVA-1.6-13B ",
+    "size": "13B",
+    "algorithmic": 25.2,
+    "analogical": 25.6,
+    "deductive": 27.0,
+    "inductive": 27.3,
+    "spatial": 23.4,
+    "overall": 25.5
+  },
+  {
+    "model": "LLaVA-1.6-34B ",
+    "size": "34B",
+    "algorithmic": 31.3,
+    "analogical": 27.3,
+    "deductive": 43.0,
+    "inductive": 24.4,
+    "spatial": 27.6,
+    "overall": 29.8
+  },
+  {
+    "model": "LLaVA-OV-0.5B ",
+    "size": "0.5B",
+    "algorithmic": 24.4,
+    "analogical": 25.6,
+    "deductive": 37.5,
+    "inductive": 24.9,
+    "spatial": 25.5,
+    "overall": 27.2
+  },
+  {
+    "model": "LLaVA-OV-7B ",
+    "size": "7B",
+    "algorithmic": 27.5,
+    "analogical": 28.0,
+    "deductive": 40.5,
+    "inductive": 24.4,
+    "spatial": 28.0,
+    "overall": 29.4
+  },
+  {
+    "model": "LLaVA-OV-72B ",
+    "size": "72B",
+    "algorithmic": 34.7,
+    "analogical": 26.5,
+    "deductive": 37.0,
+    "inductive": 27.3,
+    "spatial": 28.7,
+    "overall": 30.8
+  },
+  {
+    "model": "Llama-3.2-11B-Vision-Instruct ",
+    "size": "11B",
+    "algorithmic": 31.0,
+    "analogical": 30.8,
+    "deductive": 39.0,
+    "inductive": 21.1,
+    "spatial": 26.2,
+    "overall": 29.4
+  },
+  {
+    "model": "Llama-3.2-90B-Vision-Instruct ",
+    "size": "90B",
+    "algorithmic": 45.0,
+    "analogical": 23.2,
+    "deductive": 43.0,
+    "inductive": 26.3,
+    "spatial": 31.5,
+    "overall": 34.1
+  },
+  {
+    "model": "Qwen-VL ",
+    "size": "7B",
+    "algorithmic": 23.7,
+    "analogical": 26.5,
+    "deductive": 29.5,
+    "inductive": 27.8,
+    "spatial": 26.6,
+    "overall": 26.6
+  },
+  {
+    "model": "Qwen2-VL-72B ",
+    "size": "72B",
+    "algorithmic": 41.6,
+    "analogical": 28.4,
+    "deductive": 39.5,
+    "inductive": 22.5,
+    "spatial": 29.0,
+    "overall": 32.4
+  },
+  {
+    "model": "QvQ-72B-Preview ",
+    "size": "72B",
+    "algorithmic": 43.1,
+    "analogical": 45.5,
+    "deductive": 48.0,
+    "inductive": 27.3,
+    "spatial": 27.6,
+    "overall": 37.8
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct ",
+    "size": "2B",
+    "algorithmic": 31.7,
+    "analogical": 29.4,
+    "deductive": 40.5,
+    "inductive": 23.9,
+    "spatial": 31.5,
+    "overall": 31.3
+  },
+  {
+    "model": "Qwen2-VL-7B-Instruct ",
+    "size": "7B",
+    "algorithmic": 33.6,
+    "analogical": 24.2,
+    "deductive": 46.0,
+    "inductive": 22.5,
+    "spatial": 26.2,
+    "overall": 30.2
+  },
+  {
+    "model": "Qwen2-VL-72B-Instruct ",
+    "size": "72B",
+    "algorithmic": 39.9,
+    "analogical": 33.5,
+    "deductive": 45.2,
+    "inductive": 23.5,
+    "spatial": 32.4,
+    "overall": 34.9
+  },
+  {
+    "model": "Qwen2.5-VL-3B-Instruct ",
+    "size": "3B",
+    "algorithmic": 35.1,
+    "analogical": 27.5,
+    "deductive": 44.5,
+    "inductive": 25.8,
+    "spatial": 24.8,
+    "overall": 31.2
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct ",
+    "size": "7B",
+    "algorithmic": 38.2,
+    "analogical": 23.7,
+    "deductive": 51.5,
+    "inductive": 24.9,
+    "spatial": 31.1,
+    "overall": 33.7
+  },
+  {
+    "model": "Qwen2.5-VL-72B-Instruct ",
+    "size": "72B",
+    "algorithmic": 53.4,
+    "analogical": 46.9,
+    "deductive": 58.0,
+    "inductive": 25.8,
+    "spatial": 29.5,
+    "overall": 42.3
+  },
+  {
+    "model": "Cambrian-8B ",
+    "size": "8B",
+    "algorithmic": 31.3,
+    "analogical": 24.2,
+    "deductive": 36.0,
+    "inductive": 24.0,
+    "spatial": 29.0,
+    "overall": 28.9
+  },
+  {
+    "model": "Cambrian-13B ",
+    "size": "13B",
+    "algorithmic": 23.3,
+    "analogical": 28.0,
+    "deductive": 36.5,
+    "inductive": 24.9,
+    "spatial": 26.2,
+    "overall": 27.4
+  },
+  {
+    "model": "Pangea-7B ",
+    "size": "7B",
+    "algorithmic": 32.4,
+    "analogical": 23.7,
+    "deductive": 38.5,
+    "inductive": 28.7,
+    "spatial": 32.5,
+    "overall": 31.3
+  }
+]
