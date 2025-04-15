@@ -1,6 +1,6 @@
 # VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.10342-b31b1b.svg)](https://arxiv.org/abs/2504.10342) [![PDF](https://img.shields.io/badge/pdf-2504.10342-b31b1b.svg)](https://arxiv.org/pdf/2504.10342) [![HuggingFace Datasets](https://img.shields.io/badge/HuggingFace-Dataset-orange)](https://huggingface.co/datasets/neulab/VisualPuzzles) [![Project Website](https://img.shields.io/badge/GitHub-Website-blue)](https://github.com/neulab/VisualPuzzles)
+[![arXiv](https://img.shields.io/badge/arXiv-2504.10342-b31b1b.svg)](https://arxiv.org/abs/2504.10342) [![PDF](https://img.shields.io/badge/pdf-2504.10342-b31b1b.svg)](https://arxiv.org/pdf/2504.10342) [![HuggingFace Datasets](https://img.shields.io/badge/HuggingFace-Dataset-orange)](https://huggingface.co/datasets/neulab/VisualPuzzles) [![Project Website](https://img.shields.io/badge/GitHub-Website-blue)](https://neulab.github.io/VisualPuzzles)
 
 ## Overview
 **VisualPuzzles** is a multimodal benchmark specifically designed to evaluate **reasoning abilities** in large models while deliberately minimizing reliance on domain-specific knowledge.
