@@ -26,6 +26,10 @@ Outputs of all models we evaluated are available on [Zeno](https://hub.zenoml.co
 
 ## Experiments
 
+```bash
+git clone https://github.com/neulab/VisualPuzzles.git
+```
+
 ## Knowledge Intensity Evaluation of MMMU v.s. VisualPuzzles
 
 This experiment investigates 
@@ -50,6 +54,7 @@ We measured models' knowledge accuracy - their ability to answer the knowledge c
 
 After generating model responses for the knowledge checklist questions [knowledge/mmmu_questions.json](knowledge/mmmu_questions.json) and [knowledge/puzzle_questions.json](puzzle_questions.json), run the following command to reproduce this experiment on models' knowledge accuracy.
 ```bash
+cd knowledge
 python get_knowledge_scores.py
 ```
 
