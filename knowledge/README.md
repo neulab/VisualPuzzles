@@ -1,6 +1,8 @@
 # Knowledge Intensity Evaluation of MMMU v.s. VisualPuzzles
 
-This experiment investigates (1) the extent to which solving problems in the VisualPuzzles benchmark relies on domain-specific knowledge, compared to the widely-used MMMU dataset; and (2) whether models already possess the knowledge required to solve VisualPuzzles, as compared to MMMU.
+This experiment investigates 
+- (1) the extent to which solving problems in the VisualPuzzles benchmark relies on domain-specific knowledge, compared to the widely-used MMMU dataset; and
+- (2) whether models already possess the knowledge required to solve VisualPuzzles, as compared to MMMU.
 
 ## Experiments
 
