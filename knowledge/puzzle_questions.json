@@ -1,0 +1,520 @@
+[
+  {
+    "id": 856,
+    "questions": [
+      {
+        "question": "Describe the process of solving a simple linear equation.",
+        "answer": "To solve a simple linear equation, isolate the variable on one side of the equation by performing inverse operations. This may involve adding, subtracting, multiplying, or dividing both sides of the equation by the same number to maintain equality. Simplify each side as needed until the variable is isolated."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "questions": [
+      {
+        "question": "What is an analogy, and how is it used to compare relationships?",
+        "answer": "An analogy is a comparison between two things that highlights a relationship or similarity between them. It is often used to explain or clarify by showing how something unknown is similar to something familiar."
+      },
+      {
+        "question": "Define a motorboat and describe its primary characteristics.",
+        "answer": "A motorboat is a boat that is propelled by an engine. It is typically fast and easy to maneuver, often used for recreation, fishing, or transport."
+      },
+      {
+        "question": "Define a sailboat and describe how it is powered.",
+        "answer": "A sailboat is a boat that is propelled mainly by sails. It relies on wind power to move and is designed with one or more masts to hold the sails."
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "questions": [
+      {
+        "question": "Discuss how identical cubes can be arranged to construct a three-dimensional figure and how this relates to determining views of the figure.",
+        "answer": "Identical cubes can be stacked and aligned in various configurations to create complex three-dimensional figures. Understanding this allows one to predict how the arrangement will appear from different angles, such as from the front, top, and sides, which is essential for matching these views to a given figure."
+      }
+    ]
+  },
+  {
+    "id": 546,
+    "questions": [
+      {
+        "question": "Explain symmetry in geometric figures and its types.",
+        "answer": "Symmetry in geometric figures refers to a balanced and proportionate similarity found in two halves of an object. The main types of symmetry are reflective (mirror symmetry), rotational (object looks the same after a certain amount of rotation), and translational (object looks the same after a certain amount of movement)."
+      }
+    ]
+  },
+  {
+    "id": 653,
+    "questions": [
+      {
+        "question": "Define a triangle and list its basic properties.",
+        "answer": "A triangle is a polygon with three edges and three vertices. The sum of the internal angles in a triangle is always 180 degrees. Triangles can be classified based on their side lengths (equilateral, isosceles, scalene) or angles (acute, right, obtuse)."
+      }
+    ]
+  },
+  {
+    "id": 1133,
+    "questions": [
+      {
+        "question": "Define a rectangle and list its properties.",
+        "answer": "A rectangle is a quadrilateral with four right angles. Its opposite sides are equal in length, and its diagonals bisect each other."
+      }
+    ]
+  },
+  {
+    "id": 674,
+    "questions": [
+      {
+        "question": "What is an analogy, and how is it used to compare two sets of items?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, typically for the purpose of explanation or clarification. It is used to highlight a similarity or relationship between two sets of items."
+      },
+      {
+        "question": "What characteristics define a hot air balloon?",
+        "answer": "A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Suspended beneath is a gondola or wicker basket, which carries passengers and a heat source, usually an open flame."
+      },
+      {
+        "question": "What are common triggers for sneezing?",
+        "answer": "Common triggers for sneezing include allergens like pollen, dust, pet dander, irritants like smoke or strong odors, and infections such as the common cold."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "questions": [
+      {
+        "question": "Explain how to calculate the sum of numbers in a given row or column.",
+        "answer": "To calculate the sum of numbers in a given row or column, add all the numbers present in that row or column together."
+      }
+    ]
+  },
+  {
+    "id": 743,
+    "questions": [
+      {
+        "question": "What is the definition of distance in a geometric context?",
+        "answer": "Distance in a geometric context refers to the measurement of space between two points."
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "questions": [
+      {
+        "question": "What is a 4x4 grid and how many total units does it contain?",
+        "answer": "A 4x4 grid is a square arrangement consisting of 4 rows and 4 columns, totaling 16 units."
+      }
+    ]
+  },
+  {
+    "id": 748,
+    "questions": [
+      {
+        "question": "What is an analogy and how is it used to compare objects or concepts?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, but have some similarities. It is used to explain or clarify concepts by highlighting similar relationships."
+      },
+      {
+        "question": "What are the characteristics of a wilted plant, and how can it be identified?",
+        "answer": "A wilted plant typically has limp, drooping leaves and stems due to a lack of water or nutrients. It can be identified by its shriveled, soft appearance and loss of rigidity."
+      },
+      {
+        "question": "What is luminescence, and how can it be recognized in objects or scenes?",
+        "answer": "Luminescence is the emission of light by a substance not resulting from heat; it can be seen as a glow in the dark. It is recognized by its visible light emission, often in vivid colors, in low-light conditions."
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "questions": [
+      {
+        "question": "What is an analogy, and how is it typically used to compare two pairs of items?",
+        "answer": "An analogy is a comparison between two pairs of items that highlights a relationship or similarity between them. It is often used to explain or clarify concepts by showing how they are similar in certain aspects."
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "questions": [
+    ]
+  },
+  {
+    "id": 613,
+    "questions": [
+      {
+        "question": "What is the sum of 19, 13, and 30?",
+        "answer": "62"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "questions": [
+    ]
+  },
+  {
+    "id": 91,
+    "questions": [
+      {
+        "question": "What is the role of the numerator in a fraction?",
+        "answer": "The numerator in a fraction indicates how many parts of the whole are being considered."
+      },
+      {
+        "question": "What does the denominator in a fraction represent?",
+        "answer": "The denominator in a fraction represents the total number of equal parts into which the whole is divided."
+      },
+      {
+        "question": "Explain how to compare two fractions with different denominators.",
+        "answer": "To compare two fractions with different denominators, find a common denominator, convert the fractions to equivalent fractions with that common denominator, and then compare the numerators."
+      }
+    ]
+  },
+  {
+    "id": 812,
+    "questions": [
+      {
+        "question": "Define what a row and a column are in the context of a grid.",
+        "answer": "A row is a horizontal line of elements in a grid, while a column is a vertical line of elements. In a 5x5 grid, there are 5 rows and 5 columns."
+      }
+    ]
+  },
+  {
+    "id": 942,
+    "questions": [
+      {
+        "question": "What is symmetry in patterns, and how can it be recognized?",
+        "answer": "Symmetry in patterns refers to a balance or mirroring of elements around a central point or axis. It can be recognized by identifying identical shapes, sizes, and positions of elements on either side of a dividing line or point."
+      }
+    ]
+  },
+  {
+    "id": 772,
+    "questions": [
+      {
+        "question": "Explain how to identify a 2x2 sub-square in a 3x3 grid.",
+        "answer": "A 2x2 sub-square within a 3x3 grid is a smaller square consisting of four adjacent cells. There are four possible 2x2 sub-squares in a 3x3 grid, each starting from the top left, top right, bottom left, and bottom right cells."
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "questions": [
+      {
+        "question": "Define an analogy and provide an example.",
+        "answer": "An analogy is a comparison between two things that are similar in some way, often used to help explain something or make it easier to understand. For example, 'Just as a sword is the weapon of a warrior, a pen is the weapon of a writer.'"
+      },
+      {
+        "question": "What activity is typically associated with wearing a backpack and using walking sticks?",
+        "answer": "The activity typically associated with wearing a backpack and using walking sticks is hiking."
+      },
+      {
+        "question": "How can you identify a person expressing happiness in an image?",
+        "answer": "A person expressing happiness in an image can often be identified by facial expressions such as smiling or laughing, with features like upturned mouth corners and visible teeth."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "questions": [
+      {
+        "question": "What does symmetry mean in the context of geometry, particularly in circular shapes?",
+        "answer": "In geometry, symmetry refers to the balanced and proportional arrangement of parts on either side of a dividing line or around a center point. In circular shapes, symmetry means that each segment or slice is identical in size and shape."
+      }
+    ]
+  },
+  {
+    "id": 654,
+    "questions": [
+    ]
+  },
+  {
+    "id": 980,
+    "questions": [
+      {
+        "question": "How do you determine the total number of smaller squares in a larger grid composed of smaller equal-sized squares?",
+        "answer": "To determine the total number of smaller squares in a larger grid, count the number of rows and columns of the smaller squares and multiply them together. For instance, in a 4x4 grid, there are 4 rows and 4 columns, so the total is 4 x 4 = 16 squares."
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "questions": [
+    ]
+  },
+  {
+    "id": 1111,
+    "questions": [
+      {
+        "question": "Define the concept of distance in a geometric space.",
+        "answer": "Distance in a geometric space refers to the length of the shortest path connecting two points. It is usually measured in units such as feet, meters, or miles."
+      }
+    ]
+  },
+  {
+    "id": 660,
+    "questions": [
+      {
+        "question": "Explain the process of addition and how it is used to find the sum of numbers.",
+        "answer": "Addition is a mathematical operation that represents combining collections of objects together into a larger collection. It is used to calculate the total or sum by combining two or more numbers."
+      },
+      {
+        "question": "Define what a row and a column are in a grid structure.",
+        "answer": "In a grid structure, a row is a horizontal line of elements, whereas a column is a vertical line of elements."
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "questions": [
+      {
+        "question": "What is an analogy and how is it used to compare relationships between different concepts?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It is used to show how two different concepts are similar in certain aspects, often to highlight a particular point or relationship."
+      },
+      {
+        "question": "What are common techniques used in physical therapy for muscle relaxation and recovery?",
+        "answer": "Common techniques in physical therapy for muscle relaxation include massage, stretching, heat therapy, and exercises designed to improve flexibility and strength."
+      },
+      {
+        "question": "How does yoga contribute to physical wellness and flexibility?",
+        "answer": "Yoga contributes to physical wellness by promoting flexibility, strength, balance, and mental relaxation. Yoga poses, or asanas, stretch and strengthen various muscle groups, improving overall physical health."
+      }
+    ]
+  },
+  {
+    "id": 904,
+    "questions": [
+    ]
+  },
+  {
+    "id": 543,
+    "questions": [
+      {
+        "question": "What is an analogy and how is it used in reasoning?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It highlights the similarities between two different things, often to make a point or explain a concept."
+      },
+      {
+        "question": "What is meme culture and how does it influence communication?",
+        "answer": "Meme culture involves the use of memes, which are humorous images, videos, or text that are copied and spread rapidly by Internet users. Memes often convey ideas, humor, or social commentary in a way that is easily recognizable and relatable."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "questions": [
+      {
+        "question": "What techniques can be applied to decipher letters in a ciphered text?",
+        "answer": "Techniques include reverse mapping based on known rules, frequency analysis to match common letters, and using known examples to backtrack the ciphering process. Understanding the cipher's structure or key is crucial for accurate deciphering."
+      }
+    ]
+  },
+  {
+    "id": 1063,
+    "questions": [
+    ]
+  },
+  {
+    "id": 305,
+    "questions": [
+      {
+        "question": "Explain how to determine the number of squares in a 4x4 grid.",
+        "answer": "A 4x4 grid is composed of 4 rows and 4 columns, resulting in a total of 16 squares. This is calculated by multiplying the number of rows (4) by the number of columns (4)."
+      }
+    ]
+  },
+  {
+    "id": 916,
+    "questions": [
+      {
+        "question": "Define symmetry in the context of geometric shapes and provide an example.",
+        "answer": "Symmetry in geometric shapes refers to a balanced and proportionate similarity found in two halves of an object, such that one half is a mirror image of the other. An example is a square, which is symmetrical along its diagonals and midlines."
+      }
+    ]
+  },
+  {
+    "id": 1143,
+    "questions": [
+      {
+        "question": "Define the term 'top' in the context of layered objects.",
+        "answer": "The 'top' refers to the object that is above all others, not covered by any other object."
+      },
+      {
+        "question": "Define the term 'bottom' in the context of layered objects.",
+        "answer": "The 'bottom' refers to the object that is below all others, covered by all other objects."
+      },
+      {
+        "question": "What does the term 'middle' mean when referring to a sequence of overlapping objects?",
+        "answer": "The 'middle' refers to the object that has an equal number of objects above and below it in the sequence."
+      }
+    ]
+  },
+  {
+    "id": 766,
+    "questions": [
+      {
+        "question": "Explain how to calculate the sum of a given set of numbers.",
+        "answer": "To calculate the sum of a given set of numbers, add the numbers together. For example, the sum of 2, 3, and 5 is calculated as 2 + 3 + 5 = 10."
+      },
+      {
+        "question": "Define what is meant by a 'row' and a 'column' in a grid or matrix.",
+        "answer": "In a grid or matrix, a 'row' is a horizontal line of elements, whereas a 'column' is a vertical line of elements."
+      }
+    ]
+  },
+  {
+    "id": 939,
+    "questions": [
+      {
+        "question": "Explain what an angle is in geometric terms.",
+        "answer": "An angle is formed by two rays (sides of the angle) sharing a common endpoint, called the vertex. It is a measure of the rotation needed to superimpose one of the rays onto the other."
+      }
+    ]
+  },
+  {
+    "id": 768,
+    "questions": [
+      {
+        "question": "What is an analogy and how is it used to compare two pairs of concepts or items?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It shows a relationship between two pairs of concepts or items, suggesting that the relationship between the first pair is similar to the relationship between the second pair."
+      },
+      {
+        "question": "What is kinesiology taping and how can it be visually identified?",
+        "answer": "Kinesiology taping is a therapeutic taping technique used to support muscles and joints without restricting movement. It is visually identified by the presence of colorful, stretchy tape applied to the skin in specific patterns to help with pain relief and muscle support."
+      }
+    ]
+  },
+  {
+    "id": 1200,
+    "questions": [
+      {
+        "question": "What is an analogy and how is it used to compare different elements?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It highlights similarities between two pairs of items or concepts, where the relationship between the first pair is mirrored in the second pair."
+      },
+      {
+        "question": "How do you identify different types of tools and machinery in images?",
+        "answer": "To identify tools and machinery in images, you can look for distinctive features such as shape, size, and function. Familiarity with common tools and machines helps in recognizing them by their appearance and the context in which they are used."
+      }
+    ]
+  },
+  {
+    "id": 1081,
+    "questions": [
+      {
+        "question": "Explain what a food web represents in an ecosystem.",
+        "answer": "A food web represents the complex network of feeding relationships between different organisms in an ecosystem, showing how energy and nutrients flow from one organism to another."
+      },
+      {
+        "question": "Define the role of producers in an ecosystem and give an example.",
+        "answer": "Producers are organisms that create their own food using sunlight through photosynthesis, providing energy for the rest of the ecosystem. An example is trees."
+      },
+      {
+        "question": "Describe how the removal of a species can affect other organisms in a food web.",
+        "answer": "The removal of a species can disrupt the energy flow and lead to a shortage of resources for other organisms that depend on it for food, potentially causing a cascade of effects throughout the ecosystem."
+      }
+    ]
+  },
+  {
+    "id": 1176,
+    "questions": [
+    ]
+  },
+  {
+    "id": 762,
+    "questions": [
+      {
+        "question": "How do you determine the total number of items you can purchase given a specific budget and the price per item?",
+        "answer": "Divide the total budget by the price per item to determine the maximum number of items you can purchase. Consider any remaining budget for additional purchases or alternative pricing options."
+      }
+    ]
+  },
+  {
+    "id": 734,
+    "questions": [
+      {
+        "question": "Explain what is meant by the 'shortest path' in a network of points connected by paths.",
+        "answer": "The shortest path is the path between two points that has the minimum distance or cost compared to all other paths connecting these points."
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "questions": [
+      {
+        "question": "Explain the concept of 'middle' in a sequence of items.",
+        "answer": "The 'middle' refers to the item or position that is equidistant from both ends of a sequence when the number of items is odd. For an even number, there may be two middle items."
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "questions": [
+      {
+        "question": "What is a geometric angle and how is it measured?",
+        "answer": "A geometric angle is formed by two rays (or line segments) that share a common endpoint, called a vertex. Angles are measured in degrees, using a protractor."
+      },
+      {
+        "question": "What is symmetry and how does it relate to angles in objects?",
+        "answer": "Symmetry refers to the balanced and proportional arrangement of parts on either side of a dividing line or plane. In terms of angles, symmetrical objects will have angles that mirror each other across the line of symmetry."
+      }
+    ]
+  },
+  {
+    "id": 968,
+    "questions": [
+      {
+        "question": "Explain the principle of balance and equivalence in the context of scales.",
+        "answer": "In the context of scales, balance and equivalence mean that the weight on one side of the scale is equal to the weight on the other side. When a scale is balanced, the two sides are in equilibrium, indicating equal weights."
+      },
+      {
+        "question": "How do you perform multiplication with whole numbers? Provide an example.",
+        "answer": "Multiplication with whole numbers involves adding a number to itself a specified number of times. For example, 3 multiplied by 4 (3 x 4) means adding 3 four times (3 + 3 + 3 + 3), which equals 12."
+      }
+    ]
+  },
+  {
+    "id": 977,
+    "questions": [
+    ]
+  },
+  {
+    "id": 469,
+    "questions": [
+      {
+        "question": "Explain what an analogy is and how it is used to compare two pairs of concepts.",
+        "answer": "An analogy is a comparison between two things that highlights a relationship or similarity between them. It is often used to explain or clarify the relationship between two pairs of concepts by showing how they are similar or different in a meaningful way."
+      }
+    ]
+  },
+  {
+    "id": 998,
+    "questions": [
+      {
+        "question": "Explain how analogies are used to understand relationships between different sets of objects or concepts.",
+        "answer": "Analogies are used to identify and understand the relationship between one pair of objects or concepts and apply a similar relationship to another pair. They often involve recognizing similar patterns, functions, or roles."
+      }
+    ]
+  },
+  {
+    "id": 548,
+    "questions": [
+      {
+        "question": "Explain what an analogy is and how it is used to relate two pairs of concepts or items.",
+        "answer": "An analogy is a comparison between two pairs of concepts or items that highlights a relationship between them. It is used to identify a similar relationship between two sets, often to explain or clarify a concept by comparing it with a more familiar one."
+      },
+      {
+        "question": "Describe the function of a lawnmower and its typical use.",
+        "answer": "A lawnmower is a machine used to cut grass to a uniform height. It is typically used for maintaining lawns, gardens, and grassy areas by trimming the grass to keep it neat and manageable."
+      },
+      {
+        "question": "Discuss the difference in scale between a small tractor and a larger tractor, and how this affects their use.",
+        "answer": "A small tractor is usually used for lighter tasks like mowing small fields or gardens, whereas a larger tractor is designed for heavy-duty agricultural tasks like plowing large fields. The difference in scale affects their power, capacity, and the size of the area they can efficiently manage."
+      }
+    ]
+  },
+  {
+    "id": 778,
+    "questions": [
+      {
+        "question": "What is an analogy and how is it used in problem-solving?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, often used to explain a concept or solve a problem by highlighting similarities. In problem-solving, it helps identify relationships and patterns that can be applied to new situations."
+      }
+    ]
+  }
+]
