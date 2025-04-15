@@ -7,7 +7,9 @@ This experiment investigates (1) the extent to which solving problems in the Vis
 ### Knowledge Checklist Generation
 
 We prompted GPT-4o to generate "knowledge concept checklists" for 50 randomly selected questions from each of MMMU and VisualPuzzles.
-The knowledge concept checklists we generated could be found in [MMMU Knowledge Questions](mmmu_questions.json)
+
+The knowledge concept checklists we generated could be found in [mmmu_questions.json](mmmu_questions.json) and [puzzle_questions.json](puzzle_questions.json).
+
 Run the following command to reproduce this experiment.
 ```bash
 python get_knowledge_checklists.py
