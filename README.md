@@ -24,6 +24,35 @@ The dataset is available on [HuggingFace 🤗](https://huggingface.co/datasets/n
 ## Model Outputs
 Outputs of all models we evaluated are available on [Zeno](https://hub.zenoml.com/project/2e727b03-a677-451a-b714-f2c07ad2b49f/VisualPuzzles).
 
+## Experiments
+
+## Knowledge Intensity Evaluation of MMMU v.s. VisualPuzzles
+
+This experiment investigates 
+- the extent to which solving problems in the VisualPuzzles benchmark relies on domain-specific knowledge, compared to the widely-used MMMU dataset; and
+- whether models already possess the knowledge required to solve VisualPuzzles, as compared to MMMU.
+
+### Knowledge Checklist Generation
+
+We prompted GPT-4o to generate "knowledge concept checklists" for 50 randomly selected questions from each of MMMU and VisualPuzzles.
+
+The knowledge concept checklists we generated for MMMU and VisualPuzzles could be found in [knowledge/mmmu_questions.json](knowledge/mmmu_questions.json) and [knowledge/puzzle_questions.json](knowledge/puzzle_questions.json) respectively.
+
+Run the following command to reproduce this experiment.
+```bash
+python get_knowledge_checklists.py
+```
+Note that we went through manual validation as dicussed in the [paper](https://arxiv.org/pdf/2504.10342).
+
+### Knowledge Accuracy
+
+We measured models' knowledge accuracy - their ability to answer the knowledge checklist questions correctly - on both benchmarks. We used llm-as-a-judge with GPT-4o to evaluate whether models answered the knowledge checklist questions correctly. Model outputs and judge outputs could be found in [knowledge/knowledge_eval_output](knowledge/knowledge_eval_output).
+
+After generating model responses for the knowledge checklist questions [knowledge/mmmu_questions.json](knowledge/mmmu_questions.json) and [knowledge/puzzle_questions.json](puzzle_questions.json), run the following command to reproduce this experiment on models' knowledge accuracy.
+```bash
+python get_knowledge_scores.py
+```
+
 ## Citation
 ```bibtex
 @misc{song2025visualpuzzlesdecouplingmultimodalreasoning,
