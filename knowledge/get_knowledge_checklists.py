@@ -41,6 +41,14 @@ def encode_image(image):
     byte_data = output_buffer.getvalue()
     base64_str = base64.b64encode(byte_data).decode("utf-8")
     return base64_str
+    
+def load_jsonl(file_path):
+    with open(file_path) as f: f = f.readlines()
+    data = [json.loads(line) for line in f]
+    temp = []
+    for row in data:
+        for i in range(len(row['questions'])):
+            temp.append({'id': f"{row['id']}_{i}", 'question': row['questions'][i]['question'], 'answer': row['questions'][i]['answer']})
 
 def get_questions(image, question, answer):
     prompt = PROMPT.format(question=question, answer=answer)
@@ -92,6 +100,7 @@ def get_mmmu_questions():
                         f.write(json.dumps({'id': row['id'], 'questions': parsed})+'\n')
                     break
             except Exception as e: print(e)
+    load_jsonl('mmmu_questions.jsonl')
 get_mmmu_questions()
 
 def get_visualpuzzles_questions():
@@ -112,4 +121,5 @@ def get_visualpuzzles_questions():
                         f.write(json.dumps({'id': row['id'], 'questions': parsed})+'\n')
                     break
             except Exception as e: print(e)
+    load_jsonl('puzzle_questions.jsonl')
 get_visualpuzzles_questions()
