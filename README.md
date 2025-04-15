@@ -1,6 +1,6 @@
 # VisualPuzzles: Decoupling Multimodal Reasoning Evaluation from Domain Knowledge
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.10342-b31b1b.svg)](https://arxiv.org/abs/2504.10342) [![PDF](https://img.shields.io/badge/pdf-2504.10342-b31b1b.svg)](https://arxiv.org/pdf/2504.10342) [![HuggingFace Datasets](https://img.shields.io/badge/HuggingFace-Dataset-orange)](https://huggingface.co/datasets/neulab/VisualPuzzles) [![Zeno Model Outputs](https://img.shields.io/badge/Zeno-Model_Outputs-purple)](https://hub.zenoml.com/project/2e727b03-a677-451a-b714-f2c07ad2b49f/VisualPuzzles) [![Project Website](https://img.shields.io/badge/GitHub-Website-blue)](https://neulab.github.io/VisualPuzzles)
+[![arXiv](https://img.shields.io/badge/arXiv-2504.10342-b31b1b.svg)](https://arxiv.org/abs/2504.10342) [![PDF](https://img.shields.io/badge/pdf-2504.10342-b31b1b.svg)](https://arxiv.org/pdf/2504.10342) [![HuggingFace Datasets](https://img.shields.io/badge/HuggingFace-Dataset-orange)](https://huggingface.co/datasets/neulab/VisualPuzzles) [![Zeno Model Outputs](https://img.shields.io/badge/Zeno-Model_Outputs-purple)](https://hub.zenoml.com/project/2e727b03-a677-451a-b714-f2c07ad2b49f/VisualPuzzles) [![Project Website](https://img.shields.io/badge/GitHub-Project_Website-blue)](https://neulab.github.io/VisualPuzzles)
 
 ## Overview
 **VisualPuzzles** is a multimodal benchmark specifically designed to evaluate **reasoning abilities** in large models while deliberately minimizing reliance on domain-specific knowledge.
