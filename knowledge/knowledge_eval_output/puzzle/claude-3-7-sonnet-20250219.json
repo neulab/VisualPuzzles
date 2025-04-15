@@ -1,0 +1,763 @@
+[
+  {
+    "id": "856",
+    "pairs": [
+      {
+        "question": "Describe the process of solving a simple linear equation.",
+        "answer": "To solve a simple linear equation, isolate the variable on one side of the equation by performing inverse operations. This may involve adding, subtracting, multiplying, or dividing both sides of the equation by the same number to maintain equality. Simplify each side as needed until the variable is isolated.",
+        "pred": "# Solving a Simple Linear Equation\n\nA linear equation is an equation where the variable appears only with a power of 1. Here's the step-by-step process for solving it:\n\n## 1. Simplify both sides\n* Combine like terms on each side\n* Perform any indicated operations (multiplication, division)\n\n## 2. Isolate variable terms on one side\n* Move all terms with the variable to one side (typically the left)\n* Move all constant terms to the other side\n* Remember: When moving terms, change their signs (addition becomes subtraction and vice versa)\n\n## 3. Combine like terms again\n* Simplify the variable terms on one side\n* Simplify the constant terms on the other side\n\n## 4. Isolate the variable\n* Divide both sides by the coefficient of the variable\n* This gives the value of the variable\n\n## 5. Check your solution\n* Substitute your answer back into the original equation\n* Verify that it creates a true statement\n\n### Example:\nFor the equation 3x + 4 = 2x - 5:\n1. Move variable terms to left: 3x - 2x = -5 - 4\n2. Simplify: x = -9\n3. Check: 3(-9) + 4 = 2(-9) - 5\n   -27 + 4 = -18 - 5\n   -23 = -23 ✓\n\nThis systematic approach works for any simple linear equation.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "418",
+    "pairs": [
+      {
+        "question": "What is an analogy, and how is it used to compare relationships?",
+        "answer": "An analogy is a comparison between two things that highlights a relationship or similarity between them. It is often used to explain or clarify by showing how something unknown is similar to something familiar.",
+        "pred": "# Analogy\n\nAn analogy is a comparison that highlights similarities between two different things, particularly to explain or clarify a concept by relating it to something more familiar.\n\n## How Analogies Compare Relationships\n\nAnalogies work by establishing that the relationship between one pair of things is similar to the relationship between another pair. The classic formula is:\n- A is to B as C is to D (often written as A:B::C:D)\n\nFor example:\n- Hand is to glove as foot is to sock\n- Teacher is to knowledge as doctor is to health\n\n## Functions of Analogies\n\nAnalogies are powerful because they:\n1. Make abstract concepts concrete \n2. Transfer understanding from familiar domains to unfamiliar ones\n3. Highlight structural similarities rather than surface features\n4. Provide a framework for reasoning about new situations\n\nWhen used effectively, analogies help people understand complex relationships by mapping them onto relationships they already comprehend.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define a motorboat and describe its primary characteristics.",
+        "answer": "A motorboat is a boat that is propelled by an engine. It is typically fast and easy to maneuver, often used for recreation, fishing, or transport.",
+        "pred": "# Motorboat Definition and Characteristics\n\nA motorboat is a watercraft propelled by an engine that drives one or more propellers or other thrust-generating mechanisms.\n\n## Primary Characteristics\n\n1. **Propulsion System**: Powered by gasoline, diesel, or electric motors rather than wind or human power.\n\n2. **Hull Design**: Typically features planing hulls designed to rise and glide over water at speed, though displacement hulls are used for some applications.\n\n3. **Size Range**: Varies widely from small personal craft (10-15 feet) to larger vessels (40+ feet).\n\n4. **Speed Capability**: Generally faster than sailboats or human-powered craft, with speeds ranging from 5-70+ mph depending on design.\n\n5. **Maneuverability**: Offers precise directional control through steering mechanisms connected to rudders or outboard motors.\n\n6. **Engine Types**:\n   - Outboard motors (mounted externally)\n   - Inboard motors (built into the hull)\n   - Stern drives (inboard/outboard combinations)\n   - Jet drives (using water propulsion)\n\n7. **Functional Versatility**: Used for recreation, fishing, transportation, sports, rescue operations, and commercial purposes.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define a sailboat and describe how it is powered.",
+        "answer": "A sailboat is a boat that is propelled mainly by sails. It relies on wind power to move and is designed with one or more masts to hold the sails.",
+        "pred": "# Sailboat Definition and Propulsion\n\nA sailboat is a watercraft that uses sails as its primary means of propulsion. It consists of a hull (the boat's body), one or more masts, and fabric sails that capture wind energy.\n\n## How a Sailboat is Powered\n\nSailboats harness wind energy through their sails in the following way:\n\n1. **Wind capture**: The sail acts as an airfoil (similar to an airplane wing) when properly positioned relative to the wind.\n\n2. **Force generation**: When wind flows across the sail, it creates:\n   - A low-pressure area on the leeward side (downwind side)\n   - A high-pressure area on the windward side (upwind side)\n   - This pressure difference generates a force called \"lift\"\n\n3. **Directional control**: The keel (a fin extending below the hull) and rudder work together to:\n   - Counteract sideways movement (leeway)\n   - Convert some of the wind force into forward motion\n   - Allow the boat to sail at angles to the wind (not just downwind)\n\nMost sailboats also have auxiliary motors (typically diesel or electric) for use when there's insufficient wind or when maneuvering in tight spaces like harbors.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "537",
+    "pairs": [
+      {
+        "question": "Discuss how identical cubes can be arranged to construct a three-dimensional figure and how this relates to determining views of the figure.",
+        "answer": "Identical cubes can be stacked and aligned in various configurations to create complex three-dimensional figures. Understanding this allows one to predict how the arrangement will appear from different angles, such as from the front, top, and sides, which is essential for matching these views to a given figure.",
+        "pred": "# Arrangements of Identical Cubes and Their Views\n\nWhen identical cubes are arranged to form a three-dimensional figure, we create what is often called a \"polycube\" - the three-dimensional analog of polyominoes. These arrangements have interesting properties related to their visual representation from different perspectives.\n\n## Creating Polycubes\n\nIdentical cubes can be arranged in countless ways to create 3D structures where:\n- Each cube shares at least one face with another cube\n- Cubes are connected face-to-face (not just at edges or corners)\n- No gaps or overlaps exist between cubes\n\nSome notable examples include:\n- Simple shapes like 2×2×2 cubes or 3×1×1 \"sticks\"\n- L-shapes, T-shapes, and other irregular configurations\n- More complex structures like \"stairs\" or maze-like arrangements\n\n## Orthographic Projections (Standard Views)\n\nWhen analyzing a 3D structure made of cubes, we typically consider three standard orthographic projections:\n\n1. **Top view** (looking from above on the y-axis)\n2. **Front view** (looking straight on from the z-axis)\n3. **Side view** (looking from the x-axis)\n\nThese projections create 2D representations that show the \"silhouette\" or shadow of the 3D structure. For cube arrangements, these projections often result in grid patterns where:\n- Each cell in the grid is either filled or empty\n- The filled areas represent where at least one cube exists along that line of sight\n\n## Key Relationship: Projection Ambiguity\n\nAn important mathematical concept emerges: **different 3D arrangements can produce identical sets of orthographic projections**. This means that:\n\n- Given only the top, front, and side views, there may be multiple possible 3D structures that satisfy these projections\n- The minimum number of cubes needed to satisfy a set of projections is a mathematical problem in itself\n\n## Applications and Extensions\n\nThis relationship between 3D structures and their projections has applications in:\n\n1. **Spatial reasoning puzzles**: Given certain views, construct the 3D structure\n2. **Computer graphics**: Reconstructing 3D objects from 2D images\n3. **Computational geometry**: Determining minimum-cube reconstructions\n\n## Mathematical Analysis\n\nThe mathematical relationship can be formalized: if we have binary matrices T, F, and S representing the top, front, and side views respectively, then a cube exists at position (x,y,z) if and only if:\n- T[x,y] = 1\n- F[y,z] = 1\n- S[x,z] = 1\n\nThis demonstrates how the three orthogonal views constrain but don't uniquely determine the 3D arrangement of cubes.\n\nIn conclusion, the arrangement of identical cubes to form 3D structures creates a rich field of study related to projection, reconstruction, and visual representation in three-dimensional space.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "546",
+    "pairs": [
+      {
+        "question": "Explain symmetry in geometric figures and its types.",
+        "answer": "Symmetry in geometric figures refers to a balanced and proportionate similarity found in two halves of an object. The main types of symmetry are reflective (mirror symmetry), rotational (object looks the same after a certain amount of rotation), and translational (object looks the same after a certain amount of movement).",
+        "pred": "# Symmetry in Geometric Figures\n\nSymmetry occurs when a figure can be divided or transformed in a way that creates identical or matching parts. It's a fundamental concept in geometry that creates balance and order in shapes.\n\n## Types of Symmetry\n\n### 1. Reflectional Symmetry (Line Symmetry)\n- A figure has reflectional symmetry when it can be divided by a line so that one half is the mirror image of the other\n- The dividing line is called the **line of symmetry** or **axis of symmetry**\n- Examples: \n  * An isosceles triangle has one line of symmetry\n  * A rectangle has two lines of symmetry\n  * A regular hexagon has six lines of symmetry\n  * The letter 'A' has one line of symmetry\n\n### 2. Rotational Symmetry\n- A figure has rotational symmetry when it can be rotated around a fixed point (center) by a certain angle less than 360° and appear unchanged\n- The **order of rotational symmetry** is the number of distinct orientations in which the figure appears unchanged during a complete 360° rotation\n- Examples:\n  * A rectangle has order 2 rotational symmetry (looks the same after 180° rotation)\n  * A regular pentagon has order 5 rotational symmetry\n  * The letter 'Z' has order 2 rotational symmetry\n\n### 3. Translational Symmetry\n- Occurs in patterns that repeat by sliding or shifting without rotation or reflection\n- Common in tessellations, wallpaper patterns, and friezes\n- Example: A repeated pattern of triangles in a line that extends infinitely\n\n### 4. Point Symmetry (Origin Symmetry)\n- A special case of rotational symmetry where a figure remains unchanged after a 180° rotation around a point\n- Every point has a corresponding point the same distance from the center but in the opposite direction\n- Examples: The letter 'S', number '8', and parallelograms\n\n### 5. Glide Reflectional Symmetry\n- Combines translation with reflection\n- Example: Human footprints in sand - each footprint is a reflection of the other, but also translated forward\n\nSymmetry appears throughout nature, art, architecture, and design, making it not just a mathematical concept but an aesthetic principle that resonates across many disciplines.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "653",
+    "pairs": [
+      {
+        "question": "Define a triangle and list its basic properties.",
+        "answer": "A triangle is a polygon with three edges and three vertices. The sum of the internal angles in a triangle is always 180 degrees. Triangles can be classified based on their side lengths (equilateral, isosceles, scalene) or angles (acute, right, obtuse).",
+        "pred": "# Triangle Definition and Basic Properties\n\n## Definition\nA triangle is a closed polygon with three sides and three vertices. It is one of the most fundamental shapes in geometry.\n\n## Basic Properties\n\n1. **Structural Properties**:\n   - Has 3 sides, 3 angles, and 3 vertices\n   - Is a simple closed figure (polygon)\n   - The sum of all interior angles equals 180° (or π radians)\n   - The exterior angle of a triangle equals the sum of the two non-adjacent interior angles\n\n2. **Triangle Inequality**:\n   - The sum of the lengths of any two sides must be greater than the length of the third side\n   - |b-c| < a < b+c (where a, b, and c are the side lengths)\n\n3. **Area**:\n   - Area = (1/2) × base × height\n   - Area = √[s(s-a)(s-b)(s-c)] (Heron's formula, where s = (a+b+c)/2)\n\n4. **Perimeter**:\n   - Perimeter = sum of all three sides = a + b + c\n\n5. **Triangle Centers**:\n   - Centroid: intersection of medians (lines joining vertices to midpoints of opposite sides)\n   - Circumcenter: intersection of perpendicular bisectors of sides\n   - Incenter: intersection of angle bisectors\n   - Orthocenter: intersection of altitudes\n\n6. **Congruence and Similarity**:\n   - Two triangles are congruent if they have the same shape and size\n   - Two triangles are similar if they have the same shape but possibly different sizes\n\n7. **Pythagorean Theorem** (specific to right triangles):\n   - In a right triangle, a² + b² = c² (where c is the hypotenuse)",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1133",
+    "pairs": [
+      {
+        "question": "Define a rectangle and list its properties.",
+        "answer": "A rectangle is a quadrilateral with four right angles. Its opposite sides are equal in length, and its diagonals bisect each other.",
+        "pred": "# Definition of a Rectangle\n\nA rectangle is a two-dimensional quadrilateral with four right angles (90° each).\n\n## Properties of a Rectangle\n\n1. **Four sides**: A rectangle has 4 sides.\n\n2. **Four right angles**: All four interior angles measure 90° each, totaling 360°.\n\n3. **Parallel sides**: Opposite sides are parallel to each other.\n\n4. **Equal opposite sides**: Opposite sides are equal in length.\n\n5. **Diagonals**: \n   - The two diagonals are equal in length.\n   - The diagonals bisect each other (they divide each other into two equal parts).\n\n6. **Symmetry**:\n   - A rectangle has 2 lines of reflective symmetry (vertical and horizontal).\n   - It has 2-fold rotational symmetry.\n\n7. **Special case of a parallelogram**: All properties of parallelograms apply to rectangles.\n\n8. **Area**: The area equals length × width.\n\n9. **Perimeter**: The perimeter equals 2(length + width).\n\n10. **Diagonals length**: The length of a diagonal can be calculated using the Pythagorean theorem: diagonal = √(length² + width²).",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "674",
+    "pairs": [
+      {
+        "question": "What is an analogy, and how is it used to compare two sets of items?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, typically for the purpose of explanation or clarification. It is used to highlight a similarity or relationship between two sets of items.",
+        "pred": "# Analogy: Meaning and Use\n\nAn analogy is a comparison that shows how two different things are similar in some significant way. It's a cognitive process that transfers information or meaning from one subject (the source) to another (the target).\n\n## How Analogies Work\n\nWhen using an analogy to compare two sets of items:\n\n1. **Parallel Structure**: An analogy establishes a relationship between elements in the first set and corresponding elements in the second set.\n\n2. **Shared Relationships**: The format often follows \"A is to B as C is to D\" (sometimes written as A:B::C:D), meaning the relationship between A and B resembles the relationship between C and D.\n\n3. **Knowledge Transfer**: Analogies help transfer understanding from a familiar domain to an unfamiliar one.\n\n## Examples\n\n- **Simple analogy**: \"Hand is to glove as foot is to sock\" (both relationships involve body parts and their coverings)\n\n- **More complex analogy**: \"An atom is like a solar system: electrons orbit the nucleus like planets orbit the sun\"\n\nAnalogies are powerful tools in education, persuasion, problem-solving, and creative thinking because they make new concepts accessible through familiar frameworks.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What characteristics define a hot air balloon?",
+        "answer": "A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Suspended beneath is a gondola or wicker basket, which carries passengers and a heat source, usually an open flame.",
+        "pred": "# Characteristics of a Hot Air Balloon\n\nThe defining characteristics of a hot air balloon include:\n\n- **Lifting mechanism**: Uses heated air inside a large fabric envelope (balloon) to create buoyancy, as hot air is less dense than cooler air\n- **Components**: Consists of a balloon envelope, burner system, and a basket (gondola) for passengers\n- **Control system**: Primarily vertical control through heating/cooling air; horizontal movement relies on wind currents\n- **Open structure**: Bottom of envelope remains open to allow air expansion and burner operation\n- **Material**: Typically made of ripstop nylon or polyester with heat-resistant nomex near the burner\n- **Propane burners**: Used to heat the air inside the envelope\n- **No motor**: Unlike airships or planes, hot air balloons have no propulsion systems\n- **Envelope size**: Usually 65,000-105,000 cubic feet for standard passenger balloons\n\nHot air balloons are one of the oldest successful human-carrying flight technologies, dating back to the Montgolfier brothers in 1783.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What are common triggers for sneezing?",
+        "answer": "Common triggers for sneezing include allergens like pollen, dust, pet dander, irritants like smoke or strong odors, and infections such as the common cold.",
+        "pred": "# Common Triggers for Sneezing\n\nSneezing can be triggered by various factors, including:\n\n- **Allergens**: Pollen, pet dander, dust mites, and mold\n- **Irritants**: Strong odors, perfumes, cigarette smoke, and air pollution\n- **Bright light** (photic sneeze reflex, affects about 18-35% of people)\n- **Viral infections** like the common cold or flu\n- **Spicy foods** (gustatory rhinitis)\n- **Temperature changes**, especially moving into cold air\n- **Physical irritation** of the nasal passages\n- **Strong emotions** (emotional triggering)\n\nSneezing is your body's natural way of clearing irritants from your nasal passages.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "127",
+    "pairs": [
+      {
+        "question": "Explain how to calculate the sum of numbers in a given row or column.",
+        "answer": "To calculate the sum of numbers in a given row or column, add all the numbers present in that row or column together.",
+        "pred": "# Calculating the Sum of Numbers in a Row or Column\n\n## General Method\n\nTo calculate the sum of numbers in a specific row or column, you need to add all the values in that particular row or column.\n\n## For a Row Sum\n\n1. Identify the row you want to sum\n2. Add all values in that row from left to right\n3. The result is the row sum\n\n**Example:**\nFor the row [5, 8, 2, 10]:\nSum = 5 + 8 + 2 + 10 = 25\n\n## For a Column Sum\n\n1. Identify the column you want to sum\n2. Add all values in that column from top to bottom\n3. The result is the column sum\n\n**Example:**\nFor the column:\n```\n3\n7\n4\n9\n```\nSum = 3 + 7 + 4 + 9 = 23\n\n## In Spreadsheet Applications (like Excel or Google Sheets)\n\n- For row sum: Use the SUM function with a row reference, e.g., `=SUM(A1:E1)` for summing cells A1 through E1\n- For column sum: Use the SUM function with a column reference, e.g., `=SUM(A1:A10)` for summing cells A1 through A10\n\n## In Programming\n\nMost programming languages offer functions to calculate sums of arrays or lists:\n- Python: `sum(list)` or `numpy.sum(array, axis=0)` for columns, `axis=1` for rows\n- JavaScript: `array.reduce((sum, current) => sum + current, 0)`\n\nWould you like me to elaborate on any specific application or method?",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "743",
+    "pairs": [
+      {
+        "question": "What is the definition of distance in a geometric context?",
+        "answer": "Distance in a geometric context refers to the measurement of space between two points.",
+        "pred": "# Definition of Distance in Geometry\n\nIn a geometric context, distance refers to the measure of separation between two points, objects, or sets. The specific definition varies by geometric setting:\n\n## In Euclidean Geometry\n- The distance between two points is the length of the straight line segment connecting them\n- For points (x₁,y₁) and (x₂,y₂) in a 2D plane, the distance is given by the Pythagorean formula: d = √[(x₂-x₁)² + (y₂-y₁)²]\n- In 3D space, it extends to: d = √[(x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²]\n\n## In Non-Euclidean Geometries\nDistance definitions may differ, such as:\n- Spherical geometry: distance measured along great circles\n- Hyperbolic geometry: distance follows hyperbolic metrics\n- Taxicab/Manhattan geometry: sum of absolute differences in coordinates\n\nDistance always satisfies the key properties of being non-negative, symmetric, and satisfying the triangle inequality.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "296",
+    "pairs": [
+      {
+        "question": "What is a 4x4 grid and how many total units does it contain?",
+        "answer": "A 4x4 grid is a square arrangement consisting of 4 rows and 4 columns, totaling 16 units.",
+        "pred": "A 4x4 grid is a square grid that consists of 4 rows and 4 columns, creating a pattern of 16 cells or units arranged in a square formation.\n\nThe total number of units in a 4x4 grid is 16, which can be calculated by multiplying the number of rows (4) by the number of columns (4):\n4 × 4 = 16 units\n\nThis type of grid is commonly used in various contexts such as game boards (like in the puzzle game 2048), mathematical matrices, spreadsheet sections, or tile layouts.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "748",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare objects or concepts?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, but have some similarities. It is used to explain or clarify concepts by highlighting similar relationships.",
+        "pred": "# Analogy: Concept and Usage\n\nAn analogy is a comparison between two different things that highlights similarities in order to explain or clarify a concept. It creates a bridge between something familiar and something new or complex.\n\n## Key characteristics of analogies:\n\n- They establish a relationship where A is to B as C is to D\n- They transfer understanding from a known domain to an unfamiliar one\n- They highlight structural or functional similarities, not just superficial resemblances\n\n## How analogies are used to compare:\n\n1. **Explanation**: Making abstract concepts concrete (e.g., \"The atom is like a tiny solar system\")\n\n2. **Problem-solving**: Applying solutions from familiar situations to new problems\n\n3. **Persuasion**: Creating memorable connections that influence thinking\n\n4. **Creativity**: Generating new ideas by seeing relationships between disparate domains\n\nEffective analogies focus on meaningful similarities while acknowledging that no comparison is perfect—the differences between the compared things are just as important to recognize.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What are the characteristics of a wilted plant, and how can it be identified?",
+        "answer": "A wilted plant typically has limp, drooping leaves and stems due to a lack of water or nutrients. It can be identified by its shriveled, soft appearance and loss of rigidity.",
+        "pred": "# Identifying a Wilted Plant\n\nWilted plants display several distinctive characteristics that indicate they're experiencing stress. Here's how to identify them:\n\n## Visual Signs\n- **Drooping leaves and stems** that lack rigidity and hang downward\n- **Curling, rolling, or folding of leaf edges**\n- **Yellowing or browning** around leaf margins or throughout the leaf\n- **Shriveled appearance** with leaves feeling thin and papery\n- **Leaf loss** in severe cases\n\n## Tactile Indicators\n- **Soft, limp stems** lacking normal firmness\n- **Dry, crispy texture** in leaves if wilting is due to underwatering\n- **Soggy, soft texture** in leaves if wilting is from overwatering\n\n## Other Indicators\n- **Soil condition**: Either extremely dry or waterlogged\n- **Slow recovery** when watered (if dehydrated)\n- **Stunted new growth** or a complete lack of new growth\n- **Root appearance**: When examined, roots may appear dried out (underwatering) or dark and mushy (overwatering)\n\nWilting is often a plant's response to water stress, but can also be caused by disease, pest infestations, temperature extremes, or transplant shock.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is luminescence, and how can it be recognized in objects or scenes?",
+        "answer": "Luminescence is the emission of light by a substance not resulting from heat; it can be seen as a glow in the dark. It is recognized by its visible light emission, often in vivid colors, in low-light conditions.",
+        "pred": "# Luminescence\n\nLuminescence is the emission of light from a substance that has not been heated. Unlike incandescence (which produces light through heat), luminescence occurs when energy excites an electron to a higher energy state and then releases a photon as the electron returns to its lower energy state.\n\n## How to recognize luminescence:\n\n1. **Light without heat** - The object glows without feeling hot to the touch\n2. **Distinctive colors** - Often produces vivid, pure colors rather than the yellowish-red spectrum typical of heated objects\n3. **Unusual glow patterns** - May appear to glow uniformly across a surface rather than from a point source\n4. **Persistence** - Some luminescent materials continue glowing after the energy source is removed\n\n## Common examples:\n\n- Glow sticks and glow-in-the-dark toys\n- Fireflies and bioluminescent sea creatures\n- Fluorescent minerals under UV light\n- Aurora borealis (northern lights)\n- Modern TV/computer screens\n- Certain fungi that glow in forests at night\n\nLuminescence has several subtypes based on the energy source, including photoluminescence (light-triggered), chemiluminescence (chemical reactions), and bioluminescence (biological processes).",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "320",
+    "pairs": [
+      {
+        "question": "What is an analogy, and how is it typically used to compare two pairs of items?",
+        "answer": "An analogy is a comparison between two pairs of items that highlights a relationship or similarity between them. It is often used to explain or clarify concepts by showing how they are similar in certain aspects.",
+        "pred": "# Analogy: Definition and Usage\n\nAn analogy is a comparison between two things that highlights similarities in their relationships or structures, even when the things themselves may be quite different.\n\n## How Analogies Work\n\nAnalogies typically take the form of \"A is to B as C is to D\" (often written as A:B::C:D), where:\n\n- The relationship between A and B parallels the relationship between C and D\n- The comparison helps clarify or explain the less familiar pair by relating it to the more familiar pair\n\n## Common Uses of Analogies\n\n1. **Education**: Making complex concepts more accessible by relating them to familiar ideas\n   - \"An atom is like a tiny solar system\" (nucleus:electrons::sun:planets)\n\n2. **Reasoning**: Transferring understanding from known relationships to solve new problems\n   - \"Hand is to glove as foot is to sock\"\n\n3. **Persuasion**: Strengthening arguments by drawing parallels to accepted relationships\n   - \"Exercise is to health as reading is to knowledge\"\n\nThe effectiveness of an analogy depends on how accurately the relationship between the first pair maps to the relationship between the second pair.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "613",
+    "pairs": [
+      {
+        "question": "What is the sum of 19, 13, and 30?",
+        "answer": "62",
+        "pred": "The sum of 19, 13, and 30 is 62.\n\nCalculation:\n19 + 13 + 30 = 62",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "91",
+    "pairs": [
+      {
+        "question": "What is the role of the numerator in a fraction?",
+        "answer": "The numerator in a fraction indicates how many parts of the whole are being considered.",
+        "pred": "# Role of the Numerator in a Fraction\n\nThe numerator is the top number in a fraction and serves several important roles:\n\n1. **Counting parts**: The numerator tells us how many parts we're considering from the total. For example, in the fraction 3/4, the numerator 3 indicates we have 3 parts.\n\n2. **Defining the value**: Together with the denominator, the numerator determines the fraction's value. Increasing the numerator while keeping the denominator constant increases the fraction's value.\n\n3. **Representing division**: In the fraction a/b, the numerator represents the dividend in the division operation a ÷ b.\n\n4. **Indicating proportion**: The numerator shows the proportion of the whole that is being represented, relative to the denominator.\n\nIn mathematical operations, the numerator can be manipulated (multiplied, divided, added, or subtracted) according to specific rules to perform calculations with fractions.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What does the denominator in a fraction represent?",
+        "answer": "The denominator in a fraction represents the total number of equal parts into which the whole is divided.",
+        "pred": "The denominator in a fraction represents the total number of equal parts that make up a whole. It appears below the division line and tells us how many equal pieces the whole is divided into.\n\nFor example, in the fraction 3/4:\n- The denominator is 4, meaning the whole is divided into 4 equal parts\n- The numerator (3) tells us how many of those parts we're considering\n\nThe denominator essentially defines the size of each piece by specifying how many pieces would constitute a complete whole.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Explain how to compare two fractions with different denominators.",
+        "answer": "To compare two fractions with different denominators, find a common denominator, convert the fractions to equivalent fractions with that common denominator, and then compare the numerators.",
+        "pred": "# Comparing Fractions with Different Denominators\n\nWhen comparing fractions with different denominators, you need to make the denominators the same so you can directly compare the numerators. Here's how to do it:\n\n## Method 1: Convert to Equivalent Fractions with a Common Denominator\n\n1. Find the least common multiple (LCM) of the denominators\n2. Convert each fraction to an equivalent fraction with the LCM as denominator\n3. Compare the numerators of the equivalent fractions\n\n**Example:** Compare 3/4 and 2/3\n\n1. LCM of 4 and 3 is 12\n2. Convert fractions:\n   - 3/4 = (3×3)/(4×3) = 9/12\n   - 2/3 = (2×4)/(3×4) = 8/12\n3. Compare: 9/12 > 8/12, so 3/4 > 2/3\n\n## Method 2: Cross Multiplication\n\n1. Multiply the first numerator by the second denominator\n2. Multiply the second numerator by the first denominator\n3. Compare these products\n\n**Example:** Compare 3/4 and 2/3\n\n1. 3 × 3 = 9\n2. 2 × 4 = 8\n3. Since 9 > 8, we know 3/4 > 2/3\n\n## Method 3: Convert to Decimals\n\n1. Divide the numerator by the denominator for each fraction\n2. Compare the decimal values\n\n**Example:** Compare 3/4 and 2/3\n\n1. 3/4 = 0.75\n2. 2/3 = 0.6666...\n3. Since 0.75 > 0.6666..., we know 3/4 > 2/3\n\nWould you like me to explain any of these methods in more detail?",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "812",
+    "pairs": [
+      {
+        "question": "Define what a row and a column are in the context of a grid.",
+        "answer": "A row is a horizontal line of elements in a grid, while a column is a vertical line of elements. In a 5x5 grid, there are 5 rows and 5 columns.",
+        "pred": "# Rows and Columns in a Grid\n\nIn the context of a grid:\n\n## Row\n- A row is a horizontal arrangement of elements that runs from left to right\n- All elements in the same row share the same vertical position in the grid\n- Rows are typically labeled or numbered from top to bottom (e.g., Row 1, Row 2, etc.)\n\n## Column\n- A column is a vertical arrangement of elements that runs from top to bottom\n- All elements in the same column share the same horizontal position in the grid\n- Columns are typically labeled or numbered from left to right (e.g., Column A, Column B, or Column 1, Column 2, etc.)\n\nThe intersection of a row and column defines a single cell or position within the grid.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "942",
+    "pairs": [
+      {
+        "question": "What is symmetry in patterns, and how can it be recognized?",
+        "answer": "Symmetry in patterns refers to a balance or mirroring of elements around a central point or axis. It can be recognized by identifying identical shapes, sizes, and positions of elements on either side of a dividing line or point.",
+        "pred": "# Symmetry in Patterns\n\nSymmetry in patterns occurs when a pattern remains unchanged after certain transformations. It's essentially a form of balance or regularity that creates a sense of harmony and order.\n\n## Main Types of Symmetry\n\n1. **Reflection (Mirror) Symmetry**: When one half of a pattern is the mirror image of the other half across a line called the axis of symmetry.\n\n2. **Rotational Symmetry**: When a pattern can be rotated around a central point by a certain angle and appear unchanged.\n\n3. **Translational Symmetry**: When a pattern repeats itself by sliding (without rotating or reflecting) at regular intervals.\n\n4. **Glide Reflection**: A combination of reflection and translation in the direction parallel to the reflection axis.\n\n## How to Recognize Symmetry\n\n### Reflection Symmetry\n- Look for a line that divides the pattern into mirror images\n- Try folding the pattern mentally or physically to see if both halves match\n- In mathematical terms, for each point (x,y) on one side, there exists a corresponding point on the other side\n\n### Rotational Symmetry\n- Identify a center point and see if the pattern looks the same when rotated\n- Determine the smallest angle of rotation that produces the same pattern\n- A pattern with n-fold rotational symmetry looks the same n times during a complete 360° rotation\n\n### Translational Symmetry\n- Look for repeating elements that maintain the same orientation\n- Measure the distance between repeating elements to find the translation vector\n\n### General Tips\n- Look for regularities, repetitions, and balanced distributions\n- Use grid paper or tracing paper to check if parts align after transformation\n- In complex patterns, try to identify the basic unit that repeats\n\nSymmetry is fundamental in art, architecture, nature, mathematics, and many scientific disciplines, making its recognition a valuable skill across numerous fields.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "772",
+    "pairs": [
+      {
+        "question": "Explain how to identify a 2x2 sub-square in a 3x3 grid.",
+        "answer": "A 2x2 sub-square within a 3x3 grid is a smaller square consisting of four adjacent cells. There are four possible 2x2 sub-squares in a 3x3 grid, each starting from the top left, top right, bottom left, and bottom right cells.",
+        "pred": "# Identifying a 2×2 Sub-Square in a 3×3 Grid\n\nA 3×3 grid contains multiple possible 2×2 sub-squares. Here's how to identify them:\n\n## Basic Understanding\n- A 3×3 grid has 9 cells arranged in 3 rows and 3 columns\n- A 2×2 sub-square is a contiguous block of 4 cells arranged in 2 rows and 2 columns\n\n## Number of Possible 2×2 Sub-Squares\nThere are exactly 4 different 2×2 sub-squares within a 3×3 grid.\n\n## How to Identify Each 2×2 Sub-Square\nIf we label the 3×3 grid cells as:\n```\nA B C\nD E F\nG H I\n```\n\nThe four possible 2×2 sub-squares are:\n\n1. Top-left:\n   ```\n   A B\n   D E\n   ```\n\n2. Top-right:\n   ```\n   B C\n   E F\n   ```\n\n3. Bottom-left:\n   ```\n   D E\n   G H\n   ```\n\n4. Bottom-right:\n   ```\n   E F\n   H I\n   ```\n\nEach 2×2 sub-square is identified by its starting position (top-left cell) and includes that cell plus the cells to its right, below, and diagonally below-right.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "932",
+    "pairs": [
+      {
+        "question": "Define an analogy and provide an example.",
+        "answer": "An analogy is a comparison between two things that are similar in some way, often used to help explain something or make it easier to understand. For example, 'Just as a sword is the weapon of a warrior, a pen is the weapon of a writer.'",
+        "pred": "# Analogy: Definition and Example\n\n## Definition\nAn analogy is a comparison between two things, typically for the purpose of explanation or clarification, where similarities are drawn between different objects, concepts, or situations to help understand one in terms of the other.\n\n## Example\n\"Life is like a box of chocolates; you never know what you're going to get.\"\n\nThis famous analogy from the film \"Forrest Gump\" compares life to a box of assorted chocolates. The similarity highlighted is the element of unpredictability - just as you can't predict which flavor you'll get when selecting a chocolate from a mixed box, you can't predict what experiences or circumstances you'll encounter in life.\n\nThe analogy helps explain the abstract concept of life's unpredictability through the more concrete, relatable experience of selecting a chocolate.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What activity is typically associated with wearing a backpack and using walking sticks?",
+        "answer": "The activity typically associated with wearing a backpack and using walking sticks is hiking.",
+        "pred": "The activity typically associated with wearing a backpack and using walking sticks is hiking or trekking. These tools help hikers maintain balance on uneven terrain, reduce strain on knees and joints during ascents and descents, and distribute weight more evenly when carrying supplies for the journey. Walking sticks (also called trekking poles) are particularly useful for longer hikes, mountain trails, and backpacking adventures.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How can you identify a person expressing happiness in an image?",
+        "answer": "A person expressing happiness in an image can often be identified by facial expressions such as smiling or laughing, with features like upturned mouth corners and visible teeth.",
+        "pred": "# Identifying Happiness in Images\n\nWhen identifying a person expressing happiness in an image, look for these key indicators:\n\n## Facial Features\n- **Smile**: Upturned corners of the mouth\n- **Eyes**: Crinkled at the corners or slightly narrowed (\"smiling eyes\")\n- **Cheeks**: Raised and rounded\n- **Teeth**: Often visible in genuine smiles\n- **Crow's feet**: Small wrinkles at the outer corners of the eyes\n\n## Body Language\n- Relaxed, open posture\n- Raised shoulders (especially in excited happiness)\n- Animated gestures or movement\n- Head tilted slightly upward or to the side\n\n## Context Clues\n- Social setting (celebrations, gatherings)\n- Interaction with others showing positive engagement\n- Festive or pleasant surroundings\n\nThe most reliable indicator is the \"Duchenne smile\" - a genuine smile engaging both the mouth and the eyes, rather than just a polite smile that only uses mouth muscles.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "97",
+    "pairs": [
+      {
+        "question": "What does symmetry mean in the context of geometry, particularly in circular shapes?",
+        "answer": "In geometry, symmetry refers to the balanced and proportional arrangement of parts on either side of a dividing line or around a center point. In circular shapes, symmetry means that each segment or slice is identical in size and shape.",
+        "pred": "# Symmetry in Geometry: Circular Shapes\n\nIn geometry, symmetry refers to how a shape remains unchanged when certain transformations are applied. For circular shapes, symmetry is particularly elegant and manifests in several ways:\n\n## Circular Symmetry Types\n\n1. **Rotational Symmetry**: A circle has infinite rotational symmetry, meaning it looks exactly the same when rotated by any angle around its center. This is the highest degree of rotational symmetry possible.\n\n2. **Reflective Symmetry (Line Symmetry)**: A circle has infinite lines of symmetry. Any line passing through the center of a circle divides it into two identical halves, creating a line of reflection.\n\n3. **Point Symmetry**: A circle is symmetric about its center point. For every point on the circle, there exists a corresponding point directly opposite across the center at the same distance.\n\nThe perfect symmetry of circles explains why they're so fundamental in mathematics and appear frequently in nature where equilibrium or efficiency is required, from soap bubbles to planetary orbits.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "980",
+    "pairs": [
+      {
+        "question": "How do you determine the total number of smaller squares in a larger grid composed of smaller equal-sized squares?",
+        "answer": "To determine the total number of smaller squares in a larger grid, count the number of rows and columns of the smaller squares and multiply them together. For instance, in a 4x4 grid, there are 4 rows and 4 columns, so the total is 4 x 4 = 16 squares.",
+        "pred": "# Determining the Total Number of Smaller Squares in a Grid\n\nTo find the total number of smaller squares in a grid, you need to consider squares of all possible sizes, not just the smallest units.\n\n## For an n × n grid:\n\nIf you have an n × n grid made up of unit squares, the total number of squares of all sizes is:\n\nSum = 1² + 2² + 3² + ... + n²\n\nThis equals:\nn(n+1)(2n+1)/6\n\n## Example calculation:\nFor a 3 × 3 grid:\n- 9 single unit squares (1×1)\n- 4 squares of size 2×2\n- 1 square of size 3×3\n- Total: 9 + 4 + 1 = 14 squares\n\n## For a rectangular m × n grid:\nThe formula becomes more complex. For an m × n rectangular grid (where m and n are the number of unit squares in each dimension), the total number is:\n\nSum = (m)(n)(m+1)(n+1)/4\n\nThis counts squares of all possible sizes within the grid.",
+        "eval": "0",
+        "score": 0
+      }
+    ],
+    "overall": 0
+  },
+  {
+    "id": "1111",
+    "pairs": [
+      {
+        "question": "Define the concept of distance in a geometric space.",
+        "answer": "Distance in a geometric space refers to the length of the shortest path connecting two points. It is usually measured in units such as feet, meters, or miles.",
+        "pred": "# Distance in a Geometric Space\n\nDistance in a geometric space is a fundamental concept that quantifies how far apart two points or objects are from each other.\n\n## Key Properties\n\nIn mathematical terms, a distance function (or metric) d on a set X must satisfy the following axioms for all points a, b, c in X:\n\n1. **Non-negativity**: d(a,b) ≥ 0\n2. **Identity of indiscernibles**: d(a,b) = 0 if and only if a = b\n3. **Symmetry**: d(a,b) = d(b,a)\n4. **Triangle inequality**: d(a,c) ≤ d(a,b) + d(b,c)\n\n## Common Distance Metrics\n\nDifferent geometric spaces utilize different distance formulas:\n\n- **Euclidean space**: The familiar straight-line distance\n  - In 2D: d(p,q) = √[(x₂-x₁)² + (y₂-y₁)²]\n  - In n-dimensions: d(p,q) = √[Σ(qᵢ-pᵢ)²]\n\n- **Manhattan (taxicab) distance**: Sum of absolute differences\n  - d(p,q) = |x₂-x₁| + |y₂-y₁|\n\n- **Spherical distance**: Angular distance on a sphere's surface\n\n- **Riemannian spaces**: Distance measured along geodesics (generalized curves)\n\nThe concept of distance provides a foundation for analyzing shapes, defining neighborhoods, and understanding the geometric structure of mathematical spaces.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "660",
+    "pairs": [
+      {
+        "question": "Explain the process of addition and how it is used to find the sum of numbers.",
+        "answer": "Addition is a mathematical operation that represents combining collections of objects together into a larger collection. It is used to calculate the total or sum by combining two or more numbers.",
+        "pred": "# The Process of Addition\n\nAddition is one of the four fundamental operations in mathematics. It combines two or more numbers (called addends or summands) to form a total (called the sum).\n\n## Basic Concept\n\nAddition represents combining quantities together or increasing a quantity. For example, if you have 3 apples and then get 2 more apples, you now have 5 apples total. Mathematically, this is written as 3 + 2 = 5.\n\n## The Process\n\n1. **Identify the numbers to be added** (the addends)\n2. **Align the numbers** (for written addition of multi-digit numbers)\n3. **Add the digits** from right to left\n4. **Carry over** values when necessary\n5. **Write the final sum**\n\n## Methods of Addition\n\n### Mental Addition\nFor small numbers, we can add directly in our minds:\n- 4 + 3 = 7\n- 10 + 5 = 15\n\n### Column Addition\nFor larger numbers, we typically align them vertically:\n```\n  43\n+ 28\n----\n  71\n```\n\nThe process:\n1. Add the ones digits: 3 + 8 = 11. Write 1, carry the 1.\n2. Add the tens digits (including the carried 1): 1 + 4 + 2 = 7.\n3. The sum is 71.\n\n### Addition with Regrouping (Carrying)\nWhen the sum of any column exceeds 9:\n```\n  38\n+ 45\n----\n  83\n```\n1. 8 + 5 = 13. Write 3, carry the 1.\n2. 1 + 3 + 4 = 8.\n3. The sum is 83.\n\n## Properties of Addition\n\n1. **Commutative Property**: a + b = b + a\n   Example: 5 + 3 = 3 + 5\n\n2. **Associative Property**: (a + b) + c = a + (b + c)\n   Example: (2 + 3) + 4 = 2 + (3 + 4)\n\n3. **Identity Property**: a + 0 = a\n   Example: 7 + 0 = 7\n\n## Applications of Addition\n\nAddition is used in countless real-world scenarios:\n- Calculating total costs when shopping\n- Finding total distances traveled\n- Combining measurements\n- Calculating scores in games\n- Banking and finance\n- Statistics (finding totals)\n\nAddition serves as the foundation for other mathematical operations and is essential for solving problems in everyday life.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define what a row and a column are in a grid structure.",
+        "answer": "In a grid structure, a row is a horizontal line of elements, whereas a column is a vertical line of elements.",
+        "pred": "# Rows and Columns in a Grid Structure\n\n## Row\nA row is a horizontal arrangement of elements that extends from left to right across a grid. All elements in the same row share the same vertical position. Rows are typically labeled or numbered from top to bottom (e.g., Row 1, Row 2, etc.).\n\n## Column\nA column is a vertical arrangement of elements that extends from top to bottom in a grid. All elements in the same column share the same horizontal position. Columns are typically labeled or numbered from left to right (e.g., Column A, Column B, or Column 1, Column 2, etc.).\n\nIn a grid structure (like a spreadsheet, table, or matrix), the intersection of a row and a column defines a specific cell or position within the grid.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "431",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare relationships between different concepts?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It is used to show how two different concepts are similar in certain aspects, often to highlight a particular point or relationship.",
+        "pred": "# Analogy\n\nAn analogy is a comparison that highlights similarities between two different things, concepts, or relationships to help explain or clarify something unfamiliar by relating it to something more familiar.\n\n## How Analogies Work\n\nAnalogies establish a parallel structure between relationships, typically in the form of \"A is to B as C is to D.\" They help us understand complex or abstract ideas by mapping the relationship in one domain onto another domain.\n\n## Uses of Analogies\n\n1. **Explanation** - Making complex concepts accessible by comparing them to familiar situations\n   \n2. **Reasoning** - Transferring understanding from a known domain to solve problems in an unfamiliar domain\n   \n3. **Persuasion** - Strengthening arguments by showing similar patterns across different contexts\n   \n4. **Learning** - Creating mental frameworks that help encode new information\n\n## Example\n\n\"The atom is like a tiny solar system; electrons orbit the nucleus like planets orbit the sun.\"\n\nThis analogy helps us understand atomic structure by comparing it to something more familiar (planetary orbits), though like all analogies, it has limitations and isn't perfect in all aspects.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What are common techniques used in physical therapy for muscle relaxation and recovery?",
+        "answer": "Common techniques in physical therapy for muscle relaxation include massage, stretching, heat therapy, and exercises designed to improve flexibility and strength.",
+        "pred": "# Common Techniques for Muscle Relaxation and Recovery in Physical Therapy\n\n## Manual Techniques\n- Therapeutic massage (including deep tissue, Swedish, and sports massage)\n- Myofascial release to address trigger points and fascial restrictions\n- Joint mobilization and manipulation\n- Soft tissue mobilization\n- Proprioceptive neuromuscular facilitation (PNF) stretching\n\n## Modalities\n- Heat therapy (hot packs, paraffin baths, infrared lamps)\n- Cold therapy (ice packs, ice massage, cryotherapy)\n- Contrast therapy (alternating hot and cold)\n- Ultrasound therapy to increase blood flow and tissue elasticity\n- Electrical stimulation (TENS, NMES)\n- Dry needling or acupuncture\n\n## Movement-Based Approaches\n- Progressive stretching programs\n- Gentle active range of motion exercises\n- Yoga-based techniques\n- Tai Chi movements\n- Controlled breathing exercises\n- Aquatic therapy and exercises in water\n\n## Self-Management Strategies\n- Foam rolling and self-myofascial release techniques\n- Proper sleep positioning and ergonomics\n- Stress management techniques\n- Application of home-based thermal modalities\n- Self-pacing activities to prevent overexertion\n\nThese techniques are typically used in combination and tailored to individual patient needs based on their condition and recovery goals.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How does yoga contribute to physical wellness and flexibility?",
+        "answer": "Yoga contributes to physical wellness by promoting flexibility, strength, balance, and mental relaxation. Yoga poses, or asanas, stretch and strengthen various muscle groups, improving overall physical health.",
+        "pred": "# Yoga's Contributions to Physical Wellness and Flexibility\n\nYoga offers comprehensive benefits for physical health through its unique combination of postures, breathing, and mindfulness:\n\n## Physical Wellness Benefits\n- **Strength building**: Develops muscle strength through weight-bearing poses\n- **Improved posture**: Corrects alignment issues and strengthens core muscles\n- **Enhanced cardiovascular health**: Even gentler styles can lower blood pressure and resting heart rate\n- **Better balance**: Develops proprioception and stability, particularly beneficial for older adults\n- **Pain reduction**: Can alleviate chronic pain conditions like lower back pain\n\n## Flexibility Improvements\n- **Gradual stretching**: Safely lengthens muscles and connective tissues over time\n- **Joint mobility**: Increases range of motion in hips, shoulders, and spine\n- **Fascia health**: Releases tension in the fascial network that surrounds muscles\n- **Dynamic flexibility**: Builds both static flexibility and functional movement patterns\n- **Full-body approach**: Addresses flexibility throughout the entire kinetic chain\n\nThe mindful nature of yoga allows practitioners to develop body awareness while progressing at their own pace, making it suitable for people of various fitness levels and ages.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "543",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used in reasoning?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It highlights the similarities between two different things, often to make a point or explain a concept.",
+        "pred": "# Analogy in Reasoning\n\nAn analogy is a comparison between two things that highlights similarities in order to explain or clarify. Analogies establish a relationship where if objects A and B share certain properties, and A has some additional property X, then B might also have property X.\n\n## How Analogies Function in Reasoning\n\nAnalogies serve several important purposes in reasoning:\n\n1. **Knowledge transfer** - They allow applying insights from familiar domains to unfamiliar ones\n2. **Explanation** - Complex concepts become more accessible through comparison to known examples\n3. **Problem solving** - Solutions from one domain can inspire approaches in another\n4. **Hypothesis generation** - Similarities suggest new properties to investigate\n\n## Examples\n\n- A doctor comparing the heart to a pump\n- Using water flow to explain electricity\n- Einstein's thought experiments relating everyday physics to relativity\n\nAnalogical reasoning is powerful but has limitations—the comparison may break down at certain points, and false analogies can lead to incorrect conclusions when superficial similarities mask deeper differences.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is meme culture and how does it influence communication?",
+        "answer": "Meme culture involves the use of memes, which are humorous images, videos, or text that are copied and spread rapidly by Internet users. Memes often convey ideas, humor, or social commentary in a way that is easily recognizable and relatable.",
+        "pred": "# Meme Culture and Its Influence on Communication\n\nMeme culture is a digital phenomenon where concepts, jokes, or cultural elements spread rapidly through online spaces via images, videos, or text formats that are easily replicated and remixed. \n\n## What defines meme culture:\n- Shareable content that references shared cultural knowledge\n- Often uses humor, irony, or absurdity\n- Constantly evolving with new formats and references\n- Community-driven creation and distribution\n\n## How memes influence communication:\n- **Compressed meaning**: Memes pack complex ideas or emotions into concise, easily digestible formats\n- **In-group signaling**: Understanding specific memes creates a sense of belonging to particular communities\n- **Shorthand expression**: Provides quick ways to respond to situations without lengthy explanations\n- **Cultural commentary**: Often reflects or critiques current events, politics, or social trends\n- **Language evolution**: Creates new vocabulary, references, and communication patterns\n\nMeme culture has transformed how we communicate online by making interactions more visual, referential, and layered with meaning that may require specific cultural knowledge to fully understand.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "5",
+    "pairs": [
+      {
+        "question": "What techniques can be applied to decipher letters in a ciphered text?",
+        "answer": "Techniques include reverse mapping based on known rules, frequency analysis to match common letters, and using known examples to backtrack the ciphering process. Understanding the cipher's structure or key is crucial for accurate deciphering.",
+        "pred": "# Techniques for Deciphering Ciphered Text\n\n## Frequency Analysis\n- Count occurrences of each letter/symbol\n- Compare with known frequency distributions in target language (e.g., 'E' is most common in English)\n- Identify patterns for common letters, digraphs (TH, ER, ON), and trigraphs\n\n## Pattern Recognition\n- Look for repeated sequences that might represent common words\n- Identify short words (2-3 letters) which are often limited in any language\n- Analyze word lengths and patterns\n\n## Contextual Analysis\n- Use partial decryptions to guess remaining letters\n- Consider the expected subject matter\n- Look for predictable content (greetings, signatures, dates)\n\n## Cryptanalytic Attacks\n- Known-plaintext attack (if you have matching cipher/plaintext pairs)\n- Ciphertext-only attack (working solely with encrypted text)\n- Brute force (trying all possible key combinations)\n\n## Statistical Methods\n- Index of coincidence to determine cipher type\n- Kasiski examination for finding key length in polyalphabetic ciphers\n- n-gram analysis to identify patterns\n\n## Specialized Techniques\n- Hill climbing algorithms\n- Differential cryptanalysis\n- Side-channel analysis (for modern digital systems)\n\n## Tools\n- Digital tools like CryptTool, Cryptanalysis Tools\n- Programming languages for automating analysis (Python with cryptography libraries)\n\nThe most effective approach usually combines multiple techniques and requires understanding the likely encryption method used.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "305",
+    "pairs": [
+      {
+        "question": "Explain how to determine the number of squares in a 4x4 grid.",
+        "answer": "A 4x4 grid is composed of 4 rows and 4 columns, resulting in a total of 16 squares. This is calculated by multiplying the number of rows (4) by the number of columns (4).",
+        "pred": "# Determining the Number of Squares in a 4×4 Grid\n\nTo find the total number of squares in a 4×4 grid, we need to count squares of all possible sizes that can be formed within the grid.\n\n## Step-by-Step Approach\n\n1. **Count the 1×1 squares:**\n   - These are the smallest individual cells\n   - In a 4×4 grid, there are 4×4 = 16 squares of size 1×1\n\n2. **Count the 2×2 squares:**\n   - These are formed by taking 2×2 groups of cells\n   - In a 4×4 grid, we can form a 2×2 square starting from any point (r,c) where r ≤ 3 and c ≤ 3\n   - Total 2×2 squares: 3×3 = 9\n\n3. **Count the 3×3 squares:**\n   - These are formed by taking 3×3 groups of cells\n   - In a 4×4 grid, we can form a 3×3 square starting from any point (r,c) where r ≤ 2 and c ≤ 2\n   - Total 3×3 squares: 2×2 = 4\n\n4. **Count the 4×4 squares:**\n   - This is the entire grid itself\n   - Total 4×4 squares: 1\n\n## Total Count\nThe total number of squares in a 4×4 grid is:\n16 + 9 + 4 + 1 = 30 squares\n\n## General Formula\nFor an n×n grid, the total number of squares is the sum of squares from size 1×1 to n×n:\nΣ(n-k+1)² where k goes from 1 to n",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "916",
+    "pairs": [
+      {
+        "question": "Define symmetry in the context of geometric shapes and provide an example.",
+        "answer": "Symmetry in geometric shapes refers to a balanced and proportionate similarity found in two halves of an object, such that one half is a mirror image of the other. An example is a square, which is symmetrical along its diagonals and midlines.",
+        "pred": "# Symmetry in Geometric Shapes\n\nSymmetry in geometry refers to a balanced and proportional arrangement of parts in a shape, where certain transformations leave the overall shape unchanged.\n\n## Types of Symmetry\n\n1. **Reflectional (Line) Symmetry**: When a shape can be divided by a line, and one half is the mirror image of the other half.\n\n2. **Rotational Symmetry**: When a shape can be rotated around a central point by a certain angle and still look the same.\n\n3. **Translational Symmetry**: When a shape can be shifted in a direction and maintain the same appearance (common in patterns).\n\n4. **Point Symmetry**: When every point has a corresponding point that is equidistant from a central point but in the opposite direction.\n\n## Example: Regular Hexagon\n\nA regular hexagon demonstrates multiple types of symmetry:\n- It has 6 lines of reflectional symmetry (through each vertex and through the midpoint of each side)\n- It has rotational symmetry of order 6 (it can be rotated by 60°, 120°, 180°, 240°, 300°, and 360° and appear unchanged)\n- It has point symmetry about its center\n\nThis rich symmetry is why hexagons appear frequently in nature, such as in honeycomb structures.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1143",
+    "pairs": [
+      {
+        "question": "Define the term 'top' in the context of layered objects.",
+        "answer": "The 'top' refers to the object that is above all others, not covered by any other object.",
+        "pred": "# \"Top\" in the Context of Layered Objects\n\nIn layered objects, the term \"top\" typically refers to:\n\n1. **Uppermost Layer**: The highest or outermost layer in a vertical stack or arrangement.\n\n2. **Most Visible Surface**: The layer that is immediately visible or accessible without removing other layers.\n\n3. **Last Applied Layer**: In sequential construction (like coatings or software layers), the most recently added layer.\n\n4. **Priority Position**: The layer with highest precedence or visibility when layers overlap or interact.\n\nThis concept applies across various domains:\n- In physical objects (like sedimentary rocks or layered clothing)\n- In digital media (Photoshop layers, CSS z-index)\n- In software architecture (application stacks, network protocols)\n- In manufacturing (coating processes, material composites)\n\nThe top layer often has special significance as it mediates interaction with the environment or user.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define the term 'bottom' in the context of layered objects.",
+        "answer": "The 'bottom' refers to the object that is below all others, covered by all other objects.",
+        "pred": "# \"Bottom\" in the Context of Layered Objects\n\nIn the context of layered objects, \"bottom\" refers to the lowest or deepest layer, section, or surface of a stack or hierarchy of components.\n\n## Common Usages:\n\n- **Physical Stacking**: The lowermost object or layer in a physical stack (e.g., \"the bottom sheet of paper\")\n- **Visual Layers**: The background or rearmost layer in visual design or digital graphics\n- **Sequential Processing**: The first layer to be placed or the last layer to be accessed\n- **Hierarchical Systems**: The foundational or base level of a structured system\n\nThe bottom layer typically serves as support for the layers above it and is often in contact with the underlying surface or container.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What does the term 'middle' mean when referring to a sequence of overlapping objects?",
+        "answer": "The 'middle' refers to the object that has an equal number of objects above and below it in the sequence.",
+        "pred": "When referring to a sequence of overlapping objects, the term \"middle\" typically indicates:\n\n1. The central position in the overlapping sequence - the object(s) that have other objects both preceding and following them\n\n2. In cases of partial overlapping, the middle objects are those that overlap with at least two other objects in the sequence\n\n3. For completely overlapping objects (like concentric circles), the middle would refer to objects that are neither the innermost nor the outermost\n\nThis concept applies in various contexts:\n- In a row of overlapping tiles, the middle tiles are those between the first and last\n- In temporal sequences, middle events overlap with both earlier and later events\n- In hierarchical structures, middle layers connect higher and lower components\n\nThe precise definition may vary slightly depending on the specific domain or application.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "766",
+    "pairs": [
+      {
+        "question": "Explain how to calculate the sum of a given set of numbers.",
+        "answer": "To calculate the sum of a given set of numbers, add the numbers together. For example, the sum of 2, 3, and 5 is calculated as 2 + 3 + 5 = 10.",
+        "pred": "# Calculating the Sum of a Set of Numbers\n\nTo calculate the sum of a set of numbers, you need to add all the numbers together. Here's how to do it:\n\n## Basic Method\n1. Identify all the numbers in your set\n2. Add them one by one\n3. The result is your sum\n\n## Example\nFor the set {3, 7, 2, 10, 5}:\n- Start with 0\n- Add 3: 0 + 3 = 3\n- Add 7: 3 + 7 = 10\n- Add 2: 10 + 2 = 12\n- Add 10: 12 + 10 = 22\n- Add 5: 22 + 5 = 27\n- The sum is 27\n\n## Alternative Methods\n- **Using a calculator**: Enter each number followed by the + sign\n- **Using spreadsheet software**: Use the SUM function (e.g., =SUM(A1:A5))\n- **Using programming**: Implement a loop that iterates through each number and accumulates the sum\n\nFor very large sets of numbers, these alternative methods are more practical than manual calculation.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define what is meant by a 'row' and a 'column' in a grid or matrix.",
+        "answer": "In a grid or matrix, a 'row' is a horizontal line of elements, whereas a 'column' is a vertical line of elements.",
+        "pred": "# Rows and Columns in a Grid or Matrix\n\n## Row\nA row is a horizontal line of elements that runs from left to right across a grid or matrix. All elements in the same row share the same row index or number. In mathematics, rows are typically numbered from top to bottom (so the first row is at the top).\n\n## Column\nA column is a vertical line of elements that runs from top to bottom in a grid or matrix. All elements in the same column share the same column index or number. Columns are typically numbered from left to right (so the first column is at the leftmost position).\n\n## Example\nIn a 3×4 matrix (3 rows, 4 columns):\n```\n[ a b c d ]\n[ e f g h ]\n[ i j k l ]\n```\n- The first row contains elements a, b, c, d\n- The second row contains elements e, f, g, h\n- The third row contains elements i, j, k, l\n- The first column contains elements a, e, i\n- The second column contains elements b, f, j\n- And so on...",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "939",
+    "pairs": [
+      {
+        "question": "Explain what an angle is in geometric terms.",
+        "answer": "An angle is formed by two rays (sides of the angle) sharing a common endpoint, called the vertex. It is a measure of the rotation needed to superimpose one of the rays onto the other.",
+        "pred": "# Angle in Geometry\n\nAn angle is a geometric figure formed by two rays (or line segments) that share a common endpoint called the vertex. \n\n## Key Properties:\n\n1. **Rays and Vertex:** An angle consists of two rays extending from a common point (the vertex).\n\n2. **Measurement:** Angles are measured in degrees (°) or radians, indicating the amount of rotation from one ray to another.\n\n3. **Notation:** Angles can be denoted by:\n   - A symbol like ∠ABC (where B is the vertex)\n   - A single letter at the vertex (∠B)\n   - A lowercase letter or Greek letter (∠α)\n\n4. **Types by Measure:**\n   - Acute angle: Less than 90°\n   - Right angle: Exactly 90° (perpendicular rays)\n   - Obtuse angle: Greater than 90° but less than 180°\n   - Straight angle: Exactly 180° (forming a straight line)\n   - Reflex angle: Greater than 180° but less than 360°\n\nAn angle essentially measures the \"openness\" or \"spread\" between two intersecting lines or rays, representing a fundamental concept in geometric relationships and measurements.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "768",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare two pairs of concepts or items?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It shows a relationship between two pairs of concepts or items, suggesting that the relationship between the first pair is similar to the relationship between the second pair.",
+        "pred": "# Analogy\n\nAn analogy is a comparison between two things that highlights their similarities to explain or clarify concepts. It creates a parallel relationship where the connection between one pair of things mirrors the connection between another pair.\n\n## Structure and Function\n\nAn analogy typically follows this pattern:\n- A is to B as C is to D (often written A:B::C:D)\n\nFor example: \"Hand is to glove as foot is to sock.\" \n\n## How Analogies Work to Compare Pairs\n\nAnalogies work by:\n\n1. **Transferring understanding** - They help explain unfamiliar concepts by relating them to familiar ones\n2. **Highlighting relationships** - They emphasize specific relationships (functional, structural, causal, etc.)\n3. **Creating cognitive bridges** - They build connections between different domains of knowledge\n\n## Examples\n\n- \"Teacher is to knowledge as doctor is to health\" (both professionals provide specialized services)\n- \"Pen is to writer as brush is to painter\" (both are tools used by creative professionals)\n- \"Oxygen is to humans as sunlight is to plants\" (both are essential resources for survival)\n\nAnalogies are powerful teaching tools, but their effectiveness depends on how well the compared relationships actually match each other.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is kinesiology taping and how can it be visually identified?",
+        "answer": "Kinesiology taping is a therapeutic taping technique used to support muscles and joints without restricting movement. It is visually identified by the presence of colorful, stretchy tape applied to the skin in specific patterns to help with pain relief and muscle support.",
+        "pred": "# Kinesiology Taping\n\nKinesiology taping (or \"K-tape\") is a therapeutic technique that involves applying elastic cotton strips with acrylic adhesive to the skin to provide support, reduce pain, and improve performance without restricting movement.\n\n## Visual Identification\n\nYou can identify kinesiology tape by these characteristics:\n\n- **Appearance**: Thin, stretchy, cotton-based tape, typically 1-2 inches wide\n- **Colors**: Often brightly colored (blue, pink, black, beige, or multicolored)\n- **Application pattern**: Applied in specific patterns like:\n  - I-strips (straight lines)\n  - Y-strips (branched patterns)\n  - X-strips (crossing patterns)\n  - Fan shapes (for lymphatic drainage)\n  - Web patterns (for larger areas)\n- **Placement**: Usually follows muscle groups or joints\n- **Texture**: Slightly raised or rippled appearance when applied with tension\n\nUnlike rigid athletic tape, kinesiology tape is elastic and creates characteristic skin convolutions when properly applied, often with rounded edges at the ends to prevent peeling.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1200",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare different elements?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It highlights similarities between two pairs of items or concepts, where the relationship between the first pair is mirrored in the second pair.",
+        "pred": "# Analogy: Definition and Usage\n\nAn analogy is a comparison that shows how two different things are similar in some significant way, often to explain or clarify a concept by relating it to something more familiar.\n\n## How Analogies Work\n\nAnalogies establish a relationship pattern where:\n- Item A relates to item B\n- In a similar way that item C relates to item D\n\n## Uses of Analogies\n\n1. **Clarification**: Making complex ideas accessible by comparing them to familiar concepts\n   - Example: \"The atom is like a tiny solar system, with electrons orbiting the nucleus like planets orbit the sun\"\n\n2. **Reasoning**: Transferring understanding from a known domain to an unfamiliar one\n   - Example: Using water flow to explain electrical current\n\n3. **Persuasion**: Making arguments more compelling through relatable comparisons\n\n4. **Problem-solving**: Applying solutions from one area to challenges in another\n\n## Types of Analogical Relationships\n\nAnalogies can compare elements based on:\n- Function (what things do)\n- Structure (how things are organized)\n- Cause-effect relationships\n- Part-to-whole relationships\n- Sequential processes\n\nThe strength of an analogy depends on how meaningful and relevant the similarities are between the compared elements.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How do you identify different types of tools and machinery in images?",
+        "answer": "To identify tools and machinery in images, you can look for distinctive features such as shape, size, and function. Familiarity with common tools and machines helps in recognizing them by their appearance and the context in which they are used.",
+        "pred": "# Identifying Tools and Machinery in Images\n\nTo identify different types of tools and machinery in images, I look for several key characteristics:\n\n## Visual Characteristics\n- **Shape and structure**: Distinctive outlines (e.g., the L-shape of a wrench, cylindrical body of a drill)\n- **Components**: Cutting edges, motors, handles, blades, protective guards\n- **Materials**: Metal surfaces, plastic housings, rubber grips\n- **Color patterns**: Safety colors, manufacturer color schemes\n- **Size and proportions**: Relative scale of components\n\n## Contextual Clues\n- **Environment**: Workshop, construction site, factory setting\n- **Positioning**: How the tool is being held or mounted\n- **Associated materials**: Materials being worked on (wood, metal, etc.)\n- **Supporting equipment**: Power sources, accessories, attachments\n\n## Technical Details\n- **Control interfaces**: Buttons, switches, dials, digital displays\n- **Power sources**: Cords, battery packs, hydraulic lines, air hoses\n- **Specialized features**: Safety mechanisms, adjustment points, calibration marks\n\nWhen analyzing machinery specifically, I also consider operational components like motors, gears, belts, and specialized industrial design elements that indicate their purpose.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1081",
+    "pairs": [
+      {
+        "question": "Explain what a food web represents in an ecosystem.",
+        "answer": "A food web represents the complex network of feeding relationships between different organisms in an ecosystem, showing how energy and nutrients flow from one organism to another.",
+        "pred": "# Food Webs in Ecosystems\n\nA food web represents the complex feeding relationships between organisms in an ecosystem. Unlike a simple food chain, a food web illustrates the interconnected and overlapping pathways through which energy and nutrients flow through a community.\n\n## Key Elements of Food Webs\n\n- **Trophic Levels**: Organisms are grouped by their feeding role—producers (plants), primary consumers (herbivores), secondary consumers (carnivores), tertiary consumers (top predators), and decomposers.\n\n- **Multiple Pathways**: Shows how most species feed on multiple organisms and are consumed by multiple predators.\n\n- **Energy Transfer**: Illustrates how energy from the sun, captured by producers through photosynthesis, flows through the ecosystem.\n\n## Ecological Significance\n\nFood webs demonstrate ecosystem complexity and stability. When one species' population changes, it affects multiple other species throughout the web. This interconnectedness helps ecosystems maintain balance, as alternative feeding pathways can compensate when one component is disturbed.\n\nFood webs also reveal important ecological concepts like bioaccumulation of toxins up the food chain and the cascading effects that can occur when key species are removed from an ecosystem.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define the role of producers in an ecosystem and give an example.",
+        "answer": "Producers are organisms that create their own food using sunlight through photosynthesis, providing energy for the rest of the ecosystem. An example is trees.",
+        "pred": "# Role of Producers in an Ecosystem\n\nProducers are organisms that create their own food using energy from the environment, forming the first trophic level in any ecosystem. Their key roles include:\n\n1. **Energy Conversion**: They transform light energy (usually from the sun) into chemical energy stored in organic compounds through photosynthesis.\n\n2. **Food Source**: They serve as the foundation of food chains and food webs, providing nutrients and energy for primary consumers.\n\n3. **Oxygen Production**: Through photosynthesis, they release oxygen as a byproduct, maintaining atmospheric oxygen levels.\n\n4. **Habitat Creation**: Many producers physically structure ecosystems, creating habitats for other organisms.\n\n## Example\n\nA classic example of producers is green plants in a forest ecosystem. Trees like oaks and maples capture sunlight and, through photosynthesis, convert carbon dioxide and water into glucose and oxygen. These trees then serve as food for primary consumers like deer and insects, while also creating the physical structure of the forest habitat and contributing to oxygen production.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Describe how the removal of a species can affect other organisms in a food web.",
+        "answer": "The removal of a species can disrupt the energy flow and lead to a shortage of resources for other organisms that depend on it for food, potentially causing a cascade of effects throughout the ecosystem.",
+        "pred": "# Effects of Species Removal on a Food Web\n\nWhen a species is removed from a food web, it can trigger a cascade of effects throughout the ecosystem. These impacts vary based on the species' role and position in the food web:\n\n## Predator Removal\n\n- **Release of prey populations**: Without their natural predator, prey species may experience population booms\n- **Trophic cascades**: Can affect multiple trophic levels; for example, removing wolves can lead to deer overpopulation, which can cause overgrazing of vegetation\n- **Mesopredator release**: Removal of apex predators can allow medium-sized predators to increase, potentially harming smaller prey species\n\n## Prey Removal\n\n- **Predator starvation**: Predators may decline or go locally extinct without sufficient food sources\n- **Predator switching**: Predators may shift to alternative prey species, increasing pressure on those populations\n- **Forced migration**: Predators may need to relocate to find new food sources\n\n## Keystone Species Removal\n\n- **Disproportionate effects**: Removal of keystone species has impacts far beyond what their abundance would suggest\n- **Community restructuring**: Can fundamentally alter the composition and diversity of the entire ecosystem\n- **Example**: Sea otters' removal can allow sea urchin populations to explode, decimating kelp forests that provide habitat for numerous species\n\n## Producer Removal\n\n- **Energy flow disruption**: Reduces the total energy entering the food web\n- **Habitat loss**: Many plants provide physical structure and habitat for other organisms\n- **Nutrient cycling changes**: Can alter decomposition and nutrient availability in the ecosystem\n\nThese disruptions highlight the interconnected nature of ecosystems and why biodiversity conservation is crucial for maintaining ecological balance.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "762",
+    "pairs": [
+      {
+        "question": "How do you determine the total number of items you can purchase given a specific budget and the price per item?",
+        "answer": "Divide the total budget by the price per item to determine the maximum number of items you can purchase. Consider any remaining budget for additional purchases or alternative pricing options.",
+        "pred": "# Calculating the Number of Items Given a Budget\n\nTo determine the total number of items you can purchase with a specific budget:\n\n## Formula\nNumber of items = Budget ÷ Price per item\n\n## Steps\n1. Identify your total budget amount\n2. Identify the price of each item\n3. Divide your budget by the price per item\n4. If necessary, round down to the nearest whole number (since you typically can't buy partial items)\n\n## Example\nIf you have a budget of $50 and each item costs $12:\n- Number of items = $50 ÷ $12 = 4.17\n- Since you can't buy 0.17 of an item, you can purchase 4 items\n\nThe remaining budget would be $50 - (4 × $12) = $2",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "734",
+    "pairs": [
+      {
+        "question": "Explain what is meant by the 'shortest path' in a network of points connected by paths.",
+        "answer": "The shortest path is the path between two points that has the minimum distance or cost compared to all other paths connecting these points.",
+        "pred": "# Shortest Path in a Network\n\nThe \"shortest path\" in a network refers to the path between two points (or nodes) that minimizes some measure of distance or cost.\n\n## Key Concepts\n\n- **Network**: A collection of points (nodes) connected by lines (edges or paths)\n- **Path**: A sequence of connected edges that allows travel from one node to another\n- **Path length**: Can be measured in various ways:\n  - Number of edges traversed\n  - Sum of edge weights (if edges have distances or costs)\n  - Time to traverse\n  - Other costs associated with traversal\n\n## Example\n\nIn a road network:\n- Nodes = intersections or cities\n- Edges = roads\n- Edge weights = physical distances, travel times, or fuel costs\n\nThe shortest path from city A to city B would be the route that minimizes the total distance, time, or cost of travel.\n\n## Applications\n\nShortest path algorithms (like Dijkstra's algorithm or A* search) are used in:\n- GPS navigation systems\n- Network routing protocols\n- Flight planning\n- Supply chain optimization\n- Game pathfinding\n\nThe definition of \"shortest\" depends on what's being optimized in a particular application - physical distance, time, cost, or some other measure.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "374",
+    "pairs": [
+      {
+        "question": "Explain the concept of 'middle' in a sequence of items.",
+        "answer": "The 'middle' refers to the item or position that is equidistant from both ends of a sequence when the number of items is odd. For an even number, there may be two middle items.",
+        "pred": "# The Concept of \"Middle\" in a Sequence of Items\n\nThe middle of a sequence refers to the central position or item(s) within an ordered collection. This concept can be defined in several ways depending on the sequence's nature:\n\n## For Odd-Length Sequences\n\nWhen a sequence has an odd number of items (e.g., 5 elements), the middle is straightforward:\n- It's the single item that has an equal number of elements before and after it\n- For example, in [A, B, C, D, E], C is the middle element (2 items before, 2 items after)\n\n## For Even-Length Sequences\n\nWhen a sequence has an even number of items (e.g., 6 elements), two approaches are common:\n- **Two middle elements**: Consider both central items as \"the middle\" [A, B, C, D, E, F] → C and D\n- **Midpoint between elements**: In some contexts, the middle might be a position between the two central items\n\n## Different Contexts\n\nThe concept of \"middle\" varies by application:\n\n- **Mathematical median**: The value separating the higher half from the lower half\n- **Geometric middle**: The center point equidistant from the endpoints\n- **Temporal middle**: The midpoint in time between start and end events\n\nThe interpretation of \"middle\" ultimately depends on the specific domain and purpose for which you're examining the sequence.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "430",
+    "pairs": [
+      {
+        "question": "What is a geometric angle and how is it measured?",
+        "answer": "A geometric angle is formed by two rays (or line segments) that share a common endpoint, called a vertex. Angles are measured in degrees, using a protractor.",
+        "pred": "# Geometric Angle\n\nA geometric angle is formed when two rays (or line segments) share a common endpoint called the vertex. The angle represents the measure of rotation between these two rays.\n\n## Measurement of Angles\n\nAngles are typically measured in one of three units:\n\n1. **Degrees (°)** - The most common unit, where a full circle equals 360 degrees\n2. **Radians (rad)** - The standard unit in calculus and advanced mathematics, where a full circle equals 2π radians\n3. **Gradians (grad)** - Less common, where a full circle equals 400 gradians\n\n## Measuring Tools\n\nAngles can be measured using:\n- Protractors (for degrees)\n- Digital angle finders\n- Mathematical calculations (particularly for radians)\n\nAn angle's measure indicates how far one ray has rotated from the position of the other ray around the vertex point.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is symmetry and how does it relate to angles in objects?",
+        "answer": "Symmetry refers to the balanced and proportional arrangement of parts on either side of a dividing line or plane. In terms of angles, symmetrical objects will have angles that mirror each other across the line of symmetry.",
+        "pred": "# Symmetry and Angles\n\nSymmetry is a property where an object remains unchanged in appearance after undergoing certain transformations. In geometry, symmetry refers to a balanced and harmonious arrangement of parts.\n\n## Key Types of Symmetry\n\n1. **Reflectional (Line) Symmetry**\n   - Occurs when one half of an object mirrors the other half across a line (the line of symmetry)\n   - Angles on opposite sides of the line of symmetry are equal\n   - Example: The letter \"A\" has vertical line symmetry\n\n2. **Rotational Symmetry**\n   - Occurs when an object can be rotated around a point and still look the same\n   - The angles between corresponding features remain constant during rotation\n   - Example: A square has 4-fold rotational symmetry (looks identical when rotated 90°, 180°, 270°, or 360°)\n\n3. **Translational Symmetry**\n   - Occurs in patterns that repeat by sliding (without rotating or reflecting)\n   - The angles in each repeating unit are identical\n   - Example: A repeating tile pattern on a floor\n\n## Angles and Symmetry Relationships\n\n- **Equal Angles**: Symmetrical objects often contain equal angles in their corresponding parts\n- **Supplementary/Complementary Angles**: Many symmetrical shapes contain angle relationships that sum to 180° or 90°\n- **Regular Polygons**: Perfect rotational symmetry where all interior angles are equal (e.g., equilateral triangle: 60° angles, square: 90° angles)\n\nSymmetry provides a fundamental organizing principle in mathematics, art, architecture, and nature, with angles playing a critical role in defining and measuring these symmetric relationships.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "968",
+    "pairs": [
+      {
+        "question": "Explain the principle of balance and equivalence in the context of scales.",
+        "answer": "In the context of scales, balance and equivalence mean that the weight on one side of the scale is equal to the weight on the other side. When a scale is balanced, the two sides are in equilibrium, indicating equal weights.",
+        "pred": "# Balance and Equivalence in Scales\n\nThe principle of balance and equivalence is fundamental to understanding how scales work, both physically and conceptually.\n\n## Physical Balance\n\nIn a traditional balance scale:\n- Two pans hang from opposite ends of a horizontal beam\n- The beam is supported at its center (fulcrum)\n- When masses on both sides are equal, the beam remains horizontal\n- When masses differ, the heavier side descends while the lighter rises\n\nThis physical phenomenon demonstrates equilibrium - a state where opposing forces cancel each other out.\n\n## Mathematical Equivalence\n\nThe scale serves as a physical representation of the equals sign (=) in mathematics:\n- If A = B, then A and B have the same value or magnitude\n- Adding or subtracting the same amount from both sides maintains balance\n- Multiplying or dividing both sides by the same non-zero value preserves equality\n\n## Applications\n\nThis principle extends beyond simple weighing:\n- Justice is often symbolized by balanced scales, representing fairness\n- Accounting balances use this concept with debits equaling credits\n- Chemical equations must balance (conservation of mass)\n- Economic markets seek equilibrium between supply and demand\n\nThe scale thus embodies a profound concept: different things can be compared through a common measure, and systems naturally seek equilibrium when undisturbed.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How do you perform multiplication with whole numbers? Provide an example.",
+        "answer": "Multiplication with whole numbers involves adding a number to itself a specified number of times. For example, 3 multiplied by 4 (3 x 4) means adding 3 four times (3 + 3 + 3 + 3), which equals 12.",
+        "pred": "# Multiplication with Whole Numbers\n\nMultiplication is a mathematical operation that represents repeated addition of the same number. When multiplying whole numbers, you're essentially finding the total when one number is added to itself a certain number of times.\n\n## Basic Process\n\n1. Arrange the numbers with one number on top of the other\n2. Multiply each digit of the top number by each digit of the bottom number, working from right to left\n3. Add the products together, accounting for place value\n\n## Example: 34 × 27\n\nLet me walk through this step by step:\n\n```\n    3 4\n  × 2 7\n  -----\n```\n\nStep 1: Multiply 4 by 7\n```\n    3 4\n  × 2 7\n  -----\n    2 8  (4 × 7 = 28, write 8, carry 2)\n```\n\nStep 2: Multiply 3 by 7, and add the carried value\n```\n  2\n    3 4\n  × 2 7\n  -----\n   2 3 8  (3 × 7 = 21, plus carried 2 = 23)\n```\n\nStep 3: Multiply 4 by 2\n```\n  2\n    3 4\n  × 2 7\n  -----\n   2 3 8\n     8    (4 × 2 = 8)\n```\n\nStep 4: Multiply 3 by 2\n```\n  2\n    3 4\n  × 2 7\n  -----\n   2 3 8\n   6 8    (3 × 2 = 6, write in tens position)\n```\n\nStep 5: Add the partial products\n```\n    3 4\n  × 2 7\n  -----\n   2 3 8\n   6 8\n  -----\n   9 1 8  (238 + 680 = 918)\n```\n\nTherefore, 34 × 27 = 918",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "469",
+    "pairs": [
+      {
+        "question": "Explain what an analogy is and how it is used to compare two pairs of concepts.",
+        "answer": "An analogy is a comparison between two things that highlights a relationship or similarity between them. It is often used to explain or clarify the relationship between two pairs of concepts by showing how they are similar or different in a meaningful way.",
+        "pred": "# Analogy: Definition and Use\n\nAn analogy is a comparison that shows how two different things are similar in some significant way. It's a cognitive process that transfers information or meaning from one subject (the source) to another (the target).\n\n## Structure of an Analogy\n\nAnalogies often take the form \"A is to B as C is to D\" or written as \"A:B::C:D\". This structure establishes a relationship between the first pair (A and B) and shows how the same relationship exists between the second pair (C and D).\n\n## How Analogies Work to Compare Concept Pairs\n\n1. **Identify the relationship** in the first pair of concepts\n2. **Transfer that relationship** to the second pair\n3. **Highlight similarities** while acknowledging differences\n\n## Example\n\nIn the analogy \"Bird is to sky as fish is to water\":\n- First pair: Birds fly through the sky (habitat/movement relationship)\n- Second pair: Fish swim through water (same habitat/movement relationship)\n- The comparison helps us understand that water serves the same function for fish that sky does for birds\n\n## Uses of Analogies\n\n- **Explanation**: Making unfamiliar concepts understandable\n- **Persuasion**: Strengthening arguments\n- **Problem-solving**: Applying solutions from one domain to another\n- **Learning**: Creating mental frameworks for new information\n- **Creative thinking**: Generating novel connections between ideas\n\nEffective analogies reveal meaningful parallels while recognizing the limits of the comparison.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "998",
+    "pairs": [
+      {
+        "question": "Explain how analogies are used to understand relationships between different sets of objects or concepts.",
+        "answer": "Analogies are used to identify and understand the relationship between one pair of objects or concepts and apply a similar relationship to another pair. They often involve recognizing similar patterns, functions, or roles.",
+        "pred": "# Understanding Analogies: Mapping Relationships Between Concepts\n\nAnalogies are powerful cognitive tools that allow us to understand unfamiliar concepts by relating them to familiar ones. They work by establishing systematic mappings between the structures of two different domains.\n\n## How Analogies Function\n\nAt their core, analogies identify relationships in one domain (the source) and apply them to another domain (the target). The formula \"A is to B as C is to D\" captures this structure, where the relationship between A and B mirrors the relationship between C and D.\n\n## Key Uses of Analogies\n\n1. **Learning New Concepts**: Analogies help us grasp unfamiliar ideas by connecting them to known concepts. For example, understanding electricity flow by comparing it to water flowing through pipes.\n\n2. **Problem Solving**: When facing new problems, analogies allow us to transfer solution strategies from familiar situations.\n\n3. **Scientific Discovery**: Many scientific breakthroughs came through analogical thinking (e.g., Bohr's solar system model of the atom).\n\n4. **Communication**: Analogies make complex ideas accessible by translating them into more familiar terms.\n\n## Mapping Relationships\n\nThe power of analogies comes from mapping structural relationships rather than surface similarities. For instance, in \"the atom is like a solar system,\" we map the relationship between the nucleus and electrons to the relationship between the sun and planets—focusing on the gravitational/electromagnetic attraction patterns rather than physical appearances.\n\nEffective analogies preserve the key relational patterns while acknowledging where the comparison breaks down.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "548",
+    "pairs": [
+      {
+        "question": "Explain what an analogy is and how it is used to relate two pairs of concepts or items.",
+        "answer": "An analogy is a comparison between two pairs of concepts or items that highlights a relationship between them. It is used to identify a similar relationship between two sets, often to explain or clarify a concept by comparing it with a more familiar one.",
+        "pred": "# Analogy: Definition and Usage\n\nAn analogy is a comparison that highlights similarities between two different things, showing how things that appear dissimilar actually share important characteristics or relationships.\n\n## What Makes an Analogy\n\nAn analogy typically follows this structure: \"A is to B as C is to D\" (often written as A:B::C:D). This creates a parallel relationship where the connection between A and B mirrors the connection between C and D.\n\n## How Analogies Work\n\nAnalogies establish a mapping between two conceptual domains:\n- They identify a familiar relationship in one domain\n- They transfer that relationship pattern to help understand another domain\n- They highlight structural similarities rather than surface-level resemblances\n\n## Examples of Analogies\n\n- **Teacher is to student as coach is to athlete**\n  *Both relationships involve guidance, instruction, and development*\n\n- **Wing is to bird as fin is to fish**\n  *Both are appendages that enable movement through a medium*\n\n## Why Analogies Are Valuable\n\nAnalogies serve multiple purposes:\n- Making unfamiliar concepts accessible through familiar relationships\n- Facilitating reasoning about new situations\n- Explaining complex ideas more concretely\n- Encouraging creative thinking by revealing unexpected connections\n\nEffective analogies emphasize relevant similarities while acknowledging that the comparison isn't perfect in all aspects.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Describe the function of a lawnmower and its typical use.",
+        "answer": "A lawnmower is a machine used to cut grass to a uniform height. It is typically used for maintaining lawns, gardens, and grassy areas by trimming the grass to keep it neat and manageable.",
+        "pred": "# Function and Use of a Lawnmower\n\nA lawnmower is a mechanical device designed to cut grass to a consistent height, maintaining the aesthetic appearance and health of lawns.\n\n## Primary Function\n- Cuts grass blades at a set height using rotating blades or cutting mechanisms\n- Collects or disperses grass clippings\n- Maintains lawn at a desired, uniform height\n\n## Typical Uses\n- Regular maintenance of residential lawns (typically weekly during growing season)\n- Landscaping of commercial properties\n- Maintenance of parks, sports fields, and public spaces\n- Preventing overgrowth that could harbor pests or create fire hazards\n\nMost homeowners use lawnmowers every 1-2 weeks during growing seasons (spring through fall), adjusting the cutting height based on grass type, season, and local conditions. The process typically involves pushing or riding the mower in overlapping lines across the lawn until all areas are trimmed to the desired height.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Discuss the difference in scale between a small tractor and a larger tractor, and how this affects their use.",
+        "answer": "A small tractor is usually used for lighter tasks like mowing small fields or gardens, whereas a larger tractor is designed for heavy-duty agricultural tasks like plowing large fields. The difference in scale affects their power, capacity, and the size of the area they can efficiently manage.",
+        "pred": "# Small vs. Large Tractors: Scale Differences and Applications\n\nThe scale difference between small and large tractors significantly impacts their applications, efficiency, and economics.\n\n## Physical Dimensions and Power\n\n**Small Tractors (20-50 HP):**\n- Typically 8-10 feet long and 4-5 feet wide\n- Engine power of 20-50 horsepower\n- Weight range of 1,500-4,000 pounds\n\n**Large Tractors (100-600+ HP):**\n- Can exceed 20 feet in length and 8-12 feet in width\n- Engine power from 100 to over 600 horsepower\n- Weight ranging from 10,000 to over 50,000 pounds\n\n## Application Differences\n\n**Small Tractors:**\n- Ideal for small acreage (1-20 acres)\n- Perfect for landscaping, gardening, and small-scale farming\n- Can navigate tight spaces between crops or around buildings\n- Suitable for light-duty tasks like mowing, tilling small plots, and basic loader work\n\n**Large Tractors:**\n- Essential for commercial farming operations (hundreds to thousands of acres)\n- Designed for heavy field work like deep tillage, large-scale planting, and harvesting\n- Can operate implements spanning 40+ feet wide\n- Capable of working continuously for long periods with higher fuel capacity\n\n## Economic and Practical Considerations\n\n**Small Tractors:**\n- Lower initial investment ($15,000-$40,000)\n- Reduced fuel consumption\n- Less soil compaction due to lighter weight\n- Easier maintenance and lower operating costs\n- Can often be transported on smaller trailers\n\n**Large Tractors:**\n- Higher productivity per hour (covering more acreage)\n- More sophisticated technology (GPS, yield monitoring, etc.)\n- Greater operator comfort for long working days\n- Significantly higher purchase cost ($100,000-$500,000+)\n- Require specialized transportation\n\nThe scale difference ultimately determines the efficiency equation: small tractors are more economical for limited operations where maneuverability matters more than raw power, while large tractors become necessary when the economics of scale justify their higher costs through vastly increased productivity.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "778",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used in problem-solving?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, often used to explain a concept or solve a problem by highlighting similarities. In problem-solving, it helps identify relationships and patterns that can be applied to new situations.",
+        "pred": "# Analogy and Its Role in Problem-Solving\n\nAn analogy is a comparison that highlights similarities between two different things, concepts, or situations to transfer understanding from something familiar to something unfamiliar.\n\n## What Makes an Analogy\nAn analogy identifies parallel relationships or structures between a source domain (something we understand well) and a target domain (something we're trying to understand).\n\n## How Analogies Aid Problem-Solving\n\n1. **Framework Transfer**: Analogies let us apply successful solution structures from known problems to new ones.\n\n2. **Mental Model Creation**: They help build conceptual models of unfamiliar problems by mapping them to familiar ones.\n\n3. **Creative Insight**: By seeing connections between disparate domains, we can generate innovative solutions.\n\n4. **Abstraction**: Analogies help extract general principles that work across different contexts.\n\n5. **Communication**: They make complex problems more accessible by relating them to common experiences.\n\nFor example, a computer programmer might solve a data organization problem by thinking about how a librarian organizes books, transferring principles of categorization and retrieval from a physical system to a digital one.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": 1099,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 475,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 654,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 209,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 904,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 1063,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 1176,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 977,
+    "pairs": [],
+    "overall": 1
+  }
+]

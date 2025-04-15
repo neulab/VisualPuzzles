@@ -1,0 +1,763 @@
+[
+  {
+    "id": "856",
+    "pairs": [
+      {
+        "question": "Describe the process of solving a simple linear equation.",
+        "answer": "To solve a simple linear equation, isolate the variable on one side of the equation by performing inverse operations. This may involve adding, subtracting, multiplying, or dividing both sides of the equation by the same number to maintain equality. Simplify each side as needed until the variable is isolated.",
+        "pred": "\n\nSolving a simple linear equation involves isolating the variable on one side of the equation. Here are the steps to solve a simple linear equation:\n\n1. Simplify both sides of the equation by combining like terms. This means adding or subtracting the numbers on each side of the equation.\n\n2. Use the addition or subtraction property of equality to move all the variable terms to one side of the equation and all the constant terms to the other side. This means adding or subtracting the same number from both sides of the equation.\n\n3. Use the multiplication or division property of equality to isolate the variable. This means multiplying or dividing both sides of the equation by the same number.\n\n4. Check your solution by substituting the value of the variable back into the original equation to see if it makes the equation true.\n\nFor example, let's solve the equation 2x + 3 = 7:\n\n1. Simplify both sides of the equation: 2x + 3 = 7\n\n2. Subtract 3 from both sides of the equation: 2x = 4\n\n3. Divide both sides of the equation by 2: x = 2\n\n4. Check the solution by substituting x = 2 back into the original equation: 2(2) + 3 = 7, which is true.\n\nTherefore, the solution to the equation 2x + 3 = 7 is x = 2.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "418",
+    "pairs": [
+      {
+        "question": "What is an analogy, and how is it used to compare relationships?",
+        "answer": "An analogy is a comparison between two things that highlights a relationship or similarity between them. It is often used to explain or clarify by showing how something unknown is similar to something familiar.",
+        "pred": "An analogy is a comparison between two things that are alike in some way. It is used to explain a relationship between two things by drawing a parallel between them. For example, you might say that \"love is like a flower,\" which means that love is something that grows and needs care, just like a flower. Analogies can be used to compare relationships in a variety of ways, such as comparing the relationship between two people to the relationship between two countries, or comparing the relationship between two animals to the relationship between two humans.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define a motorboat and describe its primary characteristics.",
+        "answer": "A motorboat is a boat that is propelled by an engine. It is typically fast and easy to maneuver, often used for recreation, fishing, or transport.",
+        "pred": "A motorboat is a type of watercraft that is powered by an internal combustion engine or an electric motor. It is designed to move through water and is typically used for recreational purposes such as fishing, sightseeing, and leisurely rides. \n\nThe primary characteristics of a motorboat include:\n\n1. Hull: The hull is the main body of the boat that provides buoyancy and stability. It can be made of various materials such as fiberglass, aluminum, or wood.\n\n2. Engine: The engine is the power source that propels the boat through the water. It can be an internal combustion engine or an electric motor.\n\n3. Controls: The controls of a motorboat include the steering wheel or joystick, throttle, and brake pedals. These controls allow the operator to navigate the boat and control its speed and direction.\n\n4. Seating: Motorboats typically have seating arrangements that can accommodate a small number of passengers. The seating can be fixed or adjustable, depending on the design of the boat.\n\n5. Storage: Many motorboats have storage compartments for carrying fishing gear, coolers, and other supplies.\n\n6. Safety equipment: Motorboats are required to have safety equipment such as life jackets, fire extinguishers, and first aid kits on board.\n\nOverall, motorboats are versatile and can be used for a variety of purposes, from fishing and sightseeing to transportation and recreation.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define a sailboat and describe how it is powered.",
+        "answer": "A sailboat is a boat that is propelled mainly by sails. It relies on wind power to move and is designed with one or more masts to hold the sails.",
+        "pred": "A sailboat is a type of boat that is powered by wind. It typically has a mast and one or more sails that catch the wind and propel the boat forward. The sails are attached to the mast and can be adjusted to control the direction and speed of the boat. Sailboats can be used for recreational purposes, such as sailing on the ocean or lake, or for competitive racing. They can also be used for fishing or transportation. Sailboats come in a variety of sizes and styles, ranging from small, single-person dinghies to large, multi-person racing yachts.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "537",
+    "pairs": [
+      {
+        "question": "Discuss how identical cubes can be arranged to construct a three-dimensional figure and how this relates to determining views of the figure.",
+        "answer": "Identical cubes can be stacked and aligned in various configurations to create complex three-dimensional figures. Understanding this allows one to predict how the arrangement will appear from different angles, such as from the front, top, and sides, which is essential for matching these views to a given figure.",
+        "pred": "To construct a three-dimensional figure using identical cubes, you can arrange them in various ways depending on the desired shape. For example, to create a cube, you would arrange 8 cubes in a 2x2x2 configuration. To create a rectangular prism, you could arrange 12 cubes in a 3x2x2 configuration. The number of cubes used and their arrangement will determine the shape of the three-dimensional figure.\n\nWhen determining views of the three-dimensional figure, you can use a technique called \"net\" to visualize the figure. A net is a two-dimensional representation of the three-dimensional figure, showing how the cubes are arranged. By folding the net along the edges, you can visualize the three-dimensional figure and determine its views.\n\nFor example, if you have a cube made of 8 cubes, you can create a net by drawing a 2x2 square and connecting the edges with lines. When you fold the net along the lines, you will see a cube. Similarly, if you have a rectangular prism made of 12 cubes, you can create a net by drawing a 3x2 rectangle and connecting the edges with lines. When you fold the net along the lines, you will see a rectangular prism.\n\nBy using nets and visualizing the three-dimensional figure, you can determine its views and understand how the cubes are arranged. This technique is useful in various fields, such as architecture, engineering, and design, where understanding the three-dimensional shape of an object is important.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "546",
+    "pairs": [
+      {
+        "question": "Explain symmetry in geometric figures and its types.",
+        "answer": "Symmetry in geometric figures refers to a balanced and proportionate similarity found in two halves of an object. The main types of symmetry are reflective (mirror symmetry), rotational (object looks the same after a certain amount of rotation), and translational (object looks the same after a certain amount of movement).",
+        "pred": "Symmetry in geometric figures refers to the property of a shape or figure that remains unchanged when it is transformed in certain ways. There are several types of symmetry in geometric figures, including:\n\n1. Reflectional Symmetry: This type of symmetry occurs when a shape can be divided into two mirror-image halves by a line of symmetry. For example, a square has four lines of reflectional symmetry, while a circle has infinite lines of reflectional symmetry.\n\n2. Rotational Symmetry: This type of symmetry occurs when a shape can be rotated around a central point and still look the same. The number of times a shape can be rotated before it looks the same is called the order of rotational symmetry. For example, a regular pentagon has five lines of rotational symmetry.\n\n3. Translational Symmetry: This type of symmetry occurs when a shape can be shifted in a certain direction and still look the same. For example, a line of tiles on a wall can have translational symmetry if the tiles are arranged in a repeating pattern.\n\n4. Glide Reflectional Symmetry: This type of symmetry occurs when a shape can be reflected over a line and then translated along that line. For example, a staircase can have glide reflectional symmetry if the steps are arranged in a repeating pattern.\n\n5. Glide Rotational Symmetry: This type of symmetry occurs when a shape can be rotated around a central point and then translated along a line of symmetry. For example, a spiral staircase can have glide rotational symmetry if the steps are arranged in a repeating pattern.\n\nSymmetry is an important concept in geometry and is used in many areas of mathematics and science, including art, architecture, and engineering.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "653",
+    "pairs": [
+      {
+        "question": "Define a triangle and list its basic properties.",
+        "answer": "A triangle is a polygon with three edges and three vertices. The sum of the internal angles in a triangle is always 180 degrees. Triangles can be classified based on their side lengths (equilateral, isosceles, scalene) or angles (acute, right, obtuse).",
+        "pred": "A triangle is a polygon with three sides and three angles. It is one of the most basic shapes in geometry and is often used as a building block for more complex shapes.\n\nThe basic properties of a triangle include:\n\n1. Three sides: A triangle has three sides, which are the line segments that connect the three vertices.\n\n2. Three angles: A triangle has three angles, which are the interior angles formed by the sides of the triangle.\n\n3. Sum of angles: The sum of the interior angles of a triangle is always 180 degrees.\n\n4. Types of triangles: Triangles can be classified based on their sides and angles. There are three types of triangles based on their sides: equilateral (all sides equal), isosceles (two sides equal), and scalene (no sides equal). There are also three types of triangles based on their angles: acute (all angles less than 90 degrees), right (one angle equal to 90 degrees), and obtuse (one angle greater than 90 degrees).\n\n5. Area: The area of a triangle can be calculated using the formula: Area = 1/2 * base * height, where the base is one of the sides of the triangle and the height is the perpendicular distance from the opposite vertex to the base.\n\n6. Perimeter: The perimeter of a triangle is the sum of the lengths of its three sides.\n\n7. Median: A median of a triangle is a line segment that connects a vertex to the midpoint of the opposite side. Every triangle has three medians, and they all intersect at a single point called the centroid.\n\n8. Altitude: An altitude of a triangle is a line segment that is perpendicular to a side of the triangle and passes through the opposite vertex. Every triangle has three altitudes, and they all intersect at a single point called the orthocenter.\n\n9. Inradius: The inradius of a triangle is the radius of the circle that can be inscribed inside the triangle, touching all three sides. The inradius can be calculated using the formula: Inradius = Area / Semiperimeter, where the semiperimeter is half the perimeter of the triangle.\n\n10. Circumradius: The circumradius of a triangle is the radius of the circle that can be circumscribed around the triangle, passing through all three vertices. The circumradius can be calculated using the formula: Circumradius = a / (2 * sin(A)), where a is the length of one side of the triangle and A is the angle opposite that side.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1133",
+    "pairs": [
+      {
+        "question": "Define a rectangle and list its properties.",
+        "answer": "A rectangle is a quadrilateral with four right angles. Its opposite sides are equal in length, and its diagonals bisect each other.",
+        "pred": "A rectangle is a four-sided polygon with opposite sides that are equal in length and parallel to each other. It has four right angles (90 degrees each) and opposite sides that are equal in length. \n\nProperties of a rectangle include:\n\n1. Four sides: A rectangle has four sides, with opposite sides being equal in length.\n\n2. Four right angles: Each angle in a rectangle measures 90 degrees.\n\n3. Opposite sides are parallel: The opposite sides of a rectangle are parallel to each other.\n\n4. Diagonals are equal: The diagonals of a rectangle are equal in length.\n\n5. Symmetry: A rectangle has two lines of symmetry, one through the center of the rectangle and perpendicular to the longer sides, and the other through the center of the rectangle and parallel to the shorter sides.\n\n6. Area: The area of a rectangle is calculated by multiplying the length by the width.\n\n7. Perimeter: The perimeter of a rectangle is calculated by adding up the lengths of all four sides.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "674",
+    "pairs": [
+      {
+        "question": "What is an analogy, and how is it used to compare two sets of items?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, typically for the purpose of explanation or clarification. It is used to highlight a similarity or relationship between two sets of items.",
+        "pred": "An analogy is a comparison between two sets of items that share some common characteristics. It is used to highlight similarities between the two sets, making it easier to understand or explain one set by relating it to the other. For example, you might use an analogy to compare two different types of animals, such as a dog and a cat, by pointing out that they both have four legs and both bark. This helps to make the comparison more concrete and easier to understand.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What characteristics define a hot air balloon?",
+        "answer": "A hot air balloon is a lighter-than-air aircraft consisting of a bag, called an envelope, which contains heated air. Suspended beneath is a gondola or wicker basket, which carries passengers and a heat source, usually an open flame.",
+        "pred": "Hot air balloons are characterized by their large, lightweight, and buoyant envelope made of a strong, lightweight fabric, usually nylon or polyester. The envelope is filled with hot air, which is less dense than the surrounding cooler air, causing the balloon to rise. The balloon is typically powered by a gas burner that heats the air inside the envelope, and it is controlled by a basket or gondola that is suspended below the envelope. Hot air balloons are often used for recreational purposes, such as sightseeing, and for competitive events, such as races and rallies.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What are common triggers for sneezing?",
+        "answer": "Common triggers for sneezing include allergens like pollen, dust, pet dander, irritants like smoke or strong odors, and infections such as the common cold.",
+        "pred": "Sneezing is a reflex that helps to clear the nose and throat of irritants. Common triggers for sneezing include:\n\n  * Allergens such as pollen, dust, and pet dander\n  * Irritants such as smoke, fumes, and strong odors\n  * Cold and flu viruses\n  * Food allergies\n  * Nasal congestion or irritation\n  * Changes in temperature or humidity\n  * Emotional triggers such as stress or anxiety\n\nIt's important to note that sneezing is a natural response to clear the airways, and it is not usually a cause for concern. However, if sneezing is accompanied by other symptoms such as fever, cough, or difficulty breathing, it may be a sign of a more serious illness and should be evaluated by a healthcare professional.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "127",
+    "pairs": [
+      {
+        "question": "Explain how to calculate the sum of numbers in a given row or column.",
+        "answer": "To calculate the sum of numbers in a given row or column, add all the numbers present in that row or column together.",
+        "pred": "To calculate the sum of numbers in a given row or column, you need to add up all the numbers in that row or column. Here are the steps to follow:\n\n1. Identify the row or column you want to sum. For example, if you want to sum the numbers in the first row, you would look at the first row of the table.\n\n2. Add up all the numbers in the row or column. For example, if the first row of the table contains the numbers 2, 4, and 6, you would add them up to get a total of 12.\n\n3. If you want to sum the numbers in a column, you would look at the column and add up all the numbers in that column. For example, if the first column of the table contains the numbers 1, 3, and 5, you would add them up to get a total of 9.\n\n4. If you want to sum the numbers in a specific range of cells, you can use a formula like SUM(range) in Excel or Google Sheets. For example, if you want to sum the numbers in cells A1 to A5, you would use the formula =SUM(A1:A5).\n\n5. Once you have added up all the numbers in the row or column, you can display the total by clicking on the cell where you want to display the result or by using a formula like =SUM(range) in Excel or Google Sheets.\n\nThat's it! With these steps, you can easily calculate the sum of numbers in a given row or column.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "743",
+    "pairs": [
+      {
+        "question": "What is the definition of distance in a geometric context?",
+        "answer": "Distance in a geometric context refers to the measurement of space between two points.",
+        "pred": "In a geometric context, distance is a measure of the separation between two points or objects. It is typically defined as the length of the shortest path connecting the two points, measured along a straight line. Distance is a fundamental concept in geometry and is used to describe the spatial relationships between objects.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "296",
+    "pairs": [
+      {
+        "question": "What is a 4x4 grid and how many total units does it contain?",
+        "answer": "A 4x4 grid is a square arrangement consisting of 4 rows and 4 columns, totaling 16 units.",
+        "pred": "A 4x4 grid is a grid with 4 rows and 4 columns, containing a total of 16 units.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "748",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare objects or concepts?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, but have some similarities. It is used to explain or clarify concepts by highlighting similar relationships.",
+        "pred": "An analogy is a comparison between two things that are alike in some way. It is used to explain or clarify a concept by drawing a parallel between two different things. For example, you might say that \"time is a thief\" to explain the idea that time can take away our youth and happiness.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What are the characteristics of a wilted plant, and how can it be identified?",
+        "answer": "A wilted plant typically has limp, drooping leaves and stems due to a lack of water or nutrients. It can be identified by its shriveled, soft appearance and loss of rigidity.",
+        "pred": "A wilted plant is a plant that has lost its turgor pressure, causing it to droop and appear limp. It can be identified by its drooping leaves, wilting flowers, and overall limp appearance.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is luminescence, and how can it be recognized in objects or scenes?",
+        "answer": "Luminescence is the emission of light by a substance not resulting from heat; it can be seen as a glow in the dark. It is recognized by its visible light emission, often in vivid colors, in low-light conditions.",
+        "pred": "Luminescence is the emission of light by a substance without the need for external energy sources. It can be recognized in objects or scenes through the presence of glowing or luminescent materials.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "320",
+    "pairs": [
+      {
+        "question": "What is an analogy, and how is it typically used to compare two pairs of items?",
+        "answer": "An analogy is a comparison between two pairs of items that highlights a relationship or similarity between them. It is often used to explain or clarify concepts by showing how they are similar in certain aspects.",
+        "pred": "An analogy is a comparison between two pairs of items that share some common characteristics. It is typically used to highlight similarities between two different things, such as two people, two places, or two events. For example, you might say that two people are \"like two peas in a pod\" or that two places are \"like two sides of the same coin.\" Analogies can be used to make complex ideas more accessible and to help people understand relationships between different things.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "613",
+    "pairs": [
+      {
+        "question": "What is the sum of 19, 13, and 30?",
+        "answer": "62",
+        "pred": "To find the sum of 19, 13, and 30, you simply add them together:\n\n19 + 13 + 30 = 62\n\nSo, the sum of 19, 13, and 30 is 62.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "91",
+    "pairs": [
+      {
+        "question": "What is the role of the numerator in a fraction?",
+        "answer": "The numerator in a fraction indicates how many parts of the whole are being considered.",
+        "pred": "The numerator in a fraction represents the number of equal parts that are being considered. It is the top number in a fraction and indicates how many parts of the whole are being represented. For example, in the fraction 3/4, the numerator is 3, which means that three parts of the whole are being considered.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What does the denominator in a fraction represent?",
+        "answer": "The denominator in a fraction represents the total number of equal parts into which the whole is divided.",
+        "pred": "The denominator in a fraction represents the total number of equal parts into which the whole is divided. It is the bottom number in a fraction and indicates the number of equal parts that make up the whole. For example, in the fraction 3/4, the denominator is 4, which means that the whole is divided into 4 equal parts.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Explain how to compare two fractions with different denominators.",
+        "answer": "To compare two fractions with different denominators, find a common denominator, convert the fractions to equivalent fractions with that common denominator, and then compare the numerators.",
+        "pred": "To compare two fractions with different denominators, you need to find a common denominator and then compare the numerators. Here are the steps:\n\n1. Find the least common multiple (LCM) of the denominators. The LCM is the smallest number that both denominators can divide into evenly.\n\n2. Convert each fraction to an equivalent fraction with the LCM as the denominator. To do this, multiply both the numerator and denominator of each fraction by the same number that will make the denominator equal to the LCM.\n\n3. Once both fractions have the same denominator, compare the numerators. The fraction with the larger numerator is the larger fraction.\n\nFor example, let's compare the fractions 1/3 and 2/5:\n\n1. The LCM of 3 and 5 is 15.\n\n2. Convert each fraction to an equivalent fraction with a denominator of 15:\n   - 1/3 = (1 x 5) / (3 x 5) = 5/15\n   - 2/5 = (2 x 3) / (5 x 3) = 6/15\n\n3. Compare the numerators: 5 < 6, so 1/3 < 2/5.\n\nTherefore, 2/5 is the larger fraction.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "812",
+    "pairs": [
+      {
+        "question": "Define what a row and a column are in the context of a grid.",
+        "answer": "A row is a horizontal line of elements in a grid, while a column is a vertical line of elements. In a 5x5 grid, there are 5 rows and 5 columns.",
+        "pred": "In the context of a grid, a row is a horizontal line of cells, while a column is a vertical line of cells. Rows and columns are used to organize and structure data in a grid, making it easier to read and analyze. Each cell in the grid represents a specific value or piece of information, and the row and column labels help to identify the location of each cell. For example, in a spreadsheet, rows are typically used to represent different records or data points, while columns are used to represent different categories or variables.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "942",
+    "pairs": [
+      {
+        "question": "What is symmetry in patterns, and how can it be recognized?",
+        "answer": "Symmetry in patterns refers to a balance or mirroring of elements around a central point or axis. It can be recognized by identifying identical shapes, sizes, and positions of elements on either side of a dividing line or point.",
+        "pred": "Symmetry in patterns refers to the property of a pattern that allows it to be divided into two or more identical parts. This can be recognized by identifying the line(s) of symmetry, which are the lines that divide the pattern into two or more identical parts.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "772",
+    "pairs": [
+      {
+        "question": "Explain how to identify a 2x2 sub-square in a 3x3 grid.",
+        "answer": "A 2x2 sub-square within a 3x3 grid is a smaller square consisting of four adjacent cells. There are four possible 2x2 sub-squares in a 3x3 grid, each starting from the top left, top right, bottom left, and bottom right cells.",
+        "pred": "To identify a 2x2 sub-square in a 3x3 grid, you need to look for a 2x2 square that is completely contained within the 3x3 grid. This means that the 2x2 square must have its top left corner at a position that is not on the edge of the 3x3 grid, and its bottom right corner must also be on a position that is not on the edge of the 3x3 grid.\n\nFor example, in the following 3x3 grid:\n\n```\n1 2 3\n4 5 6\n7 8 9\n```\n\nThe 2x2 sub-square that is completely contained within the 3x3 grid is:\n\n```\n4 5\n7 8\n```\n\nTo identify this sub-square, you need to look for a 2x2 square that has its top left corner at position (1,1) and its bottom right corner at position (2,2). This means that the sub-square must have the following values:\n\n```\n4 5\n7 8\n```\n\nYou can also identify a 2x2 sub-square by looking for a 2x2 square that has its top left corner at position (1,2) and its bottom right corner at position (2,3). This means that the sub-square must have the following values:\n\n```\n2 3\n5 6\n```\n\nOr, you can look for a 2x2 sub-square that has its top left corner at position (2,1) and its bottom right corner at position (3,2). This means that the sub-square must have the following values:\n\n```\n1 2\n4 5\n```\n\nOr, you can look for a 2x2 sub-square that has its top left corner at position (2,2) and its bottom right corner at position (3,3). This means that the sub-square must have the following values:\n\n```\n3 6\n8 9\n```\n\nIn summary, to identify a 2x2 sub-square in a 3x3 grid, you need to look for a 2x2 square that is completely contained within the 3x3 grid and has its top left corner at a position that is not on the edge of the 3x3 grid, and its bottom right corner must also be on a position that is not on the edge of the 3x3 grid.",
+        "eval": "0",
+        "score": 0
+      }
+    ],
+    "overall": 0
+  },
+  {
+    "id": "932",
+    "pairs": [
+      {
+        "question": "Define an analogy and provide an example.",
+        "answer": "An analogy is a comparison between two things that are similar in some way, often used to help explain something or make it easier to understand. For example, 'Just as a sword is the weapon of a warrior, a pen is the weapon of a writer.'",
+        "pred": "An analogy is a figure of speech that compares two things that are alike in some way, but are not necessarily identical. It is used to highlight similarities between two different things, often to make a point or to help explain a concept.\n\nExample: \"Time is a thief.\" This analogy compares time to a thief, suggesting that time can steal away moments and opportunities just like a thief would steal valuable items. It highlights the idea that time is precious and should be珍惜ed.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What activity is typically associated with wearing a backpack and using walking sticks?",
+        "answer": "The activity typically associated with wearing a backpack and using walking sticks is hiking.",
+        "pred": "Hiking is typically associated with wearing a backpack and using walking sticks.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How can you identify a person expressing happiness in an image?",
+        "answer": "A person expressing happiness in an image can often be identified by facial expressions such as smiling or laughing, with features like upturned mouth corners and visible teeth.",
+        "pred": "There are several ways to identify a person expressing happiness in an image. One way is to look for facial expressions that indicate happiness, such as a smile, a raised eyebrow, or a bright, open-eyed look. Another way is to look for body language that suggests happiness, such as a relaxed posture, a raised arm, or a smile. Additionally, you can look for contextual clues that suggest happiness, such as a person holding a gift or a smiling child.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "97",
+    "pairs": [
+      {
+        "question": "What does symmetry mean in the context of geometry, particularly in circular shapes?",
+        "answer": "In geometry, symmetry refers to the balanced and proportional arrangement of parts on either side of a dividing line or around a center point. In circular shapes, symmetry means that each segment or slice is identical in size and shape.",
+        "pred": "In geometry, symmetry refers to the property of a shape or object that remains unchanged when it is transformed in a certain way. In the context of circular shapes, symmetry typically refers to radial symmetry, which means that the shape can be divided into equal parts by one or more lines of symmetry that pass through the center of the circle. These lines of symmetry can be horizontal, vertical, or diagonal, and they divide the circle into equal halves or quarters. Radial symmetry is a common feature of many natural and man-made objects, including flowers, snowflakes, and wheels.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "980",
+    "pairs": [
+      {
+        "question": "How do you determine the total number of smaller squares in a larger grid composed of smaller equal-sized squares?",
+        "answer": "To determine the total number of smaller squares in a larger grid, count the number of rows and columns of the smaller squares and multiply them together. For instance, in a 4x4 grid, there are 4 rows and 4 columns, so the total is 4 x 4 = 16 squares.",
+        "pred": "To determine the total number of smaller squares in a larger grid composed of smaller equal-sized squares, you can use the following formula:\n\nTotal number of smaller squares = (number of rows) x (number of columns)\n\nFor example, if the larger grid has 5 rows and 5 columns, then the total number of smaller squares would be:\n\nTotal number of smaller squares = 5 x 5 = 25\n\nTherefore, there would be 25 smaller squares in the larger grid.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1111",
+    "pairs": [
+      {
+        "question": "Define the concept of distance in a geometric space.",
+        "answer": "Distance in a geometric space refers to the length of the shortest path connecting two points. It is usually measured in units such as feet, meters, or miles.",
+        "pred": "Distance in a geometric space is a measure of the separation between two points or objects. It is a fundamental concept in geometry and is used to describe the size and shape of geometric figures, as well as the relationships between them.\n\nIn a two-dimensional space, such as a plane, the distance between two points is typically measured using the Euclidean distance formula, which is the square root of the sum of the squares of the differences between the corresponding coordinates of the two points. For example, the distance between the points (x1, y1) and (x2, y2) is given by the formula:\n\nd = sqrt((x2 - x1)^2 + (y2 - y1)^2)\n\nIn a three-dimensional space, such as a Euclidean space, the distance between two points is measured using a similar formula, but with an additional coordinate:\n\nd = sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)\n\nThe concept of distance is also used in more abstract spaces, such as metric spaces, where the distance between two points is defined by a metric function that satisfies certain properties, such as non-negativity, symmetry, and the triangle inequality.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "660",
+    "pairs": [
+      {
+        "question": "Explain the process of addition and how it is used to find the sum of numbers.",
+        "answer": "Addition is a mathematical operation that represents combining collections of objects together into a larger collection. It is used to calculate the total or sum by combining two or more numbers.",
+        "pred": "Addition is a mathematical operation that combines two or more numbers to find their total or sum. The process of addition involves adding the digits of the numbers together, starting from the rightmost digit and working towards the leftmost digit. \n\nTo add two numbers, you first line them up vertically, with the rightmost digits in the same column. Then, you add the digits in each column, starting from the rightmost column. If the sum of the digits in a column is greater than 9, you carry the extra digit to the next column to the left. \n\nFor example, to add the numbers 23 and 45, you would line them up vertically like this:\n\n```\n  23\n+ 45\n```\n\nThen, you would add the digits in each column, starting from the rightmost column:\n\n```\n  23\n+ 45\n-----\n  78\n```\n\nThe sum of 23 and 45 is 78. \n\nAddition is used to find the total or sum of two or more numbers. It is a fundamental operation in mathematics and is used in many different fields, including science, engineering, finance, and everyday life.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define what a row and a column are in a grid structure.",
+        "answer": "In a grid structure, a row is a horizontal line of elements, whereas a column is a vertical line of elements.",
+        "pred": "In a grid structure, a row is a horizontal line of cells or elements, while a column is a vertical line of cells or elements. \n\nFor example, consider a table with three rows and three columns:\n\n```\n  | 1 | 2 | 3\n  |---|---|---\n  | 4 | 5 | 6\n  |---|---|---\n  | 7 | 8 | 9\n```\n\nIn this table, the first row contains the cells 1, 2, and 3, while the second row contains the cells 4, 5, and 6, and so on. Similarly, the first column contains the cells 1, 4, and 7, while the second column contains the cells 2, 5, and 8, and so on. \n\nRows and columns are used to organize and display data in a grid structure, making it easier to read and analyze.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "431",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare relationships between different concepts?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It is used to show how two different concepts are similar in certain aspects, often to highlight a particular point or relationship.",
+        "pred": "An analogy is a comparison between two things that are alike in some way. It is used to explain a concept or idea by drawing a parallel between it and something else that is more familiar or easier to understand. For example, you might use an analogy to explain how a computer works by comparing it to a kitchen appliance, such as a blender. In this analogy, the computer's processor is like the blender's motor, and the computer's memory is like the blender's container. By using an analogy, you can help someone understand a complex concept by relating it to something they already know.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What are common techniques used in physical therapy for muscle relaxation and recovery?",
+        "answer": "Common techniques in physical therapy for muscle relaxation include massage, stretching, heat therapy, and exercises designed to improve flexibility and strength.",
+        "pred": "There are several techniques used in physical therapy for muscle relaxation and recovery, including:\n\n1. Manual therapy: This involves the use of hands-on techniques such as massage, joint mobilization, and soft tissue manipulation to help reduce pain, improve mobility, and promote healing.\n\n2. Stretching: Stretching is a common technique used in physical therapy to help improve flexibility, reduce muscle tension, and promote recovery. It can be done using a variety of techniques, including static stretching, dynamic stretching, and proprioceptive neuromuscular facilitation (PNF) stretching.\n\n3. Exercise: Exercise is a key component of physical therapy for muscle relaxation and recovery. It can help improve muscle strength, endurance, and flexibility, and can also help reduce pain and improve overall function.\n\n4. Electrical stimulation: Electrical stimulation is a technique that uses low-voltage electrical currents to stimulate muscles and promote healing. It can be used to help reduce pain, improve muscle function, and promote recovery.\n\n5. Ultrasound: Ultrasound is a technique that uses high-frequency sound waves to promote healing and reduce pain. It can be used to help reduce inflammation, improve circulation, and promote tissue repair.\n\n6. Cryotherapy: Cryotherapy is a technique that uses cold temperatures to reduce pain, swelling, and inflammation. It can be used to help reduce pain and promote healing after injury or surgery.\n\n7. Heat therapy: Heat therapy is a technique that uses heat to promote healing and reduce pain. It can be used to help reduce inflammation, improve circulation, and promote tissue repair.\n\nThese techniques can be used alone or in combination with one another, depending on the specific needs of the patient.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How does yoga contribute to physical wellness and flexibility?",
+        "answer": "Yoga contributes to physical wellness by promoting flexibility, strength, balance, and mental relaxation. Yoga poses, or asanas, stretch and strengthen various muscle groups, improving overall physical health.",
+        "pred": "Yoga is a physical practice that involves a series of stretching and strength-building exercises, often performed in a seated or standing position. It is a great way to improve physical wellness and flexibility because it helps to strengthen the muscles, improve balance, and increase flexibility. Yoga also helps to improve posture, reduce stress, and improve overall health.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "543",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used in reasoning?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It highlights the similarities between two different things, often to make a point or explain a concept.",
+        "pred": "An analogy is a comparison between two things that are similar in some way. It is used in reasoning to draw conclusions or make inferences based on the similarities between the two things being compared. For example, if you know that two things are similar in some way, you can use that similarity to make a conclusion about one of the things based on what you know about the other.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is meme culture and how does it influence communication?",
+        "answer": "Meme culture involves the use of memes, which are humorous images, videos, or text that are copied and spread rapidly by Internet users. Memes often convey ideas, humor, or social commentary in a way that is easily recognizable and relatable.",
+        "pred": "Meme culture refers to the way memes, which are images, videos, or text that are shared widely on the internet, influence communication. Memes are often used to express emotions, make jokes, or convey a message in a humorous or satirical way. They can be shared on social media platforms, forums, and other online communities, and can quickly become popular and widely recognized.\n\nMeme culture has had a significant impact on communication, as it has changed the way people express themselves online. Memes are often used to convey complex ideas or emotions in a simple and easily understood way, making them a popular form of communication on the internet. They can also be used to create a sense of community among people who share a common interest or experience.\n\nHowever, meme culture can also have negative effects on communication. For example, memes can be used to spread misinformation or to create a sense of divisiveness among people who have different opinions or beliefs. Additionally, the use of memes can sometimes be seen as a form of lazy or superficial communication, as they may not always convey a deep or nuanced understanding of a topic or issue.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "5",
+    "pairs": [
+      {
+        "question": "What techniques can be applied to decipher letters in a ciphered text?",
+        "answer": "Techniques include reverse mapping based on known rules, frequency analysis to match common letters, and using known examples to backtrack the ciphering process. Understanding the cipher's structure or key is crucial for accurate deciphering.",
+        "pred": "There are several techniques that can be applied to decipher letters in a ciphered text, including:\n\n1. Frequency analysis: This technique involves analyzing the frequency of letters in the ciphered text and comparing it to the frequency of letters in the language of the plaintext. By identifying the most common letters in the ciphered text, it may be possible to determine the most likely plaintext letters.\n\n2. Pattern recognition: This technique involves looking for patterns in the ciphered text that may indicate the type of cipher used. For example, if the ciphered text contains repeated letters or patterns, it may be possible to determine the type of cipher used and decipher the text.\n\n3. Brute force: This technique involves trying every possible combination of letters until the correct plaintext is found. While this can be time-consuming, it may be the only option if the cipher used is very complex.\n\n4. Cryptanalysis: This technique involves using mathematical and statistical methods to analyze the ciphered text and determine the key used to encrypt it. This can be a complex process and requires a deep understanding of cryptography.\n\n5. Contextual analysis: This technique involves using the context of the ciphered text to help decipher it. For example, if the text is a letter or a message, it may be possible to use the sender's handwriting or the recipient's name to help decipher the text.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "305",
+    "pairs": [
+      {
+        "question": "Explain how to determine the number of squares in a 4x4 grid.",
+        "answer": "A 4x4 grid is composed of 4 rows and 4 columns, resulting in a total of 16 squares. This is calculated by multiplying the number of rows (4) by the number of columns (4).",
+        "pred": "To determine the number of squares in a 4x4 grid, you can use the formula:\n\nNumber of squares = (n+1)^2\n\nwhere n is the number of rows or columns in the grid. In this case, n = 4, so:\n\nNumber of squares = (4+1)^2 = 5^2 = 25\n\nTherefore, there are 25 squares in a 4x4 grid.",
+        "eval": "0",
+        "score": 0
+      }
+    ],
+    "overall": 0
+  },
+  {
+    "id": "916",
+    "pairs": [
+      {
+        "question": "Define symmetry in the context of geometric shapes and provide an example.",
+        "answer": "Symmetry in geometric shapes refers to a balanced and proportionate similarity found in two halves of an object, such that one half is a mirror image of the other. An example is a square, which is symmetrical along its diagonals and midlines.",
+        "pred": "Symmetry in the context of geometric shapes refers to the property of a shape that allows it to be divided into two or more identical parts by one or more lines of symmetry. A line of symmetry is a line that divides a shape into two mirror images. \n\nFor example, a square has four lines of symmetry, two vertical and two horizontal. If you draw a line from the top left corner to the bottom right corner, and another line from the top right corner to the bottom left corner, you will have two lines of symmetry. Similarly, if you draw a line from the top center to the bottom center, and another line from the left center to the right center, you will have two more lines of symmetry.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1143",
+    "pairs": [
+      {
+        "question": "Define the term 'top' in the context of layered objects.",
+        "answer": "The 'top' refers to the object that is above all others, not covered by any other object.",
+        "pred": "In the context of layered objects, the term \"top\" refers to the highest or outermost layer of the object. This layer is typically the most visible and accessible, and it may be the layer that is most directly exposed to the environment. The top layer of a layered object can be made of a variety of materials, such as plastic, metal, or fabric, and it may serve a variety of functions, such as providing protection, insulation, or decoration. The top layer of a layered object is often the most important layer, as it is the layer that is most visible and may be the first layer that people interact with.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define the term 'bottom' in the context of layered objects.",
+        "answer": "The 'bottom' refers to the object that is below all others, covered by all other objects.",
+        "pred": "In the context of layered objects, the term \"bottom\" refers to the lowest layer or the layer that is closest to the base or foundation of the object. It is the layer that supports and provides stability to the other layers above it. The bottom layer is often the most important layer in terms of the overall structure and function of the object.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What does the term 'middle' mean when referring to a sequence of overlapping objects?",
+        "answer": "The 'middle' refers to the object that has an equal number of objects above and below it in the sequence.",
+        "pred": "The term 'middle' refers to the position of an object within a sequence of overlapping objects. It is the object that is located in the center of the sequence, with other objects either above or below it.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "766",
+    "pairs": [
+      {
+        "question": "Explain how to calculate the sum of a given set of numbers.",
+        "answer": "To calculate the sum of a given set of numbers, add the numbers together. For example, the sum of 2, 3, and 5 is calculated as 2 + 3 + 5 = 10.",
+        "pred": "To calculate the sum of a given set of numbers, you can follow these steps:\n\n1. Start by adding the first number in the set to a variable called \"sum\".\n2. Then, add the next number in the set to the \"sum\" variable.\n3. Repeat step 2 for each number in the set.\n4. Once you have added all the numbers in the set to the \"sum\" variable, the final value of the \"sum\" variable will be the sum of all the numbers in the set.\n\nHere's an example in Python code:\n\n```\nnumbers = [1, 2, 3, 4, 5]\nsum = 0\n\nfor number in numbers:\n    sum += number\n\nprint(sum)\n```\n\nIn this example, the variable \"numbers\" contains a list of five numbers. The variable \"sum\" is initialized to 0. The for loop iterates over each number in the \"numbers\" list, adding each number to the \"sum\" variable. Finally, the value of \"sum\" is printed, which is the sum of all the numbers in the list.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define what is meant by a 'row' and a 'column' in a grid or matrix.",
+        "answer": "In a grid or matrix, a 'row' is a horizontal line of elements, whereas a 'column' is a vertical line of elements.",
+        "pred": "In a grid or matrix, a row is a horizontal line of cells or elements, while a column is a vertical line of cells or elements. Rows and columns are used to organize and structure data in a grid or matrix, making it easier to analyze and manipulate. Each cell in a grid or matrix represents a single value or element, and the position of the cell within the grid or matrix is determined by its row and column coordinates. For example, in a 2D grid or matrix, the cell at the intersection of the first row and second column would be referred to as (1,2).",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "939",
+    "pairs": [
+      {
+        "question": "Explain what an angle is in geometric terms.",
+        "answer": "An angle is formed by two rays (sides of the angle) sharing a common endpoint, called the vertex. It is a measure of the rotation needed to superimpose one of the rays onto the other.",
+        "pred": "In geometric terms, an angle is a figure formed by two rays (or line segments) that share a common endpoint, called the vertex. The size of an angle is determined by the amount of rotation required to move one ray to coincide with the other ray. Angles are typically measured in degrees or radians, with a full rotation around a point being equal to 360 degrees or 2π radians. Angles can be classified based on their measure, such as acute (less than 90 degrees), right (exactly 90 degrees), obtuse (more than 90 degrees but less than 180 degrees), and straight (exactly 180 degrees). Angles are an important concept in geometry and are used to describe the relationships between lines and shapes.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "768",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare two pairs of concepts or items?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It shows a relationship between two pairs of concepts or items, suggesting that the relationship between the first pair is similar to the relationship between the second pair.",
+        "pred": "An analogy is a comparison between two pairs of concepts or items that share some common characteristics. It is used to highlight similarities between the two pairs, making it easier to understand or explain one of them by relating it to the other. For example, you might use an analogy to compare the structure of a molecule to the structure of a building, or to compare the function of a computer to the function of a human brain.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is kinesiology taping and how can it be visually identified?",
+        "answer": "Kinesiology taping is a therapeutic taping technique used to support muscles and joints without restricting movement. It is visually identified by the presence of colorful, stretchy tape applied to the skin in specific patterns to help with pain relief and muscle support.",
+        "pred": "Kinesiology taping is a form of physical therapy that uses thin, elastic tape to support and stabilize muscles and joints. It is often used to treat a variety of conditions, including muscle strains, sprains, and joint pain. Kinesiology taping can be visually identified by the thin, elastic tape that is applied to the skin. The tape is usually applied in a series of overlapping strips, and it can be seen on the skin as a series of small, rectangular patches.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1200",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used to compare different elements?",
+        "answer": "An analogy is a comparison between two things, typically for the purpose of explanation or clarification. It highlights similarities between two pairs of items or concepts, where the relationship between the first pair is mirrored in the second pair.",
+        "pred": "An analogy is a comparison between two things that are alike in some way. It is used to explain or clarify a concept by drawing a parallel between two different things. For example, you might say that \"time is a thief\" to explain the idea that time can take away our youth and happiness.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How do you identify different types of tools and machinery in images?",
+        "answer": "To identify tools and machinery in images, you can look for distinctive features such as shape, size, and function. Familiarity with common tools and machines helps in recognizing them by their appearance and the context in which they are used.",
+        "pred": "There are several ways to identify different types of tools and machinery in images. One way is to look for specific features or characteristics that are unique to each type of tool or machinery. For example, a drill has a cylindrical shape with a pointed tip, while a hammer has a flat head and a handle. Another way to identify tools and machinery is to look for the context in which they are being used. For example, a power drill is typically used for drilling holes in wood or metal, while a hammer is used for striking objects. Additionally, you can use image recognition software or machine learning algorithms to identify tools and machinery based on their shape, size, and other characteristics.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "1081",
+    "pairs": [
+      {
+        "question": "Explain what a food web represents in an ecosystem.",
+        "answer": "A food web represents the complex network of feeding relationships between different organisms in an ecosystem, showing how energy and nutrients flow from one organism to another.",
+        "pred": "A food web is a complex network of interconnected food chains that represent the feeding relationships between different organisms in an ecosystem. It shows how energy and nutrients flow through the ecosystem, from producers (plants and other autotrophs) to primary consumers (herbivores), secondary consumers (carnivores and omnivores), and so on, up to top predators.\n\nIn a food web, each organism is represented by a node, and the arrows connecting the nodes represent the direction of energy flow. The width of the arrows indicates the amount of energy transferred between the organisms. The food web is dynamic and constantly changing as organisms interact with each other and their environment.\n\nFood webs are important because they help us understand the complex interactions between different species in an ecosystem. They also help us understand how changes in one part of the ecosystem can affect other parts, and how human activities can disrupt these delicate balances.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Define the role of producers in an ecosystem and give an example.",
+        "answer": "Producers are organisms that create their own food using sunlight through photosynthesis, providing energy for the rest of the ecosystem. An example is trees.",
+        "pred": "Producers are the organisms that produce their own food through photosynthesis. They are the foundation of the food chain and provide energy for all other organisms in the ecosystem. Producers are typically plants, algae, and some bacteria.\n\nAn example of a producer is the green plant. Green plants use sunlight, water, and carbon dioxide to produce glucose, a type of sugar, through a process called photosynthesis. This glucose is then used by the plant to grow and produce energy. The energy produced by the plant is then transferred to other organisms in the ecosystem through the food chain. For example, a herbivore may eat the plant, and a carnivore may eat the herbivore.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Describe how the removal of a species can affect other organisms in a food web.",
+        "answer": "The removal of a species can disrupt the energy flow and lead to a shortage of resources for other organisms that depend on it for food, potentially causing a cascade of effects throughout the ecosystem.",
+        "pred": "The removal of a species from a food web can have a cascading effect on the entire ecosystem. For example, if a predator is removed from the food web, the prey population may increase, which could lead to overgrazing and depletion of resources. This could then affect the populations of other organisms that depend on those resources, such as herbivores and decomposers. Similarly, if a keystone species is removed, it could have a disproportionate impact on the ecosystem, as it may play a critical role in maintaining the balance of the food web. The removal of a keystone species could lead to the collapse of the entire ecosystem, as the loss of this species could cause a chain reaction of extinctions and population crashes. Overall, the removal of a species from a food web can have far-reaching consequences for the entire ecosystem, and it is important to understand the potential impacts of such removals in order to protect and conserve biodiversity.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "762",
+    "pairs": [
+      {
+        "question": "How do you determine the total number of items you can purchase given a specific budget and the price per item?",
+        "answer": "Divide the total budget by the price per item to determine the maximum number of items you can purchase. Consider any remaining budget for additional purchases or alternative pricing options.",
+        "pred": "To determine the total number of items you can purchase given a specific budget and the price per item, you can use the following formula:\r\n\r\nTotal number of items = Budget / Price per item\r\n\r\nFor example, if your budget is $50 and the price per item is $5, then you can purchase 10 items ($50 / $5 = 10).",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "734",
+    "pairs": [
+      {
+        "question": "Explain what is meant by the 'shortest path' in a network of points connected by paths.",
+        "answer": "The shortest path is the path between two points that has the minimum distance or cost compared to all other paths connecting these points.",
+        "pred": "The shortest path in a network of points connected by paths refers to the path that has the least distance or time between two points. In other words, it is the path that takes the least amount of time or effort to travel from one point to another. \n\nIn a network, the points are called nodes, and the paths connecting them are called edges. The shortest path between two nodes is the path that has the minimum total length or weight of the edges that it traverses. \n\nThe concept of the shortest path is widely used in various fields such as transportation, communication, and computer science. For example, in transportation, the shortest path between two cities is the path that takes the least amount of time or distance to travel. In computer science, the shortest path problem is a fundamental problem in graph theory, which involves finding the shortest path between two nodes in a graph.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "374",
+    "pairs": [
+      {
+        "question": "Explain the concept of 'middle' in a sequence of items.",
+        "answer": "The 'middle' refers to the item or position that is equidistant from both ends of a sequence when the number of items is odd. For an even number, there may be two middle items.",
+        "pred": "The concept of \"middle\" in a sequence of items refers to the position of an item that is located exactly in the center of the sequence. In other words, the middle item is the one that has an equal number of items before and after it.\n\nFor example, in the sequence of numbers 1, 2, 3, 4, 5, the middle item is 3 because there are two items before it (1 and 2) and two items after it (4 and 5).\n\nThe concept of \"middle\" can also be applied to other types of sequences, such as words in a sentence or letters in a word. In these cases, the middle item is the one that is located exactly in the center of the sequence.\n\nIt's important to note that the concept of \"middle\" can be applied to sequences of any length, but the position of the middle item may change depending on the length of the sequence. For example, in a sequence of two items, there is no middle item because there are no items before or after the single item.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "430",
+    "pairs": [
+      {
+        "question": "What is a geometric angle and how is it measured?",
+        "answer": "A geometric angle is formed by two rays (or line segments) that share a common endpoint, called a vertex. Angles are measured in degrees, using a protractor.",
+        "pred": "A geometric angle is a figure formed by two rays that share a common endpoint, called the vertex. The size of an angle is determined by the amount of rotation between the two rays. Angles are typically measured in degrees or radians. A full rotation around a point is 360 degrees or 2π radians.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "What is symmetry and how does it relate to angles in objects?",
+        "answer": "Symmetry refers to the balanced and proportional arrangement of parts on either side of a dividing line or plane. In terms of angles, symmetrical objects will have angles that mirror each other across the line of symmetry.",
+        "pred": "Symmetry is a property of an object that allows it to be divided into two or more identical parts. This can be achieved through reflection, rotation, or translation. In the context of angles, symmetry can be used to describe the relationship between angles in an object. For example, a square has four lines of symmetry, which means that it can be divided into four identical parts by drawing lines through the center of the square. This symmetry can be used to determine the angles in the square, as each angle is equal to 90 degrees.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "968",
+    "pairs": [
+      {
+        "question": "Explain the principle of balance and equivalence in the context of scales.",
+        "answer": "In the context of scales, balance and equivalence mean that the weight on one side of the scale is equal to the weight on the other side. When a scale is balanced, the two sides are in equilibrium, indicating equal weights.",
+        "pred": "Balance and equivalence are two important principles in the context of scales. Balance refers to the state of equilibrium or stability in which the weight of the objects on both sides of the scale is equal. In other words, the scale is balanced when the weight of the objects on one side is equal to the weight of the objects on the other side. This is achieved by adjusting the position of the objects on the scale until the pointer or indicator of the scale is centered or at zero.\n\nEquivalence, on the other hand, refers to the state of equality or sameness in which the weight of the objects on both sides of the scale is the same. In other words, the scale is in an equivalent state when the weight of the objects on one side is equal to the weight of the objects on the other side. This is achieved by adjusting the position of the objects on the scale until the pointer or indicator of the scale is centered or at zero.\n\nIn summary, balance and equivalence are two important principles in the context of scales. Balance refers to the state of equilibrium or stability in which the weight of the objects on both sides of the scale is equal, while equivalence refers to the state of equality or sameness in which the weight of the objects on both sides of the scale is the same.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "How do you perform multiplication with whole numbers? Provide an example.",
+        "answer": "Multiplication with whole numbers involves adding a number to itself a specified number of times. For example, 3 multiplied by 4 (3 x 4) means adding 3 four times (3 + 3 + 3 + 3), which equals 12.",
+        "pred": "To perform multiplication with whole numbers, you can use the following steps:\n\n1. Write down the two numbers you want to multiply, one on top of the other.\n2. Start with the rightmost digit of the bottom number and multiply it by the rightmost digit of the top number.\n3. Write down the product of the two digits in the same column as the digits you multiplied.\n4. Move to the next digit to the left in the bottom number and repeat the process, adding the product to the previous product in the same column.\n5. Continue this process until you have multiplied each digit in the bottom number by each digit in the top number.\n6. Add up all the products to get the final answer.\n\nExample: Multiply 34 and 27.\n\n```\n  34\nx 27\n-----\n  238  (34 x 7)\n+ 680  (34 x 20)\n-----\n  918\n```\n\nTherefore, 34 x 27 = 918.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "469",
+    "pairs": [
+      {
+        "question": "Explain what an analogy is and how it is used to compare two pairs of concepts.",
+        "answer": "An analogy is a comparison between two things that highlights a relationship or similarity between them. It is often used to explain or clarify the relationship between two pairs of concepts by showing how they are similar or different in a meaningful way.",
+        "pred": "An analogy is a figure of speech that compares two different things that have something in common. It is used to draw a parallel between two pairs of concepts, highlighting their similarities and differences. \n\nFor example, if we want to compare the concepts of \"friendship\" and \"family,\" we might use the analogy of \"friendship is like family, but without the blood ties.\" This analogy highlights the similarities between the two concepts, such as the importance of love, support, and trust, while also pointing out the differences, such as the lack of genetic connection in friendship.\n\nAn analogy can be used to make complex ideas more accessible and relatable by drawing on familiar experiences or concepts. It can also be used to create a vivid image or mental picture that helps the listener or reader to better understand the comparison being made.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "998",
+    "pairs": [
+      {
+        "question": "Explain how analogies are used to understand relationships between different sets of objects or concepts.",
+        "answer": "Analogies are used to identify and understand the relationship between one pair of objects or concepts and apply a similar relationship to another pair. They often involve recognizing similar patterns, functions, or roles.",
+        "pred": "Analogies are a powerful tool for understanding relationships between different sets of objects or concepts. They work by drawing a comparison between two things that are similar in some way, but not necessarily identical. This comparison helps to highlight the similarities and differences between the two things, and can provide insight into how they are related.\n\nFor example, consider the analogy between a computer and a human brain. Both are complex systems that process information and perform tasks. By comparing the two, we can see that they have similar functions, such as processing data and making decisions. However, they also have important differences, such as the fact that a computer is a machine and a human brain is a biological system.\n\nAnalogies can be used in a variety of contexts to help us understand relationships between different sets of objects or concepts. For example, in science, analogies are often used to explain complex processes or phenomena. In literature, analogies are used to create vivid imagery and to convey deeper meanings. In everyday life, analogies are used to make comparisons and to help us understand the world around us.\n\nOverall, analogies are a useful tool for understanding relationships between different sets of objects or concepts. By drawing comparisons between similar things, we can gain insight into how they are related and how they differ.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "548",
+    "pairs": [
+      {
+        "question": "Explain what an analogy is and how it is used to relate two pairs of concepts or items.",
+        "answer": "An analogy is a comparison between two pairs of concepts or items that highlights a relationship between them. It is used to identify a similar relationship between two sets, often to explain or clarify a concept by comparing it with a more familiar one.",
+        "pred": "An analogy is a figure of speech that compares two different things that have something in common. It is used to relate two pairs of concepts or items by highlighting their similarities and differences. An analogy helps to clarify complex ideas or concepts by drawing a parallel between two familiar things. It is often used in literature, science, and everyday conversation to make abstract ideas more concrete and easier to understand. For example, the analogy \"time is money\" compares the value of time to the value of money, suggesting that time is just as valuable as money and should be used wisely.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Describe the function of a lawnmower and its typical use.",
+        "answer": "A lawnmower is a machine used to cut grass to a uniform height. It is typically used for maintaining lawns, gardens, and grassy areas by trimming the grass to keep it neat and manageable.",
+        "pred": "A lawnmower is a machine used to cut grass and other vegetation in a yard or garden. It typically consists of a motor, a cutting deck, and a blade that spins to cut the grass. The operator of the lawnmower pushes or pulls it along the yard, and the blade spins to cut the grass as it moves.\n\nLawnmowers are commonly used to maintain the appearance of lawns and gardens by keeping the grass at a desired height. They are also used to cut weeds, bushes, and other vegetation in yards and gardens. Some lawnmowers are designed for commercial use, such as cutting grass in parks or golf courses, while others are designed for residential use.\n\nThere are several types of lawnmowers, including push mowers, riding mowers, and self-propelled mowers. Push mowers are manually operated and require the operator to push the mower along the yard. Riding mowers are larger and have a seat for the operator, and they are typically used for larger yards. Self-propelled mowers are similar to riding mowers, but they have a motor that propels the mower forward, making them easier to use.\n\nLawnmowers are an essential tool for maintaining a healthy and attractive lawn or garden. They help to keep the grass at a desired height, which can improve the appearance of the yard and make it more enjoyable to spend time in. Additionally, regular mowing can help to prevent weeds and other vegetation from growing out of control, which can improve the overall health of the yard.",
+        "eval": "1",
+        "score": 1
+      },
+      {
+        "question": "Discuss the difference in scale between a small tractor and a larger tractor, and how this affects their use.",
+        "answer": "A small tractor is usually used for lighter tasks like mowing small fields or gardens, whereas a larger tractor is designed for heavy-duty agricultural tasks like plowing large fields. The difference in scale affects their power, capacity, and the size of the area they can efficiently manage.",
+        "pred": "A small tractor is typically used for small-scale farming and gardening tasks, while a larger tractor is used for larger-scale farming and construction tasks. The main difference in scale between a small tractor and a larger tractor is the size of the tractor itself, as well as the size of the implements that can be attached to it. A small tractor is generally smaller and lighter than a larger tractor, and it can be easily maneuvered in tight spaces. A larger tractor is generally larger and heavier, and it can be used to move larger loads and perform more powerful tasks. The larger tractor is also more powerful and can be used for larger-scale farming and construction tasks.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": "778",
+    "pairs": [
+      {
+        "question": "What is an analogy and how is it used in problem-solving?",
+        "answer": "An analogy is a comparison between two things that are otherwise unlike, often used to explain a concept or solve a problem by highlighting similarities. In problem-solving, it helps identify relationships and patterns that can be applied to new situations.",
+        "pred": "An analogy is a comparison between two things that are similar in some way. It is often used to help explain a concept or idea by drawing a parallel between it and something that is more familiar or easier to understand. In problem-solving, analogies can be used to help identify similarities between different problems and to find solutions that have been successful in similar situations. For example, if you are trying to solve a problem that is similar to one that you have solved before, you can use an analogy to help you find a solution.",
+        "eval": "1",
+        "score": 1
+      }
+    ],
+    "overall": 1
+  },
+  {
+    "id": 1099,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 475,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 654,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 209,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 904,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 1063,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 1176,
+    "pairs": [],
+    "overall": 1
+  },
+  {
+    "id": 977,
+    "pairs": [],
+    "overall": 1
+  }
+]
