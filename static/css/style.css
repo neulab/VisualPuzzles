@@ -1038,8 +1038,14 @@ d-article > div > h3 {
   width: 150%;
   margin-left: -10%;
 }
-
-
+#cog-table thead th:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+#cog-table tbody tr:hover {
+  background-color: #d3d3d3 !important;
+  cursor: pointer;
+}
 .text {
   /* width: 150%; */
   width: 150%;
