@@ -10,6 +10,17 @@ function loadCognitiveTable() {
       const tbody = document.querySelector('#cog-table tbody');
       data.forEach(row => {
         const tr = document.createElement('tr');
+
+        // Set background color based on model_type
+        if (row.model_type === 'proprietary') {
+          tr.style.backgroundColor = '#CAE9F5'; 
+        } else if (row.model_type === 'human') {
+          tr.style.backgroundColor = '#fbeeff';
+          //tr.style.color = 'white'; // Optional: make text readable
+        } else if (row.model_type === 'open') {
+          tr.style.backgroundColor = '#F5F5DC';
+        }
+
         tr.innerHTML = `
           <td>${row.model}</td>
           <td>${row.size}</td>
@@ -29,6 +40,7 @@ function loadCognitiveTable() {
         `<tr><td colspan="8">Error loading data. Please check console.</td></tr>`;
     });
 }
+
 
 function setupTableSorting() {
   const headers = document.querySelectorAll('#cog-table thead th');
@@ -75,3 +87,4 @@ function setupTableSorting() {
     });
   });
 }
+
