@@ -1,6 +1,7 @@
 [
   {
     "model": "Human (95th Percentile) ",
+    "model_type": "human",
     "size": "-",
     "algorithmic": 100.0,
     "analogical": 100.0,
@@ -11,6 +12,7 @@
   },
   {
     "model": "Human (50th Percentile) ",
+    "model_type": "human",
     "size": "-",
     "algorithmic": 88.0,
     "analogical": 66.0,
@@ -21,6 +23,7 @@
   },
   {
     "model": "Human (5th Percentile) ",
+    "model_type": "human",
     "size": "-",
     "algorithmic": 68.1,
     "analogical": 25.0,
@@ -31,6 +34,7 @@
   },
   {
     "model": "o1 ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 63.7,
     "analogical": 68.3,
@@ -41,6 +45,7 @@
   },
   {
     "model": "GPT-4o ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 49.2,
     "analogical": 58.3,
@@ -51,6 +56,7 @@
   },
   {
     "model": "Gemini-2.5-pro ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 60.0,
     "analogical": 64.0,
@@ -61,6 +67,7 @@
   },
   {
     "model": "Gemini-2.0-flash ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 55.3,
     "analogical": 58.8,
@@ -71,6 +78,7 @@
   },
   {
     "model": "Gemini-2.0-flash-thinking ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 46.6,
     "analogical": 70.1,
@@ -81,6 +89,7 @@
   },
   {
     "model": "Gemini-1.5-Pro ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 53.4,
     "analogical": 57.4,
@@ -91,6 +100,7 @@
   },
   {
     "model": "Claude-3.7-Sonnet ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 64.5,
     "analogical": 48.3,
@@ -101,6 +111,7 @@
   },
   {
     "model": "Claude-3.7-Sonnet-thinking ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 67.2,
     "analogical": 44.1,
@@ -111,6 +122,7 @@
   },
   {
     "model": "Claude-3.5-Sonnet ",
+    "model_type": "proprietary",
     "size": "-",
     "algorithmic": 53.4,
     "analogical": 47.9,
@@ -121,6 +133,7 @@
   },
   {
     "model": "LLaVA-1.5-7B ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 24.4,
     "analogical": 24.7,
@@ -131,6 +144,7 @@
   },
   {
     "model": "LLaVA-1.5-13B ",
+    "model_type": "open",
     "size": "13B",
     "algorithmic": 24.4,
     "analogical": 26.1,
@@ -141,6 +155,7 @@
   },
   {
     "model": "LLaVA-1.6-7B ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 27.5,
     "analogical": 25.1,
@@ -151,6 +166,7 @@
   },
   {
     "model": "LLaVA-1.6-13B ",
+    "model_type": "open",
     "size": "13B",
     "algorithmic": 25.2,
     "analogical": 25.6,
@@ -161,6 +177,7 @@
   },
   {
     "model": "LLaVA-1.6-34B ",
+    "model_type": "open",
     "size": "34B",
     "algorithmic": 31.3,
     "analogical": 27.3,
@@ -171,6 +188,7 @@
   },
   {
     "model": "LLaVA-OV-0.5B ",
+    "model_type": "open",
     "size": "0.5B",
     "algorithmic": 24.4,
     "analogical": 25.6,
@@ -181,6 +199,7 @@
   },
   {
     "model": "LLaVA-OV-7B ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 27.5,
     "analogical": 28.0,
@@ -191,6 +210,7 @@
   },
   {
     "model": "LLaVA-OV-72B ",
+    "model_type": "open",
     "size": "72B",
     "algorithmic": 34.7,
     "analogical": 26.5,
@@ -201,6 +221,7 @@
   },
   {
     "model": "Llama-3.2-11B-Vision-Instruct ",
+    "model_type": "open",
     "size": "11B",
     "algorithmic": 31.0,
     "analogical": 30.8,
@@ -211,6 +232,7 @@
   },
   {
     "model": "Llama-3.2-90B-Vision-Instruct ",
+    "model_type": "open",
     "size": "90B",
     "algorithmic": 45.0,
     "analogical": 23.2,
@@ -221,6 +243,7 @@
   },
   {
     "model": "Qwen-VL ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 23.7,
     "analogical": 26.5,
@@ -231,6 +254,7 @@
   },
   {
     "model": "Qwen2-VL-72B ",
+    "model_type": "open",
     "size": "72B",
     "algorithmic": 41.6,
     "analogical": 28.4,
@@ -241,6 +265,7 @@
   },
   {
     "model": "QvQ-72B-Preview ",
+    "model_type": "open",
     "size": "72B",
     "algorithmic": 43.1,
     "analogical": 45.5,
@@ -251,6 +276,7 @@
   },
   {
     "model": "Qwen2-VL-2B-Instruct ",
+    "model_type": "open",
     "size": "2B",
     "algorithmic": 31.7,
     "analogical": 29.4,
@@ -261,6 +287,7 @@
   },
   {
     "model": "Qwen2-VL-7B-Instruct ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 33.6,
     "analogical": 24.2,
@@ -271,6 +298,7 @@
   },
   {
     "model": "Qwen2-VL-72B-Instruct ",
+    "model_type": "open",
     "size": "72B",
     "algorithmic": 39.9,
     "analogical": 33.5,
@@ -281,6 +309,7 @@
   },
   {
     "model": "Qwen2.5-VL-3B-Instruct ",
+    "model_type": "open",
     "size": "3B",
     "algorithmic": 35.1,
     "analogical": 27.5,
@@ -291,6 +320,7 @@
   },
   {
     "model": "Qwen2.5-VL-7B-Instruct ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 38.2,
     "analogical": 23.7,
@@ -301,6 +331,7 @@
   },
   {
     "model": "Qwen2.5-VL-72B-Instruct ",
+    "model_type": "open",
     "size": "72B",
     "algorithmic": 53.4,
     "analogical": 46.9,
@@ -311,6 +342,7 @@
   },
   {
     "model": "Cambrian-8B ",
+    "model_type": "open",
     "size": "8B",
     "algorithmic": 31.3,
     "analogical": 24.2,
@@ -321,6 +353,7 @@
   },
   {
     "model": "Cambrian-13B ",
+    "model_type": "open",
     "size": "13B",
     "algorithmic": 23.3,
     "analogical": 28.0,
@@ -331,6 +364,7 @@
   },
   {
     "model": "Pangea-7B ",
+    "model_type": "open",
     "size": "7B",
     "algorithmic": 32.4,
     "analogical": 23.7,
