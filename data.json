@@ -33,6 +33,28 @@
     "overall": 57.5
   },
   {
+    "model": "o4-mini ",
+    "model_type": "proprietary",
+    "size": "-",
+    "algorithmic": 65.3,
+    "analogical": 68.7,
+    "deductive": 75.5,
+    "inductive": 33.0,
+    "spatial": 45.5,
+    "overall": 57.0
+  },
+  {
+    "model": "o3 ",
+    "model_type": "proprietary",
+    "size": "-",
+    "algorithmic": 64.5,
+    "analogical": 68.3,
+    "deductive": 69.5,
+    "inductive": 27.3,
+    "spatial": 42.7,
+    "overall": 54.0
+  },
+  {
     "model": "o1 ",
     "model_type": "proprietary",
     "size": "-",
