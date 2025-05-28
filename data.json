@@ -88,6 +88,17 @@
     "overall": 49.5
   },
   {
+    "model": "Gemini-2.5-flash-thinking ",
+    "model_type": "proprietary",
+    "size": "-",
+    "algorithmic": 57.6,
+    "analogical": 62.1,
+    "deductive": 52.0,
+    "inductive": 23.9,
+    "spatial": 29.7,
+    "overall": 44.6
+  },
+  {
     "model": "Gemini-2.0-flash ",
     "model_type": "proprietary",
     "size": "-",
@@ -121,7 +132,18 @@
     "overall": 45.0
   },
   {
-    "model": "Claude-3.7-Sonnet ",
+    "model": "Claude-4-Sonnet-thinking",
+    "model_type": "proprietary",
+    "size": "-",
+    "algorithmic": 64.9,
+    "analogical": 46.5,
+    "deductive": 60.5,
+    "inductive": 25.8,
+    "spatial": 38.1,
+    "overall": 47.3
+  },
+  {
+    "model": "Claude-3.7-Sonnet",
     "model_type": "proprietary",
     "size": "-",
     "algorithmic": 64.5,
