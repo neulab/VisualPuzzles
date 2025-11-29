@@ -100,11 +100,15 @@ function renderTable() {
   thead.innerHTML = '';
   tbody.innerHTML = '';
   
-  // Remove or add 'both-view' class based on current view
+  // Remove or add view-specific classes
+  table.classList.remove('both-view', 'category-view', 'difficulty-view');
+  
   if (currentView === 'both') {
     table.classList.add('both-view');
-  } else {
-    table.classList.remove('both-view');
+  } else if (currentView === 'category') {
+    table.classList.add('category-view');
+  } else if (currentView === 'difficulty') {
+    table.classList.add('difficulty-view');
   }
 
   // Sort data by overall descending and apply filters

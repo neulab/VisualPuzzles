@@ -1545,36 +1545,57 @@ iframe {
 /* Sticky columns for table */
 #cog-table {
     position: relative;
+    width: 100%;
+    table-layout: auto;
 }
 
+/* Adjust table width for different views */
+#cog-table.difficulty-view {
+    width: 100%;
+}
+
+#cog-table.category-view {
+    width: 100%;
+}
+
+/* Sticky Model column with width constraints */
 #cog-table th:first-child,
 #cog-table td:first-child {
     position: sticky;
     left: 0;
     z-index: 10;
+    max-width: 300px;
+    min-width: 200px;
+    width: auto;
+    white-space: nowrap;
+}
+
+/* Ensure all header cells have background color */
+#cog-table thead th {
+    background-color: #F0F8FF;
+}
+
+/* Ensure the sticky Model column header has higher z-index than scrolling content */
+#cog-table thead tr:first-child th:first-child {
+    z-index: 12;
+    background-color: #F0F8FF;
+}
+
+/* Ensure sticky column has proper background for each row type */
+#cog-table tbody tr td:first-child {
     background-color: inherit;
 }
 
-#cog-table th:nth-child(2),
-#cog-table td:nth-child(2) {
-    position: sticky;
-    left: auto;
-    z-index: 10;
-    background-color: inherit;
+#cog-table tbody tr[data-model-type="proprietary"] td:first-child {
+    background-color: #CAE9F5;
 }
 
-/* Calculate left position for second sticky column dynamically based on first column width */
-#cog-table td:nth-child(2) {
-    left: 200px; /* Approximate width of Model column */
+#cog-table tbody tr[data-model-type="human"] td:first-child {
+    background-color: #fbeeff;
 }
 
-#cog-table th:nth-child(2) {
-    left: 200px; /* Approximate width of Model column */
-}
-
-#cog-table thead th:first-child,
-#cog-table thead th:nth-child(2) {
-    z-index: 11;
+#cog-table tbody tr[data-model-type="open"] td:first-child {
+    background-color: #F5F5DC;
 }
 
 /* Visual grouping for Both view - add borders between category groups */
