@@ -1,0 +1,1445 @@
+[
+  {
+    "model": "Human (5th Percentile)",
+    "model_type": "human",
+    "size": "-",
+    "easy": {
+      "algorithmic": 75.0,
+      "analogical": 30.6,
+      "deductive": 0.0,
+      "inductive": 0.0,
+      "spatial": 66.0,
+      "overall": 70.1
+    },
+    "medium": {
+      "algorithmic": 50.0,
+      "analogical": 0.0,
+      "deductive": 33.0,
+      "inductive": 0.0,
+      "spatial": 33.0,
+      "overall": 40.5
+    },
+    "hard": {
+      "algorithmic": 0.0,
+      "analogical": 0.0,
+      "deductive": 0.0,
+      "inductive": 0.0,
+      "spatial": 0.0,
+      "overall": 0.0
+    },
+    "overall": {
+      "algorithmic": 68.1,
+      "analogical": 25.0,
+      "deductive": 37.0,
+      "inductive": 0.0,
+      "spatial": 59.1,
+      "overall": 57.5
+    }
+  },
+  {
+    "model": "Human (50th Percentile)",
+    "model_type": "human",
+    "size": "-",
+    "easy": {
+      "algorithmic": 100.0,
+      "analogical": 77.0,
+      "deductive": 100.0,
+      "inductive": 100.0,
+      "spatial": 100.0,
+      "overall": 90.0
+    },
+    "medium": {
+      "algorithmic": 83.0,
+      "analogical": 50.0,
+      "deductive": 100.0,
+      "inductive": 66.0,
+      "spatial": 88.0,
+      "overall": 70.0
+    },
+    "hard": {
+      "algorithmic": 100.0,
+      "analogical": 0.0,
+      "deductive": 100.0,
+      "inductive": 33.0,
+      "spatial": 100.0,
+      "overall": 40.0
+    },
+    "overall": {
+      "algorithmic": 88.0,
+      "analogical": 66.0,
+      "deductive": 80.0,
+      "inductive": 50.0,
+      "spatial": 90.0,
+      "overall": 75.0
+    }
+  },
+  {
+    "model": "Human (95th Percentile)",
+    "model_type": "human",
+    "size": "-",
+    "easy": {
+      "algorithmic": 100.0,
+      "analogical": 100.0,
+      "deductive": 100.0,
+      "inductive": 100.0,
+      "spatial": 100.0,
+      "overall": 100.0
+    },
+    "medium": {
+      "algorithmic": 100.0,
+      "analogical": 100.0,
+      "deductive": 100.0,
+      "inductive": 100.0,
+      "spatial": 100.0,
+      "overall": 89.3
+    },
+    "hard": {
+      "algorithmic": 100.0,
+      "analogical": 100.0,
+      "deductive": 100.0,
+      "inductive": 89.00000000000006,
+      "spatial": 100.0,
+      "overall": 100.0
+    },
+    "overall": {
+      "algorithmic": 100.0,
+      "analogical": 100.0,
+      "deductive": 100.0,
+      "inductive": 81.6,
+      "spatial": 100.0,
+      "overall": 89.3
+    }
+  },
+  {
+    "model": "GPT-4o (2024-08-06)",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 48.3,
+      "analogical": 67.5,
+      "deductive": 54.1,
+      "inductive": 20.0,
+      "spatial": 26.1,
+      "overall": 45.2
+    },
+    "medium": {
+      "algorithmic": 50.9,
+      "analogical": 48.1,
+      "deductive": 46.6,
+      "inductive": 30.6,
+      "spatial": 26.9,
+      "overall": 41.4
+    },
+    "hard": {
+      "algorithmic": 44.4,
+      "analogical": 30.0,
+      "deductive": 43.5,
+      "inductive": 26.0,
+      "spatial": 22.2,
+      "overall": 29.2
+    },
+    "overall": {
+      "algorithmic": 49.2,
+      "analogical": 58.3,
+      "deductive": 49.0,
+      "inductive": 27.3,
+      "spatial": 26.2,
+      "overall": 41.3
+    }
+  },
+  {
+    "model": "LLaVA-1.5-13B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 21.4,
+      "analogical": 26.7,
+      "deductive": 32.4,
+      "inductive": 0.0,
+      "spatial": 27.2,
+      "overall": 25.7
+    },
+    "medium": {
+      "algorithmic": 29.6,
+      "analogical": 24.7,
+      "deductive": 40.8,
+      "inductive": 31.9,
+      "spatial": 31.2,
+      "overall": 31.9
+    },
+    "hard": {
+      "algorithmic": 11.1,
+      "analogical": 30.0,
+      "deductive": 4.3,
+      "inductive": 25.2,
+      "spatial": 22.2,
+      "overall": 21.9
+    },
+    "overall": {
+      "algorithmic": 24.4,
+      "analogical": 26.1,
+      "deductive": 33.5,
+      "inductive": 26.3,
+      "spatial": 28.3,
+      "overall": 27.6
+    }
+  },
+  {
+    "model": "Claude-3.5-Sonnet",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 51.7,
+      "analogical": 57.5,
+      "deductive": 62.2,
+      "inductive": 60.0,
+      "spatial": 34.2,
+      "overall": 48.6
+    },
+    "medium": {
+      "algorithmic": 56.5,
+      "analogical": 37.0,
+      "deductive": 50.5,
+      "inductive": 22.2,
+      "spatial": 35.5,
+      "overall": 42.0
+    },
+    "hard": {
+      "algorithmic": 44.4,
+      "analogical": 20.0,
+      "deductive": 21.7,
+      "inductive": 24.4,
+      "spatial": 22.2,
+      "overall": 24.7
+    },
+    "overall": {
+      "algorithmic": 53.4,
+      "analogical": 47.9,
+      "deductive": 51.5,
+      "inductive": 25.4,
+      "spatial": 34.3,
+      "overall": 42.4
+    }
+  },
+  {
+    "model": "Pangea-7B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 33.8,
+      "analogical": 23.3,
+      "deductive": 47.3,
+      "inductive": 40.0,
+      "spatial": 31.0,
+      "overall": 32.5
+    },
+    "medium": {
+      "algorithmic": 29.6,
+      "analogical": 21.0,
+      "deductive": 35.0,
+      "inductive": 25.0,
+      "spatial": 36.6,
+      "overall": 30.0
+    },
+    "hard": {
+      "algorithmic": 44.4,
+      "analogical": 50.0,
+      "deductive": 26.1,
+      "inductive": 29.9,
+      "spatial": 22.2,
+      "overall": 30.9
+    },
+    "overall": {
+      "algorithmic": 32.4,
+      "analogical": 23.7,
+      "deductive": 38.5,
+      "inductive": 28.7,
+      "spatial": 32.5,
+      "overall": 31.2
+    }
+  },
+  {
+    "model": "LLaVA-1.6-34B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 31.7,
+      "analogical": 18.3,
+      "deductive": 55.4,
+      "inductive": 40.0,
+      "spatial": 27.7,
+      "overall": 30.8
+    },
+    "medium": {
+      "algorithmic": 33.3,
+      "analogical": 34.6,
+      "deductive": 36.9,
+      "inductive": 16.7,
+      "spatial": 29.0,
+      "overall": 30.9
+    },
+    "hard": {
+      "algorithmic": 0.0,
+      "analogical": 0.0,
+      "deductive": 30.4,
+      "inductive": 27.6,
+      "spatial": 11.1,
+      "overall": 24.2
+    },
+    "overall": {
+      "algorithmic": 31.3,
+      "analogical": 23.7,
+      "deductive": 43.0,
+      "inductive": 24.4,
+      "spatial": 27.6,
+      "overall": 29.8
+    }
+  },
+  {
+    "model": "Gemini-1.5-pro",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 53.1,
+      "analogical": 64.2,
+      "deductive": 60.8,
+      "inductive": 30.0,
+      "spatial": 31.0,
+      "overall": 48.6
+    },
+    "medium": {
+      "algorithmic": 53.7,
+      "analogical": 50.6,
+      "deductive": 63.1,
+      "inductive": 25.0,
+      "spatial": 36.6,
+      "overall": 47.3
+    },
+    "hard": {
+      "algorithmic": 55.6,
+      "analogical": 30.0,
+      "deductive": 30.4,
+      "inductive": 26.8,
+      "spatial": 22.2,
+      "overall": 28.7
+    },
+    "overall": {
+      "algorithmic": 53.4,
+      "analogical": 57.3,
+      "deductive": 58.5,
+      "inductive": 26.3,
+      "spatial": 32.5,
+      "overall": 45.0
+    }
+  },
+  {
+    "model": "Gemini-2.0-flash-thinking",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 49.0,
+      "analogical": 76.7,
+      "deductive": 59.5,
+      "inductive": 50.0,
+      "spatial": 27.7,
+      "overall": 49.3
+    },
+    "medium": {
+      "algorithmic": 45.4,
+      "analogical": 65.4,
+      "deductive": 48.5,
+      "inductive": 22.2,
+      "spatial": 23.7,
+      "overall": 41.6
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 30.0,
+      "deductive": 17.4,
+      "inductive": 24.4,
+      "spatial": 0.0,
+      "overall": 22.5
+    },
+    "overall": {
+      "algorithmic": 46.6,
+      "analogical": 70.1,
+      "deductive": 49.0,
+      "inductive": 24.9,
+      "spatial": 25.5,
+      "overall": 42.2
+    }
+  },
+  {
+    "model": "Llama-3.2-90B-Vision-Instruct",
+    "model_type": "open",
+    "size": "90B",
+    "easy": {
+      "algorithmic": 43.4,
+      "analogical": 24.2,
+      "deductive": 50.0,
+      "inductive": 20.0,
+      "spatial": 32.6,
+      "overall": 35.8
+    },
+    "medium": {
+      "algorithmic": 48.1,
+      "analogical": 23.5,
+      "deductive": 39.8,
+      "inductive": 29.2,
+      "spatial": 30.1,
+      "overall": 35.2
+    },
+    "hard": {
+      "algorithmic": 33.3,
+      "analogical": 10.0,
+      "deductive": 34.8,
+      "inductive": 25.2,
+      "spatial": 22.2,
+      "overall": 25.8
+    },
+    "overall": {
+      "algorithmic": 45.0,
+      "analogical": 23.2,
+      "deductive": 43.0,
+      "inductive": 26.3,
+      "spatial": 31.5,
+      "overall": 34.1
+    }
+  },
+  {
+    "model": "Gemini-2.0-flash",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 55.9,
+      "analogical": 67.5,
+      "deductive": 58.1,
+      "inductive": 50.0,
+      "spatial": 30.4,
+      "overall": 49.9
+    },
+    "medium": {
+      "algorithmic": 53.7,
+      "analogical": 50.6,
+      "deductive": 57.3,
+      "inductive": 19.4,
+      "spatial": 35.5,
+      "overall": 44.9
+    },
+    "hard": {
+      "algorithmic": 66.7,
+      "analogical": 20.0,
+      "deductive": 52.2,
+      "inductive": 25.2,
+      "spatial": 22.2,
+      "overall": 30.3
+    },
+    "overall": {
+      "algorithmic": 55.3,
+      "analogical": 58.8,
+      "deductive": 57.0,
+      "inductive": 24.4,
+      "spatial": 31.8,
+      "overall": 44.9
+    }
+  },
+  {
+    "model": "o3",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 64.1,
+      "analogical": 80.8,
+      "deductive": 71.6,
+      "inductive": 60.0,
+      "spatial": 44.0,
+      "overall": 61.9
+    },
+    "medium": {
+      "algorithmic": 63.0,
+      "analogical": 54.3,
+      "deductive": 68.0,
+      "inductive": 27.8,
+      "spatial": 40.9,
+      "overall": 52.5
+    },
+    "hard": {
+      "algorithmic": 88.9,
+      "analogical": 30.0,
+      "deductive": 69.6,
+      "inductive": 24.4,
+      "spatial": 33.3,
+      "overall": 34.3
+    },
+    "overall": {
+      "algorithmic": 64.5,
+      "analogical": 68.2,
+      "deductive": 69.5,
+      "inductive": 27.3,
+      "spatial": 42.7,
+      "overall": 54.0
+    }
+  },
+  {
+    "model": "Gemini-2.5-flash-thinking",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 57.2,
+      "analogical": 69.2,
+      "deductive": 60.8,
+      "inductive": 50.0,
+      "spatial": 29.3,
+      "overall": 50.7
+    },
+    "medium": {
+      "algorithmic": 57.4,
+      "analogical": 58.0,
+      "deductive": 48.5,
+      "inductive": 23.6,
+      "spatial": 31.2,
+      "overall": 44.9
+    },
+    "hard": {
+      "algorithmic": 66.7,
+      "analogical": 10.0,
+      "deductive": 39.1,
+      "inductive": 22.0,
+      "spatial": 22.2,
+      "overall": 25.8
+    },
+    "overall": {
+      "algorithmic": 57.6,
+      "analogical": 62.1,
+      "deductive": 52.0,
+      "inductive": 23.9,
+      "spatial": 29.7,
+      "overall": 44.6
+    }
+  },
+  {
+    "model": "Gemini-3-pro-preview",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 71.0,
+      "analogical": 59.2,
+      "deductive": 48.6,
+      "inductive": 70.0,
+      "spatial": 49.5,
+      "overall": 57.8
+    },
+    "medium": {
+      "algorithmic": 63.0,
+      "analogical": 63.0,
+      "deductive": 48.5,
+      "inductive": 33.3,
+      "spatial": 48.4,
+      "overall": 52.1
+    },
+    "hard": {
+      "algorithmic": 66.7,
+      "analogical": 60.0,
+      "deductive": 52.2,
+      "inductive": 31.5,
+      "spatial": 66.7,
+      "overall": 39.3
+    },
+    "overall": {
+      "algorithmic": 67.6,
+      "analogical": 60.7,
+      "deductive": 49.0,
+      "inductive": 34.0,
+      "spatial": 49.7,
+      "overall": 52.7
+    }
+  },
+  {
+    "model": "LLaVA-1.6-13B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 24.1,
+      "analogical": 23.3,
+      "deductive": 35.1,
+      "inductive": 50.0,
+      "spatial": 28.3,
+      "overall": 27.4
+    },
+    "medium": {
+      "algorithmic": 25.9,
+      "analogical": 28.4,
+      "deductive": 25.2,
+      "inductive": 19.4,
+      "spatial": 15.1,
+      "overall": 23.0
+    },
+    "hard": {
+      "algorithmic": 33.3,
+      "analogical": 30.0,
+      "deductive": 8.7,
+      "inductive": 29.9,
+      "spatial": 11.1,
+      "overall": 26.4
+    },
+    "overall": {
+      "algorithmic": 25.2,
+      "analogical": 25.6,
+      "deductive": 27.0,
+      "inductive": 27.3,
+      "spatial": 23.4,
+      "overall": 25.5
+    }
+  },
+  {
+    "model": "Qwen-VL",
+    "model_type": "open",
+    "size": "7B",
+    "easy": {
+      "algorithmic": 24.8,
+      "analogical": 25.8,
+      "deductive": 36.5,
+      "inductive": 30.0,
+      "spatial": 26.1,
+      "overall": 27.2
+    },
+    "medium": {
+      "algorithmic": 22.2,
+      "analogical": 30.9,
+      "deductive": 26.2,
+      "inductive": 26.4,
+      "spatial": 28.0,
+      "overall": 26.5
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 0.0,
+      "deductive": 21.7,
+      "inductive": 28.3,
+      "spatial": 22.2,
+      "overall": 25.3
+    },
+    "overall": {
+      "algorithmic": 23.7,
+      "analogical": 26.5,
+      "deductive": 29.5,
+      "inductive": 27.8,
+      "spatial": 26.6,
+      "overall": 26.6
+    }
+  },
+  {
+    "model": "Claude-3.7-Sonnet",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 62.8,
+      "analogical": 55.8,
+      "deductive": 64.9,
+      "inductive": 60.0,
+      "spatial": 38.6,
+      "overall": 53.1
+    },
+    "medium": {
+      "algorithmic": 64.8,
+      "analogical": 38.3,
+      "deductive": 69.9,
+      "inductive": 22.2,
+      "spatial": 33.3,
+      "overall": 48.1
+    },
+    "hard": {
+      "algorithmic": 88.9,
+      "analogical": 40.0,
+      "deductive": 43.5,
+      "inductive": 26.8,
+      "spatial": 55.6,
+      "overall": 34.3
+    },
+    "overall": {
+      "algorithmic": 64.5,
+      "analogical": 48.3,
+      "deductive": 65.0,
+      "inductive": 26.8,
+      "spatial": 37.4,
+      "overall": 48.3
+    }
+  },
+  {
+    "model": "LLaVA-1.6-7B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 25.5,
+      "analogical": 24.2,
+      "deductive": 41.9,
+      "inductive": 20.0,
+      "spatial": 26.6,
+      "overall": 27.8
+    },
+    "medium": {
+      "algorithmic": 28.7,
+      "analogical": 25.9,
+      "deductive": 28.2,
+      "inductive": 26.4,
+      "spatial": 30.1,
+      "overall": 28.0
+    },
+    "hard": {
+      "algorithmic": 44.4,
+      "analogical": 30.0,
+      "deductive": 21.7,
+      "inductive": 24.4,
+      "spatial": 11.1,
+      "overall": 24.7
+    },
+    "overall": {
+      "algorithmic": 27.5,
+      "analogical": 25.1,
+      "deductive": 32.5,
+      "inductive": 24.9,
+      "spatial": 27.3,
+      "overall": 27.4
+    }
+  },
+  {
+    "model": "Llama-3.2-11B-Vision-Instruct",
+    "model_type": "open",
+    "size": "11B",
+    "easy": {
+      "algorithmic": 29.7,
+      "analogical": 33.3,
+      "deductive": 39.2,
+      "inductive": 20.0,
+      "spatial": 26.6,
+      "overall": 30.6
+    },
+    "medium": {
+      "algorithmic": 33.3,
+      "analogical": 27.2,
+      "deductive": 38.8,
+      "inductive": 27.8,
+      "spatial": 26.9,
+      "overall": 31.3
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 30.0,
+      "deductive": 39.1,
+      "inductive": 17.3,
+      "spatial": 11.1,
+      "overall": 20.8
+    },
+    "overall": {
+      "algorithmic": 30.9,
+      "analogical": 30.8,
+      "deductive": 39.0,
+      "inductive": 21.1,
+      "spatial": 26.2,
+      "overall": 29.4
+    }
+  },
+  {
+    "model": "Gemini-2.5-pro",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 66.2,
+      "analogical": 76.7,
+      "deductive": 78.4,
+      "inductive": 80.0,
+      "spatial": 39.7,
+      "overall": 61.4
+    },
+    "medium": {
+      "algorithmic": 51.9,
+      "analogical": 50.6,
+      "deductive": 51.5,
+      "inductive": 33.3,
+      "spatial": 31.2,
+      "overall": 44.4
+    },
+    "hard": {
+      "algorithmic": 55.6,
+      "analogical": 20.0,
+      "deductive": 39.1,
+      "inductive": 23.6,
+      "spatial": 22.2,
+      "overall": 27.0
+    },
+    "overall": {
+      "algorithmic": 59.9,
+      "analogical": 64.0,
+      "deductive": 60.0,
+      "inductive": 29.7,
+      "spatial": 36.4,
+      "overall": 49.5
+    }
+  },
+  {
+    "model": "o1",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 59.3,
+      "analogical": 80.0,
+      "deductive": 68.9,
+      "inductive": 40.0,
+      "spatial": 33.2,
+      "overall": 55.9
+    },
+    "medium": {
+      "algorithmic": 69.4,
+      "analogical": 55.6,
+      "deductive": 66.0,
+      "inductive": 23.6,
+      "spatial": 36.6,
+      "overall": 52.3
+    },
+    "hard": {
+      "algorithmic": 66.7,
+      "analogical": 30.0,
+      "deductive": 69.6,
+      "inductive": 31.5,
+      "spatial": 33.3,
+      "overall": 38.2
+    },
+    "overall": {
+      "algorithmic": 63.7,
+      "analogical": 68.2,
+      "deductive": 67.5,
+      "inductive": 29.2,
+      "spatial": 34.3,
+      "overall": 51.8
+    }
+  },
+  {
+    "model": "Claude-3.7-Sonnet-thinking",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 65.5,
+      "analogical": 51.7,
+      "deductive": 68.9,
+      "inductive": 80.0,
+      "spatial": 37.5,
+      "overall": 53.5
+    },
+    "medium": {
+      "algorithmic": 67.6,
+      "analogical": 34.6,
+      "deductive": 58.3,
+      "inductive": 30.6,
+      "spatial": 36.6,
+      "overall": 47.5
+    },
+    "hard": {
+      "algorithmic": 88.9,
+      "analogical": 30.0,
+      "deductive": 52.2,
+      "inductive": 27.6,
+      "spatial": 33.3,
+      "overall": 34.3
+    },
+    "overall": {
+      "algorithmic": 67.2,
+      "analogical": 44.1,
+      "deductive": 61.5,
+      "inductive": 31.1,
+      "spatial": 37.1,
+      "overall": 48.2
+    }
+  },
+  {
+    "model": "o4-mini",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 62.1,
+      "analogical": 78.3,
+      "deductive": 73.0,
+      "inductive": 50.0,
+      "spatial": 47.3,
+      "overall": 61.9
+    },
+    "medium": {
+      "algorithmic": 66.7,
+      "analogical": 56.8,
+      "deductive": 76.7,
+      "inductive": 29.2,
+      "spatial": 45.2,
+      "overall": 56.9
+    },
+    "hard": {
+      "algorithmic": 100.0,
+      "analogical": 50.0,
+      "deductive": 78.3,
+      "inductive": 33.9,
+      "spatial": 11.1,
+      "overall": 42.7
+    },
+    "overall": {
+      "algorithmic": 65.3,
+      "analogical": 68.7,
+      "deductive": 75.5,
+      "inductive": 33.0,
+      "spatial": 45.5,
+      "overall": 57.0
+    }
+  },
+  {
+    "model": "LLaVA-OV-7B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 24.8,
+      "analogical": 25.8,
+      "deductive": 48.6,
+      "inductive": 30.0,
+      "spatial": 31.0,
+      "overall": 30.6
+    },
+    "medium": {
+      "algorithmic": 31.5,
+      "analogical": 28.4,
+      "deductive": 36.9,
+      "inductive": 22.2,
+      "spatial": 23.7,
+      "overall": 29.1
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 50.0,
+      "deductive": 30.4,
+      "inductive": 25.2,
+      "spatial": 11.1,
+      "overall": 26.4
+    },
+    "overall": {
+      "algorithmic": 27.5,
+      "analogical": 28.0,
+      "deductive": 40.5,
+      "inductive": 24.4,
+      "spatial": 28.0,
+      "overall": 29.4
+    }
+  },
+  {
+    "model": "Claude-4-Sonnet-thinking",
+    "model_type": "proprietary",
+    "size": "-",
+    "easy": {
+      "algorithmic": 62.1,
+      "analogical": 57.5,
+      "deductive": 68.9,
+      "inductive": 50.0,
+      "spatial": 37.0,
+      "overall": 53.1
+    },
+    "medium": {
+      "algorithmic": 67.6,
+      "analogical": 32.1,
+      "deductive": 54.4,
+      "inductive": 26.4,
+      "spatial": 38.7,
+      "overall": 46.0
+    },
+    "hard": {
+      "algorithmic": 77.8,
+      "analogical": 30.0,
+      "deductive": 60.9,
+      "inductive": 23.6,
+      "spatial": 55.6,
+      "overall": 33.1
+    },
+    "overall": {
+      "algorithmic": 64.9,
+      "analogical": 46.4,
+      "deductive": 60.5,
+      "inductive": 25.8,
+      "spatial": 38.1,
+      "overall": 47.3
+    }
+  },
+  {
+    "model": "Cambrian-8B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 33.1,
+      "analogical": 23.3,
+      "deductive": 37.8,
+      "inductive": 20.0,
+      "spatial": 29.9,
+      "overall": 30.2
+    },
+    "medium": {
+      "algorithmic": 29.6,
+      "analogical": 25.9,
+      "deductive": 36.9,
+      "inductive": 20.8,
+      "spatial": 28.0,
+      "overall": 28.9
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 20.0,
+      "deductive": 26.1,
+      "inductive": 26.0,
+      "spatial": 22.2,
+      "overall": 25.3
+    },
+    "overall": {
+      "algorithmic": 31.3,
+      "analogical": 24.2,
+      "deductive": 36.0,
+      "inductive": 23.9,
+      "spatial": 29.0,
+      "overall": 28.9
+    }
+  },
+  {
+    "model": "LLaVA-OV-0.5B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 22.8,
+      "analogical": 27.5,
+      "deductive": 36.5,
+      "inductive": 10.0,
+      "spatial": 25.5,
+      "overall": 26.5
+    },
+    "medium": {
+      "algorithmic": 27.8,
+      "analogical": 23.5,
+      "deductive": 39.8,
+      "inductive": 34.7,
+      "spatial": 25.8,
+      "overall": 30.4
+    },
+    "hard": {
+      "algorithmic": 11.1,
+      "analogical": 20.0,
+      "deductive": 30.4,
+      "inductive": 20.5,
+      "spatial": 22.2,
+      "overall": 21.3
+    },
+    "overall": {
+      "algorithmic": 24.4,
+      "analogical": 25.6,
+      "deductive": 37.5,
+      "inductive": 24.9,
+      "spatial": 25.5,
+      "overall": 27.2
+    }
+  },
+  {
+    "model": "LLaVA-1.5-7B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 21.4,
+      "analogical": 24.2,
+      "deductive": 33.8,
+      "inductive": 20.0,
+      "spatial": 23.9,
+      "overall": 24.6
+    },
+    "medium": {
+      "algorithmic": 27.8,
+      "analogical": 24.7,
+      "deductive": 38.8,
+      "inductive": 29.2,
+      "spatial": 29.0,
+      "overall": 30.2
+    },
+    "hard": {
+      "algorithmic": 33.3,
+      "analogical": 30.0,
+      "deductive": 17.4,
+      "inductive": 26.0,
+      "spatial": 22.2,
+      "overall": 25.3
+    },
+    "overall": {
+      "algorithmic": 24.4,
+      "analogical": 24.6,
+      "deductive": 34.5,
+      "inductive": 26.8,
+      "spatial": 25.5,
+      "overall": 26.9
+    }
+  },
+  {
+    "model": "Cambrian-13B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 22.1,
+      "analogical": 25.0,
+      "deductive": 43.2,
+      "inductive": 20.0,
+      "spatial": 27.7,
+      "overall": 27.6
+    },
+    "medium": {
+      "algorithmic": 24.1,
+      "analogical": 30.9,
+      "deductive": 34.0,
+      "inductive": 25.0,
+      "spatial": 24.7,
+      "overall": 27.8
+    },
+    "hard": {
+      "algorithmic": 33.3,
+      "analogical": 40.0,
+      "deductive": 26.1,
+      "inductive": 25.2,
+      "spatial": 11.1,
+      "overall": 25.8
+    },
+    "overall": {
+      "algorithmic": 23.3,
+      "analogical": 28.0,
+      "deductive": 36.5,
+      "inductive": 24.9,
+      "spatial": 26.2,
+      "overall": 27.4
+    }
+  },
+  {
+    "model": "Qwen2-VL-7B-Instruct",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 33.8,
+      "analogical": 29.2,
+      "deductive": 54.1,
+      "inductive": 30.0,
+      "spatial": 27.2,
+      "overall": 33.2
+    },
+    "medium": {
+      "algorithmic": 36.1,
+      "analogical": 17.3,
+      "deductive": 37.9,
+      "inductive": 20.8,
+      "spatial": 26.9,
+      "overall": 28.9
+    },
+    "hard": {
+      "algorithmic": 0.0,
+      "analogical": 20.0,
+      "deductive": 56.5,
+      "inductive": 22.8,
+      "spatial": 0.0,
+      "overall": 24.7
+    },
+    "overall": {
+      "algorithmic": 33.6,
+      "analogical": 24.2,
+      "deductive": 46.0,
+      "inductive": 22.5,
+      "spatial": 26.2,
+      "overall": 30.2
+    }
+  },
+  {
+    "model": "Qwen2-VL-72B-Instruct",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 35.0,
+      "analogical": 35.3,
+      "deductive": 55.4,
+      "inductive": 60.0,
+      "spatial": 31.3,
+      "overall": 37.1
+    },
+    "medium": {
+      "algorithmic": 47.2,
+      "analogical": 33.8,
+      "deductive": 38.2,
+      "inductive": 25.4,
+      "spatial": 36.7,
+      "overall": 37.2
+    },
+    "hard": {
+      "algorithmic": 33.3,
+      "analogical": 10.0,
+      "deductive": 43.5,
+      "inductive": 19.5,
+      "spatial": 11.1,
+      "overall": 22.4
+    },
+    "overall": {
+      "algorithmic": 39.9,
+      "analogical": 33.5,
+      "deductive": 45.2,
+      "inductive": 23.5,
+      "spatial": 32.4,
+      "overall": 34.9
+    }
+  },
+  {
+    "model": "QvQ-72B-Preview",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 41.4,
+      "analogical": 47.5,
+      "deductive": 63.5,
+      "inductive": 10.0,
+      "spatial": 26.6,
+      "overall": 40.2
+    },
+    "medium": {
+      "algorithmic": 45.4,
+      "analogical": 45.7,
+      "deductive": 40.8,
+      "inductive": 34.7,
+      "spatial": 31.2,
+      "overall": 39.8
+    },
+    "hard": {
+      "algorithmic": 44.4,
+      "analogical": 20.0,
+      "deductive": 30.4,
+      "inductive": 24.4,
+      "spatial": 11.1,
+      "overall": 25.3
+    },
+    "overall": {
+      "algorithmic": 43.1,
+      "analogical": 45.5,
+      "deductive": 48.0,
+      "inductive": 27.3,
+      "spatial": 27.6,
+      "overall": 37.8
+    }
+  },
+  {
+    "model": "Qwen2.5-VL-72B-Instruct",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 52.4,
+      "analogical": 51.7,
+      "deductive": 66.2,
+      "inductive": 40.0,
+      "spatial": 27.9,
+      "overall": 45.5
+    },
+    "medium": {
+      "algorithmic": 53.7,
+      "analogical": 43.2,
+      "deductive": 53.4,
+      "inductive": 34.7,
+      "spatial": 32.3,
+      "overall": 44.4
+    },
+    "hard": {
+      "algorithmic": 66.7,
+      "analogical": 20.0,
+      "deductive": 52.2,
+      "inductive": 19.7,
+      "spatial": 33.3,
+      "overall": 27.0
+    },
+    "overall": {
+      "algorithmic": 53.4,
+      "analogical": 46.9,
+      "deductive": 58.0,
+      "inductive": 25.8,
+      "spatial": 29.5,
+      "overall": 42.2
+    }
+  },
+  {
+    "model": "Qwen2-VL-72B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 39.3,
+      "analogical": 30.0,
+      "deductive": 56.8,
+      "inductive": 50.0,
+      "spatial": 32.1,
+      "overall": 37.3
+    },
+    "medium": {
+      "algorithmic": 47.2,
+      "analogical": 25.9,
+      "deductive": 31.1,
+      "inductive": 23.6,
+      "spatial": 23.7,
+      "overall": 31.3
+    },
+    "hard": {
+      "algorithmic": 11.1,
+      "analogical": 30.0,
+      "deductive": 21.7,
+      "inductive": 19.7,
+      "spatial": 22.2,
+      "overall": 20.2
+    },
+    "overall": {
+      "algorithmic": 41.6,
+      "analogical": 28.4,
+      "deductive": 39.5,
+      "inductive": 22.5,
+      "spatial": 29.0,
+      "overall": 32.4
+    }
+  },
+  {
+    "model": "Qwen2.5-VL-3B-Instruct",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 33.1,
+      "analogical": 30.8,
+      "deductive": 47.3,
+      "inductive": 40.0,
+      "spatial": 22.3,
+      "overall": 31.0
+    },
+    "medium": {
+      "algorithmic": 38.9,
+      "analogical": 25.9,
+      "deductive": 46.6,
+      "inductive": 20.8,
+      "spatial": 29.0,
+      "overall": 33.5
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 0.0,
+      "deductive": 26.1,
+      "inductive": 27.6,
+      "spatial": 33.3,
+      "overall": 25.8
+    },
+    "overall": {
+      "algorithmic": 35.1,
+      "analogical": 27.5,
+      "deductive": 44.5,
+      "inductive": 25.8,
+      "spatial": 24.8,
+      "overall": 31.2
+    }
+  },
+  {
+    "model": "LLaVA-OV-72B",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 38.6,
+      "analogical": 22.5,
+      "deductive": 48.6,
+      "inductive": 30.0,
+      "spatial": 30.4,
+      "overall": 33.4
+    },
+    "medium": {
+      "algorithmic": 30.6,
+      "analogical": 33.3,
+      "deductive": 28.2,
+      "inductive": 26.4,
+      "spatial": 23.7,
+      "overall": 28.4
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 20.0,
+      "deductive": 39.1,
+      "inductive": 27.6,
+      "spatial": 44.4,
+      "overall": 29.2
+    },
+    "overall": {
+      "algorithmic": 34.7,
+      "analogical": 26.5,
+      "deductive": 37.0,
+      "inductive": 27.3,
+      "spatial": 28.7,
+      "overall": 30.8
+    }
+  },
+  {
+    "model": "Qwen2.5-VL-7B-Instruct",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 40.0,
+      "analogical": 27.5,
+      "deductive": 55.4,
+      "inductive": 60.0,
+      "spatial": 31.0,
+      "overall": 36.6
+    },
+    "medium": {
+      "algorithmic": 37.0,
+      "analogical": 19.8,
+      "deductive": 48.5,
+      "inductive": 30.6,
+      "spatial": 34.4,
+      "overall": 35.0
+    },
+    "hard": {
+      "algorithmic": 22.2,
+      "analogical": 10.0,
+      "deductive": 52.2,
+      "inductive": 18.9,
+      "spatial": 0.0,
+      "overall": 21.9
+    },
+    "overall": {
+      "algorithmic": 38.2,
+      "analogical": 23.7,
+      "deductive": 51.5,
+      "inductive": 24.9,
+      "spatial": 31.1,
+      "overall": 33.7
+    }
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "model_type": "open",
+    "size": "-",
+    "easy": {
+      "algorithmic": 32.4,
+      "analogical": 28.3,
+      "deductive": 44.6,
+      "inductive": 30.0,
+      "spatial": 31.0,
+      "overall": 32.6
+    },
+    "medium": {
+      "algorithmic": 30.6,
+      "analogical": 34.6,
+      "deductive": 35.9,
+      "inductive": 26.4,
+      "spatial": 34.4,
+      "overall": 32.6
+    },
+    "hard": {
+      "algorithmic": 33.3,
+      "analogical": 0.0,
+      "deductive": 47.8,
+      "inductive": 22.0,
+      "spatial": 11.1,
+      "overall": 24.2
+    },
+    "overall": {
+      "algorithmic": 31.7,
+      "analogical": 29.4,
+      "deductive": 40.5,
+      "inductive": 23.9,
+      "spatial": 31.5,
+      "overall": 31.3
+    }
+  }
+]
