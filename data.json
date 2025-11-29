@@ -150,7 +150,7 @@
   {
     "model": "LLaVA-1.5-13B",
     "model_type": "open",
-    "size": "-",
+    "size": "13B",
     "easy": {
       "algorithmic": 21.4,
       "analogical": 26.7,
@@ -224,7 +224,7 @@
   {
     "model": "Pangea-7B",
     "model_type": "open",
-    "size": "-",
+    "size": "7B",
     "easy": {
       "algorithmic": 33.8,
       "analogical": 23.3,
@@ -261,7 +261,7 @@
   {
     "model": "LLaVA-1.6-34B",
     "model_type": "open",
-    "size": "-",
+    "size": "34B",
     "easy": {
       "algorithmic": 31.7,
       "analogical": 18.3,
@@ -557,7 +557,7 @@
   {
     "model": "LLaVA-1.6-13B",
     "model_type": "open",
-    "size": "-",
+    "size": "13B",
     "easy": {
       "algorithmic": 24.1,
       "analogical": 23.3,
@@ -668,7 +668,7 @@
   {
     "model": "LLaVA-1.6-7B",
     "model_type": "open",
-    "size": "-",
+    "size": "7B",
     "easy": {
       "algorithmic": 25.5,
       "analogical": 24.2,
@@ -890,7 +890,7 @@
   {
     "model": "LLaVA-OV-7B",
     "model_type": "open",
-    "size": "-",
+    "size": "7B",
     "easy": {
       "algorithmic": 24.8,
       "analogical": 25.8,
@@ -964,7 +964,7 @@
   {
     "model": "Cambrian-8B",
     "model_type": "open",
-    "size": "-",
+    "size": "8B",
     "easy": {
       "algorithmic": 33.1,
       "analogical": 23.3,
@@ -1001,7 +1001,7 @@
   {
     "model": "LLaVA-OV-0.5B",
     "model_type": "open",
-    "size": "-",
+    "size": "0.5B",
     "easy": {
       "algorithmic": 22.8,
       "analogical": 27.5,
@@ -1038,7 +1038,7 @@
   {
     "model": "LLaVA-1.5-7B",
     "model_type": "open",
-    "size": "-",
+    "size": "7B",
     "easy": {
       "algorithmic": 21.4,
       "analogical": 24.2,
@@ -1075,7 +1075,7 @@
   {
     "model": "Cambrian-13B",
     "model_type": "open",
-    "size": "-",
+    "size": "13B",
     "easy": {
       "algorithmic": 22.1,
       "analogical": 25.0,
@@ -1112,7 +1112,7 @@
   {
     "model": "Qwen2-VL-7B-Instruct",
     "model_type": "open",
-    "size": "-",
+    "size": "7B",
     "easy": {
       "algorithmic": 33.8,
       "analogical": 29.2,
@@ -1149,7 +1149,7 @@
   {
     "model": "Qwen2-VL-72B-Instruct",
     "model_type": "open",
-    "size": "-",
+    "size": "72B",
     "easy": {
       "algorithmic": 35.0,
       "analogical": 35.3,
@@ -1186,7 +1186,7 @@
   {
     "model": "QvQ-72B-Preview",
     "model_type": "open",
-    "size": "-",
+    "size": "72B",
     "easy": {
       "algorithmic": 41.4,
       "analogical": 47.5,
@@ -1223,7 +1223,7 @@
   {
     "model": "Qwen2.5-VL-72B-Instruct",
     "model_type": "open",
-    "size": "-",
+    "size": "72B",
     "easy": {
       "algorithmic": 52.4,
       "analogical": 51.7,
@@ -1260,7 +1260,7 @@
   {
     "model": "Qwen2-VL-72B",
     "model_type": "open",
-    "size": "-",
+    "size": "72B",
     "easy": {
       "algorithmic": 39.3,
       "analogical": 30.0,
@@ -1297,7 +1297,7 @@
   {
     "model": "Qwen2.5-VL-3B-Instruct",
     "model_type": "open",
-    "size": "-",
+    "size": "3B",
     "easy": {
       "algorithmic": 33.1,
       "analogical": 30.8,
@@ -1334,7 +1334,7 @@
   {
     "model": "LLaVA-OV-72B",
     "model_type": "open",
-    "size": "-",
+    "size": "72B",
     "easy": {
       "algorithmic": 38.6,
       "analogical": 22.5,
@@ -1371,7 +1371,7 @@
   {
     "model": "Qwen2.5-VL-7B-Instruct",
     "model_type": "open",
-    "size": "-",
+    "size": "7B",
     "easy": {
       "algorithmic": 40.0,
       "analogical": 27.5,
@@ -1408,7 +1408,7 @@
   {
     "model": "Qwen2-VL-2B-Instruct",
     "model_type": "open",
-    "size": "-",
+    "size": "2B",
     "easy": {
       "algorithmic": 32.4,
       "analogical": 28.3,
