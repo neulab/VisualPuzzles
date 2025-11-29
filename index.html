@@ -222,7 +222,40 @@
         </div>
         <div id='Experiments' class="experiment-block">
             <h1 class="text">Experimental Results</h1>
-        <table id="cog-table" class="table is-striped is-hoverable" style="width: 150%; margin-left: -20%; margin-right: -20%; background-color: #F0F8FF;">
+        
+        <div class="view-selector" style="text-align: center; margin-bottom: 20px;">
+            <label style="font-weight: bold; margin-right: 15px;">View by:</label>
+            <label class="view-option">
+                <input type="radio" name="table-view" value="category" checked> Category
+            </label>
+            <label class="view-option">
+                <input type="radio" name="table-view" value="difficulty"> Difficulty
+            </label>
+            <label class="view-option">
+                <input type="radio" name="table-view" value="both"> Both
+            </label>
+        </div>
+
+        <div class="filter-controls">
+            <div class="filter-group">
+                <label>Show:</label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" id="filter-human" checked> Human
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" id="filter-proprietary" checked> Proprietary
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" id="filter-open" checked> Open
+                </label>
+            </div>
+            <div class="search-box">
+                <input type="text" id="model-search" placeholder="Search models...">
+            </div>
+        </div>
+
+        <div style="overflow-x: auto;">
+        <table id="cog-table" class="table is-striped is-hoverable" style="width: 200%; background-color: #F0F8FF;">
             <thead>
                 <tr>
                 <th>Model</th>
@@ -237,6 +270,7 @@
             </thead>
         <tbody></tbody>
         </table>
+        </div>
         <figcaption style="text-align: center; width: 100%; margin-bottom: 10%;">
             Table 2: Performance of Different Models on VisualPuzzles. The Leaderboard is interactive - for example, click on "size" to sort the table by size of models to see their performances sorted by size.
         </figcaption>

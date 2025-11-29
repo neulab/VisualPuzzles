@@ -1462,3 +1462,209 @@ iframe {
     color: #222;
     font-size: 1em;
 }
+
+/* View selector styles */
+.view-selector {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.view-option {
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.view-option:hover {
+    background-color: #e0e0e0;
+}
+
+.view-option input[type="radio"] {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Filter controls */
+.filter-controls {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.filter-group label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.filter-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.filter-checkbox input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 3px rgba(74, 144, 226, 0.3);
+}
+
+/* Sticky columns for table */
+#cog-table {
+    position: relative;
+}
+
+#cog-table th:first-child,
+#cog-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 10;
+    background-color: inherit;
+}
+
+#cog-table th:nth-child(2),
+#cog-table td:nth-child(2) {
+    position: sticky;
+    left: auto;
+    z-index: 10;
+    background-color: inherit;
+}
+
+/* Calculate left position for second sticky column dynamically based on first column width */
+#cog-table td:nth-child(2) {
+    left: 200px; /* Approximate width of Model column */
+}
+
+#cog-table th:nth-child(2) {
+    left: 200px; /* Approximate width of Model column */
+}
+
+#cog-table thead th:first-child,
+#cog-table thead th:nth-child(2) {
+    z-index: 11;
+}
+
+/* Visual grouping for Both view - add borders between category groups */
+#cog-table.both-view td:nth-child(5),
+#cog-table.both-view th:nth-child(5) {
+    border-left: 2px solid #666;
+}
+
+#cog-table.both-view td:nth-child(8),
+#cog-table.both-view th:nth-child(8) {
+    border-left: 2px solid #666;
+}
+
+#cog-table.both-view td:nth-child(11),
+#cog-table.both-view th:nth-child(11) {
+    border-left: 2px solid #666;
+}
+
+#cog-table.both-view td:nth-child(14),
+#cog-table.both-view th:nth-child(14) {
+    border-left: 2px solid #666;
+}
+
+#cog-table.both-view td:last-child,
+#cog-table.both-view th:last-child {
+    border-left: 2px solid #666;
+}
+
+/* Alternating background for category groups in Both view */
+#cog-table.both-view tbody tr td:nth-child(3),
+#cog-table.both-view tbody tr td:nth-child(4),
+#cog-table.both-view tbody tr td:nth-child(5) {
+    background-color: rgba(200, 230, 255, 0.3);
+}
+
+#cog-table.both-view tbody tr td:nth-child(9),
+#cog-table.both-view tbody tr td:nth-child(10),
+#cog-table.both-view tbody tr td:nth-child(11) {
+    background-color: rgba(200, 230, 255, 0.3);
+}
+
+#cog-table.both-view tbody tr td:nth-child(15),
+#cog-table.both-view tbody tr td:nth-child(16),
+#cog-table.both-view tbody tr td:nth-child(17) {
+    background-color: rgba(200, 230, 255, 0.3);
+}
+
+/* Adjust for model type background colors */
+#cog-table tbody tr[data-model-type="proprietary"] td:first-child,
+#cog-table tbody tr[data-model-type="proprietary"] td:nth-child(2) {
+    background-color: #CAE9F5;
+}
+
+#cog-table tbody tr[data-model-type="human"] td:first-child,
+#cog-table tbody tr[data-model-type="human"] td:nth-child(2) {
+    background-color: #fbeeff;
+}
+
+#cog-table tbody tr[data-model-type="open"] td:first-child,
+#cog-table tbody tr[data-model-type="open"] td:nth-child(2) {
+    background-color: #F5F5DC;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    #cog-table {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 0.85em;
+    }
+    
+    .filter-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-group {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+    
+    .view-selector {
+        display: block;
+        text-align: left;
+    }
+    
+    .view-option {
+        display: block;
+        margin: 5px 0;
+    }
+}
