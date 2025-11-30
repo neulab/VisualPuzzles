@@ -1547,6 +1547,37 @@ iframe {
     position: relative;
     width: 100%;
     table-layout: auto;
+    border-collapse: collapse;
+}
+
+/* Set equal width for difficulty columns in Both view */
+#cog-table.both-view td:nth-child(3),
+#cog-table.both-view td:nth-child(4),
+#cog-table.both-view td:nth-child(5),
+#cog-table.both-view td:nth-child(6),
+#cog-table.both-view td:nth-child(7),
+#cog-table.both-view td:nth-child(8),
+#cog-table.both-view td:nth-child(9),
+#cog-table.both-view td:nth-child(10),
+#cog-table.both-view td:nth-child(11),
+#cog-table.both-view td:nth-child(12),
+#cog-table.both-view td:nth-child(13),
+#cog-table.both-view td:nth-child(14),
+#cog-table.both-view td:nth-child(15),
+#cog-table.both-view td:nth-child(16),
+#cog-table.both-view td:nth-child(17) {
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    text-align: center;
+}
+
+/* Set equal width for difficulty headers in Both view */
+#cog-table.both-view thead tr:nth-child(2) th {
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+    text-align: center;
 }
 
 /* Adjust table width for different views */
@@ -1599,29 +1630,33 @@ iframe {
 }
 
 /* Visual grouping for Both view - add borders between category groups */
-#cog-table.both-view td:nth-child(5),
-#cog-table.both-view th:nth-child(5) {
-    border-left: 2px solid #666;
+/* Use border-right on the last column of each group to avoid spacing issues */
+/* For data rows - add border on the right of Hard columns */
+#cog-table.both-view td:nth-child(5),  /* Algorithmic Hard */
+#cog-table.both-view td:nth-child(8),  /* Analogical Hard */
+#cog-table.both-view td:nth-child(11), /* Deductive Hard */
+#cog-table.both-view td:nth-child(14), /* Inductive Hard */
+#cog-table.both-view td:nth-child(17) { /* Spatial Hard */
+    border-right: 2px solid #666;
 }
 
-#cog-table.both-view td:nth-child(8),
-#cog-table.both-view th:nth-child(8) {
-    border-left: 2px solid #666;
+/* For second header row (difficulty labels), use element indices */
+/* The second row only has 15 th elements (no Model/Size) */
+#cog-table.both-view thead tr:nth-child(2) th:nth-child(3),  /* Algorithmic Hard */
+#cog-table.both-view thead tr:nth-child(2) th:nth-child(6),  /* Analogical Hard */
+#cog-table.both-view thead tr:nth-child(2) th:nth-child(9),  /* Deductive Hard */
+#cog-table.both-view thead tr:nth-child(2) th:nth-child(12), /* Inductive Hard */
+#cog-table.both-view thead tr:nth-child(2) th:nth-child(15) {/* Spatial Hard */
+    border-right: 2px solid #666;
 }
 
-#cog-table.both-view td:nth-child(11),
-#cog-table.both-view th:nth-child(11) {
-    border-left: 2px solid #666;
-}
-
-#cog-table.both-view td:nth-child(14),
-#cog-table.both-view th:nth-child(14) {
-    border-left: 2px solid #666;
-}
-
-#cog-table.both-view td:last-child,
-#cog-table.both-view th:last-child {
-    border-left: 2px solid #666;
+/* For first header row with colspan, use element indices */
+#cog-table.both-view thead tr:first-child th:nth-child(3),  /* Algorithmic */
+#cog-table.both-view thead tr:first-child th:nth-child(4),  /* Analogical */
+#cog-table.both-view thead tr:first-child th:nth-child(5),  /* Deductive */
+#cog-table.both-view thead tr:first-child th:nth-child(6),  /* Inductive */
+#cog-table.both-view thead tr:first-child th:nth-child(7) { /* Spatial */
+    border-right: 2px solid #666;
 }
 
 /* Alternating background for category groups in Both view */
